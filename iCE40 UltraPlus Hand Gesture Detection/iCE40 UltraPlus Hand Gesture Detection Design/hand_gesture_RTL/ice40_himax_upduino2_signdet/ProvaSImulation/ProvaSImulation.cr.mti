@@ -1,0 +1,6 @@
+{C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v} {0 {vlog -work work -stats=none {C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v}
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module lsc_ml_ice40_himax_signdet_top
+** Error: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v(402): (vlog-2730) Undefined variable: 'w_uart_dout_vld'.
+
+} {4.0 5.0} {}}

@@ -1,0 +1,1 @@
+ldc_set_location -bank {0} [get_ports clk]

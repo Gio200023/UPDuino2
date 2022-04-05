@@ -1,0 +1,8 @@
+DRC: Design Rule Check Radiant Software (64-bit) 3.1.0.43.2
+Tue Mar 22 17:55:17 2022
+
+WARNING - Top module port 'clk' does not connect to anything.
+WARNING - Top module port 'resetn' does not connect to anything.
+WARNING - Top module port 'neuron_in1' does not connect to anything.
+WARNING - Top module port 'neuron_in2' does not connect to anything.
+WARNING - Top module port 'neuron_in3' does not connect to anything.

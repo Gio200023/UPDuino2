@@ -1,0 +1,3 @@
+@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":47:50:47:61|Reference to undefined module spi_loader_single_spram
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.
+

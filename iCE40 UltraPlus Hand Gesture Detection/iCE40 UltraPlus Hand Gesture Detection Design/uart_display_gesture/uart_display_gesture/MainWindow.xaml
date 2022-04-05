@@ -1,0 +1,39 @@
+﻿<Window x:Class="uart_display.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hand Gesture Recognition (UART Display)" Height="262" Width="389">
+    <Grid Margin="0,0,2,4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="270"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Image Width="128" Height="128" HorizontalAlignment="Left" Margin="237,14,0,0" Name="imageSmall" Stretch="Fill" VerticalAlignment="Top"  />
+        <Button Content="UART get" Height="23" HorizontalAlignment="Left" Margin="301,180,0,0" Name="buttonUartGetGray" VerticalAlignment="Top" Width="69" Click="buttonUartGetGray_Click" />
+        <Button Content="Save" Height="23" HorizontalAlignment="Left" Margin="230,179,0,0" Name="buttonSave32" VerticalAlignment="Top" Width="64" Click="buttonSave32_Click" />
+        <Label Content="UART Port" Height="28" HorizontalAlignment="Left" Margin="21,15,0,0" Name="label1" VerticalAlignment="Top" Width="65" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="122,16,0,0" Name="comboBoxUartPorts" VerticalAlignment="Top" Width="98"/>
+        <Rectangle Height="128" HorizontalAlignment="Left" Margin="237,14,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="128" />
+        <CheckBox Content="Image" Height="16" HorizontalAlignment="Left" Margin="237,155,0,0" x:Name="checkBoxImage" VerticalAlignment="Top" Click="checkBoxImage_Click" Width="53" />
+
+        <CheckBox Content="Save Images" Height="16" HorizontalAlignment="Left" Margin="25,85,0,0" Name="checkBoxSaveImages" VerticalAlignment="Top" Click="checkBoxSaveImages_Checked" Width="96" />
+        <Label Content="Name Prefix" Height="28" HorizontalAlignment="Left" Margin="20,103,0,0" Name="label7" VerticalAlignment="Top" Width="90" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="110,107,0,0" Name="textBoxPrefix" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.5,0.5" >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.026"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="Select Folder" Height="23" HorizontalAlignment="Left" Margin="26,135,0,0" Name="buttonSelectFolder" VerticalAlignment="Top" Width="75" Click="buttonSelectFolder_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="True" Margin="110,135,0,0" Name="textBoxFolder" TextAlignment="Left" VerticalAlignment="Top" Width="110" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="122,49,0,0" x:Name="comboBoxModes" VerticalAlignment="Top" Width="98" />
+        <Label Content="Brightness Mode" Height="28" HorizontalAlignment="Left" Margin="21,44,0,0" x:Name="label1_Copy" VerticalAlignment="Top" Width="100" />
+        <Label  Height="28" HorizontalAlignment="Left" Margin="25,179,0,0" Name="labelResultIdx" VerticalAlignment="Top" />
+
+    </Grid>
+
+</Window>

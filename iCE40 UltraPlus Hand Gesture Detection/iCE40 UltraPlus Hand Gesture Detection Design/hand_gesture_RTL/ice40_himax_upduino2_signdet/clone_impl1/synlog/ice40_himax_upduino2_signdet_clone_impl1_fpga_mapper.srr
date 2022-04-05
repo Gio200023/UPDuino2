@@ -1,0 +1,466 @@
+# Sat Mar  5 10:43:53 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : clone_impl1
+Synopsys Lattice Technology Mapper, Version map202103lat, Build 074R, Built Oct 12 2021 09:24:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":533:11:533:23|Tristate driver two_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":532:11:532:23|Tristate driver one_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver one_err_det_o_t (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver two_err_det_o_t (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0(verilog)) on net two_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0(verilog)) on net one_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0(verilog)) on net two_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0(verilog)) on net one_err_det_o (in view: work.dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) on net two_err_det_o (in view: work.dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) on net one_err_det_o (in view: work.dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":406:0:406:5|Removing sequential instance pix_idx[13:0] (in view: work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":763:4:763:9|Removing sequential instance g_use_ml_on\.r_rd_rdy_d[1:0] (in view: work.lsc_ml_ice40_himax_signdet_top(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\signdet_post.v":38:0:38:5|Removing sequential instance r_2nd_max_value[14:0] (in view: work.signdet_post(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_himax.v":88:0:88:5|Found counter in view:work.lsc_i2cm_himax_80_0s_324x324_20fps_ir_0_1_2_3_7(verilog) instance i2c_cnt[6:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v":63:0:63:5|Found counter in view:work.lsc_i2cm_16(verilog) instance main_cnt[7:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v":46:0:46:5|Found counter in view:work.lsc_i2cm_16(verilog) instance interval_cnt[5:0] 
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[3] (in view: work.lsc_uart_103_1K_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[4] (in view: work.lsc_uart_103_1K_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[5] (in view: work.lsc_uart_103_1K_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[6] (in view: work.lsc_uart_103_1K_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[7] (in view: work.lsc_uart_103_1K_0(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":87:0:87:5|Found counter in view:work.lsc_uart_103_1K_0(verilog) instance fifo_raddr[11:0] 
+@N: MF179 :|Found 10 by 10 bit equality operator ('==') fifo_full (in view: work.lsc_uart_103_1K_0(verilog))
+@N: MF179 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":132:12:132:44|Found 12 by 12 bit equality operator ('==') un1_fifo_raddr_clk (in view: work.lsc_uart_103_1K_0(verilog))
+@N: MF179 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v":141:19:141:74|Found 10 by 10 bit equality operator ('==') r_fifo_empty_2 (in view: work.lsc_uart_103_1K_0(verilog))
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_loader_tri_spram.v":215:4:215:9|Found counter in view:work.spi_loader_tri_spram_Z4_layer0(verilog) instance wd_cnt[15:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":381:0:381:5|Found counter in view:work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog) instance ro_waddr[9:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":230:0:230:5|Found counter in view:work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog) instance rbcnt[7:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":262:0:262:5|Found counter in view:work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog) instance rbcnt_lcd[7:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_lcd_tx.v":73:0:73:5|Found counter in view:work.spi_lcd_tx_0_OLED(verilog) instance waddr[9:0] 
+@N: MO231 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_lcd_tx.v":103:0:103:5|Found counter in view:work.spi_lcd_tx_0_OLED(verilog) instance raddr[9:0] 
+@N: MF179 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_lcd_tx.v":99:16:99:40|Found 10 by 10 bit equality operator ('==') un1_empty (in view: work.spi_lcd_tx_0_OLED(verilog))
+@N: MF179 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_lcd_tx.v":99:46:99:66|Found 10 by 10 bit equality operator ('==') un2_empty (in view: work.spi_lcd_tx_0_OLED(verilog))
+@N: MF794 |RAM genblk1\.u_dpram1024x16.lscc_ram_dp_inst.mem[15:0] required 69 registers during mapping 
+@N: MF794 |RAM genblk3\.u_sbram_d2.lscc_ram_dp_inst.mem[31:0] required 147 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 190MB peak: 190MB)
+
+@W: BN132 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\spi_loader_tri_spram.v":77:4:77:9|Removing instance u_spi_loader.g_on_code_tri_spram.u_spi_loader.r_init because it is equivalent to instance u_lsc_i2cm_himax.init_d[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 203MB peak: 203MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:07s; Memory used current: 203MB peak: 208MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 205MB peak: 208MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 205MB peak: 208MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 205MB peak: 208MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:10s; Memory used current: 206MB peak: 208MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 220MB peak: 220MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:11s		   984.39ns		3127 /      2616
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 221MB peak: 221MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:14s; Memory used current: 221MB peak: 221MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:14s; Memory used current: 177MB peak: 222MB)
+
+Writing Analyst data base C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\synwork\ice40_himax_upduino2_signdet_clone_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:15s; Memory used current: 216MB peak: 222MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:16s; Memory used current: 216MB peak: 222MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:16s; Memory used current: 210MB peak: 222MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:16s; Memory used current: 210MB peak: 222MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:17s; Memory used current: 209MB peak: 222MB)
+
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":829:4:829:13|Blackbox RGB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":267:29:267:35|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":228:2:228:12|Blackbox IOL_B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\cnn_accel\rtl\cnn_accel.v":921:32:921:43|Blackbox MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\cnn_accel\rtl\cnn_accel.v":4895:43:4895:57|Blackbox SP256K is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_resetn.v":56:8:56:18|Blackbox FD1P3XZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lsc_ml_ice40_himax_signdet_top|clk_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net clk.
+@W: MT420 |Found inferred clock lsc_ml_ice40_himax_signdet_top|cam_pclk with period 1000.00ns. Please declare a user-defined clock on port cam_pclk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Mar  5 10:44:12 2022
+#
+
+
+Top view:               lsc_ml_ice40_himax_signdet_top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 985.264
+
+                                                      Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                        Frequency     Frequency     Period        Period        Slack       Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+lsc_ml_ice40_himax_signdet_top|cam_pclk               1.0 MHz       NA            1000.000      NA            NA          inferred     Inferred_clkgroup_1
+lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     1.0 MHz       67.9 MHz      1000.000      14.736        985.264     inferred     Inferred_clkgroup_0
+System                                                1.0 MHz       70.8 MHz      1000.000      14.122        985.878     system       system_clkgroup    
+==========================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                           Ending                                             |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                             System                                             |  1000.000    985.878  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                             lsc_ml_ice40_himax_signdet_top|clk_inferred_clock  |  1000.000    989.392  |  No paths    -      |  No paths    -      |  No paths    -    
+lsc_ml_ice40_himax_signdet_top|clk_inferred_clock  System                                             |  1000.000    986.338  |  No paths    -      |  No paths    -      |  No paths    -    
+lsc_ml_ice40_himax_signdet_top|clk_inferred_clock  lsc_ml_ice40_himax_signdet_top|clk_inferred_clock  |  1000.000    985.264  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lsc_ml_ice40_himax_signdet_top|clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                Starting                                                                                      Arrival            
+Instance                                        Reference                                             Type        Pin     Net                 Time        Slack  
+                                                Clock                                                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[4]         lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       main_cnt[4]         0.796       985.264
+u_lsc_i2cm_himax.u_lsc_i2cm.ofs_addr_lat[6]     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       ofs_addr_lat[6]     0.796       985.336
+u_lsc_i2cm_himax.u_lsc_i2cm.ofs_addr_lat[9]     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       ofs_addr_lat[9]     0.796       985.367
+u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[3]         lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       main_cnt[3]         0.796       985.388
+u_spi_lcd_tx.raddr[2]                           lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[2]            0.796       985.388
+u_spi_lcd_tx.raddr[4]                           lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[4]            0.796       985.439
+u_spi_lcd_tx.raddr[3]                           lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[3]            0.796       985.460
+u_spi_lcd_tx.raddr[0]                           lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[0]            0.796       985.481
+u_spi_lcd_tx.waddr_clk[4]                       lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       waddr_clk[4]        0.796       985.481
+u_lsc_i2cm_himax.u_lsc_i2cm.ofs_addr_lat[5]     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     Q       ofs_addr_lat[5]     0.796       985.491
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                         Starting                                                                                      Required            
+Instance                                                                                                                                                 Reference                                             Type        Pin     Net                 Time         Slack  
+                                                                                                                                                         Clock                                                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out                                                                                                                    lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3BZ     D       r_sda_out_71        999.845      985.264
+u_spi_lcd_tx.SPI_MOSI                                                                                                                                    lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3BZ     D       SPI_MOSI            999.845      985.388
+c6g4vwwdGBxn                                                                                                                                             lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     D       state_ns_0_i[1]     999.845      985.646
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     PDP4K       WE      fifo_we             1000.000     986.338
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     PDP4K       WE      fifo_we             1000.000     986.338
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     PDP4K       WE      fifo_we             1000.000     986.338
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     PDP4K       WE      fifo_we             1000.000     986.338
+u_spi_loader.g_on_code_tri_spram\.u_spi_loader.cst[5]                                                                                                    lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     D       cst_4               999.845      987.327
+u_spi_lcd_tx.rdata_shift[1]                                                                                                                              lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     D       N_54                999.845      987.348
+u_spi_lcd_tx.rdata_shift[2]                                                                                                                              lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     FD1P3DZ     D       N_65                999.845      987.348
+===========================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.845
+
+    - Propagation time:                      14.581
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     985.264
+
+    Number of logic level(s):                6
+    Starting point:                          u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[4] / Q
+    Ending point:                            u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out / D
+    The start point is clocked by            lsc_ml_ice40_himax_signdet_top|clk_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_signdet_top|clk_inferred_clock [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CK
+
+Instance / Net                                               Pin      Pin               Arrival      No. of    
+Name                                             Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[4]          FD1P3DZ     Q        Out     0.796     0.796 r      -         
+main_cnt[4]                                      Net         -        -       1.599     -            18        
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_19     LUT4        A        In      -         2.395 r      -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_19     LUT4        Z        Out     0.661     3.056 r      -         
+N_173                                            Net         -        -       1.371     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_13     LUT4        A        In      -         4.427 r      -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_13     LUT4        Z        Out     0.661     5.089 r      -         
+N_74                                             Net         -        -       1.371     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_7      LUT4        B        In      -         6.460 r      -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_7      LUT4        Z        Out     0.589     7.049 r      -         
+N_78                                             Net         -        -       1.371     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_2      LUT4        B        In      -         8.420 r      -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_2      LUT4        Z        Out     0.589     9.009 r      -         
+N_79                                             Net         -        -       1.371     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_0      LUT4        A        In      -         10.380 r     -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO_0      LUT4        Z        Out     0.661     11.042 r     -         
+N_95                                             Net         -        -       1.371     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO        LUT4        A        In      -         12.413 r     -         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out_RNO        LUT4        Z        Out     0.661     13.074 r     -         
+r_sda_out_71                                     Net         -        -       1.507     -            1         
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out            FD1P3BZ     D        In      -         14.581 r     -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 14.736 is 4.775(32.4%) logic and 9.961(67.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                       Starting                                           Arrival            
+Instance                                                               Reference     Type        Pin     Net              Time        Slack  
+                                                                       Clock                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[0]     System        FD1P3DZ     Q       rbcnt_lcd[0]     0.796       985.878
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt[0]         System        FD1P3DZ     Q       rbcnt[0]         0.796       986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[1]     System        FD1P3DZ     Q       rbcnt_lcd[1]     0.796       986.250
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt[1]         System        FD1P3DZ     Q       rbcnt[1]         0.796       986.447
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt[2]         System        FD1P3DZ     Q       rbcnt[2]         0.796       987.430
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[2]     System        FD1P3DZ     Q       rbcnt_lcd[2]     0.796       987.650
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt[3]         System        FD1P3DZ     Q       rbcnt[3]         0.796       987.722
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt[4]         System        FD1P3DZ     Q       rbcnt[4]         0.796       987.722
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[3]     System        FD1P3DZ     Q       rbcnt_lcd[3]     0.796       987.942
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[4]     System        FD1P3DZ     Q       rbcnt_lcd[4]     0.796       987.942
+=============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                                                     Starting                                                         Required            
+Instance                                                                                                                                                                             Reference     Type      Pin     Net                              Time         Slack  
+                                                                                                                                                                                     Clock                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     WE      c_we_lcd                         1000.000     985.878
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     WE      c_we_lcd                         1000.000     985.878
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     WE      c_we_lcd                         1000.000     985.878
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     WE      c_we_lcd                         1000.000     985.878
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram2048x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[3\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      un1_pix_wr_3_1                   1000.000     986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      frame_num_pclk_RNI2C4S3_0[0]     1000.000     986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      frame_num_pclk_RNI2C4S3_0[0]     1000.000     986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram2048x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      un1_pix_wr_3_1                   1000.000     986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram2048x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      un1_pix_wr_3_1                   1000.000     986.074
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0               System        PDP4K     WE      frame_num_pclk_RNI2C4S3_0[0]     1000.000     986.074
+==========================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      14.122
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 985.878
+
+    Number of logic level(s):                6
+    Starting point:                          g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[0] / Q
+    Ending point:                            g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / WE
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                                   Pin      Pin               Arrival      No. of    
+Name                                                                                                                                                                                 Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.rbcnt_lcd[0]                                                                                                                   FD1P3DZ     Q        Out     0.796     0.796 r      -         
+rbcnt_lcd[0]                                                                                                                                                                         Net         -        -       0.834     -            5         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_0_c_0                                                                                                          CCU2_B      B1       In      -         1.630 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_0_c_0                                                                                                          CCU2_B      COUT     Out     0.358     1.988 r      -         
+wbcnt_lcd_1_cry_0                                                                                                                                                                    Net         -        -       0.014     -            1         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_1_c_0                                                                                                          CCU2_B      CIN      In      -         2.002 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_1_c_0                                                                                                          CCU2_B      S0       Out     0.477     2.479 r      -         
+wbcnt_lcd_1[1]                                                                                                                                                                       Net         -        -       0.386     -            3         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_1_c_0_RNI7JKK                                                                                                  LUT4        B        In      -         2.865 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_1_c_0_RNI7JKK                                                                                                  LUT4        Z        Out     0.589     3.454 r      -         
+un4_c_we_lcd_0                                                                                                                                                                       Net         -        -       1.371     -            1         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_3_c_0_RNIK5NP1                                                                                                 LUT4        A        In      -         4.825 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_3_c_0_RNIK5NP1                                                                                                 LUT4        Z        Out     0.661     5.487 r      -         
+un4_c_we_lcd_5                                                                                                                                                                       Net         -        -       1.371     -            1         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_3_c_0_RNIAK943                                                                                                 LUT4        A        In      -         6.858 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.wbcnt_lcd_1_cry_3_c_0_RNIAK943                                                                                                 LUT4        Z        Out     0.661     7.519 r      -         
+un4_c_we_lcd                                                                                                                                                                         Net         -        -       1.371     -            2         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.bpcnt_lcd_RNIMEGU3                                                                                                             LUT4        C        In      -         8.890 r      -         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.bpcnt_lcd_RNIMEGU3                                                                                                             LUT4        Z        Out     0.517     9.407 f      -         
+c_we_lcd                                                                                                                                                                             Net         -        -       4.715     -            2         
+g_on_wide_br\.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       WE       In      -         14.122 f     -         
+===================================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 14.122 is 4.060(28.7%) logic and 10.062(71.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:17s; Memory used current: 212MB peak: 222MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:17s; Memory used current: 212MB peak: 222MB)
+
+---------------------------------------
+Resource Usage Report for lsc_ml_ice40_himax_signdet_top 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          686 uses
+FD1P3BZ         26 uses
+FD1P3DZ         1626 uses
+FD1P3IZ         964 uses
+FD1P3XZ         9 uses
+HSOSC           1 use
+INV             113 uses
+IOL_B           5 uses
+PDP4K           20 uses
+RGB             1 use
+SP256K          4 uses
+VHI             96 uses
+VLO             96 uses
+MAC16           7 uses
+LUT4            2021 uses
+
+I/O ports: 33
+I/O primitives: 30
+BB_B           2 uses
+IB             8 uses
+OB             12 uses
+OBZ_B          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   2616 of 5280 (49%)
+
+RAM/ROM usage summary
+Block Rams : 20 of 30 (66%)
+
+Total load per clock:
+   lsc_ml_ice40_himax_signdet_top|clk_inferred_clock: 2387
+   lsc_ml_ice40_himax_signdet_top|cam_pclk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 2021 (38%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 2021 = 2021 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:17s; Memory used current: 81MB peak: 222MB)
+
+Process took 0h:00m:20s realtime, 0h:00m:17s cputime
+# Sat Mar  5 10:44:13 2022
+
+###########################################################]

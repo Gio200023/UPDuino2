@@ -1,0 +1,34 @@
+
+fsm_encoding {49600602} sequential
+
+fsm_state_encoding {49600602} S_IDLE {000}
+
+fsm_state_encoding {49600602} S_RDOFF {001}
+
+fsm_state_encoding {49600602} S_RDDAT {010}
+
+fsm_state_encoding {49600602} S_RUN {011}
+
+fsm_state_encoding {49600602} S_WAIT {100}
+
+fsm_registers {49600602} {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {5510141011} onehot
+
+fsm_state_encoding {5510141011} IDLE {00000001}
+
+fsm_state_encoding {5510141011} PREP {00000010}
+
+fsm_state_encoding {5510141011} CMD {00000100}
+
+fsm_state_encoding {5510141011} SADDR {00001000}
+
+fsm_state_encoding {5510141011} DUMMY {00010000}
+
+fsm_state_encoding {5510141011} RDBYTE {00100000}
+
+fsm_state_encoding {5510141011} WAIT {01000000}
+
+fsm_state_encoding {5510141011} WAIT10 {10000000}
+
+fsm_registers {5510141011} {cst[7]}  {cst[6]}  {cst[5]}  {cst[4]}  {cst[3]}  {cst[2]}  {cst[1]}  {cst[0]} 

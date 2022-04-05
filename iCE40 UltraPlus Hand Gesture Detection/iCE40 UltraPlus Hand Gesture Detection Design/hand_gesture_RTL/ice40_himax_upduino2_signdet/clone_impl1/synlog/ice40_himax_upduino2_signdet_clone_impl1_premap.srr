@@ -1,0 +1,179 @@
+# Sat Mar  5 10:43:50 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : clone_impl1
+Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 074R, Built Oct 12 2021 09:24:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 130MB)
+
+Reading constraint file: C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc
+@L: C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_scck.rpt 
+See clock summary report "C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@W: BN132 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":39:0:39:5|Removing sequential instance u_himax_led_strobe.r_duration[7] because it is equivalent to instance u_himax_led_strobe.r_duration[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":39:0:39:5|Removing sequential instance u_himax_led_strobe.r_duration[3] because it is equivalent to instance u_himax_led_strobe.r_delay[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":39:0:39:5|Removing sequential instance u_himax_led_strobe.r_delay[2] because it is equivalent to instance u_himax_led_strobe.r_delay[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MO129 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v":36:0:36:5|Sequential instance u_lsc_i2cm_himax.u_lsc_i2cm.dev_addr_lat[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v":36:0:36:5|Sequential instance u_lsc_i2cm_himax.u_lsc_i2cm.dev_addr_lat[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":39:0:39:5|Sequential instance u_himax_led_strobe.r_duration[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":39:0:39:5|Sequential instance u_himax_led_strobe.r_delay[5] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v":279:0:279:5|Removing sequential instance rd_data[7:0] (in view: work.lsc_i2cm_16(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":771:4:771:9|Removing sequential instance g_use_ml_on\.r_rd_rdy_con (in view: work.lsc_ml_ice40_himax_signdet_top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":555:0:555:5|Removing sequential instance o_obj_det_trg (in view: work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":190:0:190:5|Removing sequential instance o_width[7:0] (in view: work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v":214:0:214:5|Removing sequential instance o_height[7:0] (in view: work.ice40_himax_video_process_128_32_wide_br_Z25_layer0(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\signdet_post.v":57:0:57:5|Removing sequential instance o_diff[15:0] (in view: work.signdet_post(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine state[4:0] (in view: work.lsc_i2cm_himax_80_0s_324x324_20fps_ir_0_1_2_3_7(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   111 -> 100
+Encoding state machine cst[7:0] (in view: work.spi_loader_tri_spram_Z4_layer0(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine state[11:0] (in view: work.cnn_accel_ipgen_cnn_ice40_cu_Z31_layer0(verilog))
+original code -> new code
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0100 -> 000000001000
+   0101 -> 000000010000
+   0110 -> 000000100000
+   1000 -> 000001000000
+   1001 -> 000010000000
+   1011 -> 000100000000
+   1101 -> 001000000000
+   1110 -> 010000000000
+   1111 -> 100000000000
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 184MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 184MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist lsc_ml_ice40_himax_signdet_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 184MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                 Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                                 Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                1.0 MHz       1000.000      system       system_clkgroup         0    
+                                                                                                                                      
+0 -       lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     2498 
+                                                                                                                                      
+0 -       lsc_ml_ice40_himax_signdet_top|cam_pclk               1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     295  
+======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                      Clock     Source                   Clock Pin                     Non-clock Pin     Non-clock Pin
+Clock                                                 Load      Pin                      Seq Example                   Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                0         -                        -                             -                 -            
+                                                                                                                                                      
+lsc_ml_ice40_himax_signdet_top|clk_inferred_clock     2498      u_hfosc.CLKHF(HSOSC)     r_max_lat[3:0].C              -                 -            
+                                                                                                                                                      
+lsc_ml_ice40_himax_signdet_top|cam_pclk               295       cam_pclk(port)           u_spi_lcd_tx.waddr[9:0].C     -                 -            
+======================================================================================================================================================
+
+@W: MT530 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_signdet_clkgen.v":234:0:234:5|Found inferred clock lsc_ml_ice40_himax_signdet_top|clk_inferred_clock which controls 2498 sequential elements including u_ice40_sigdet_clkgen.o_init. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lunar\desktop\ice40 ultraplus hand gesture detection\ice40 ultraplus hand gesture detection design\hand_gesture_rtl\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v":64:0:64:5|Found inferred clock lsc_ml_ice40_himax_signdet_top|cam_pclk which controls 295 sequential elements including u_himax_led_strobe.o_strobe. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 295 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 2438 clock pin(s) of sequential element(s)
+0 instances converted, 2438 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@KP:ckid0_2       cam_pclk            port                   295        u_spi_lcd_tx.waddr[9:0]
+===============================================================================================
+============================================================== Gated/Generated Clocks ==============================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance                   Explanation                   
+----------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       u_hfosc.CLKHF       HSOSC                  2438                   g_on_en_uart\.r_uart_din[7:0]     Clock Optimization not enabled
+====================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 184MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 184MB peak: 184MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 186MB peak: 186MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 98MB peak: 186MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Mar  5 10:43:52 2022
+
+###########################################################]

@@ -1,0 +1,6 @@
+-ver "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd"
+-ver "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/i2c/rtl/i2c.v"
+-path "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/i2c"
+-top i2c
+-a "iCE40UP"

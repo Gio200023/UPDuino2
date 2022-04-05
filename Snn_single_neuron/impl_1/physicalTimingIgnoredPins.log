@@ -1,0 +1,4 @@
+PIO/IOPAD output  neuron_out8_obuft.bb_inst has no incoming device arc
+     *** neuron_out8 is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  neuron_out7_obuft.bb_inst has no incoming device arc
+     *** neuron_out7 is driven by constant or a pin on an incomplete path

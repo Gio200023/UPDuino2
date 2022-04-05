@@ -1,0 +1,39 @@
+---------------------------------------
+Resource Usage Report for lsc_ml_ice40_himax_signdet_top 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          227 uses
+FD1P3BZ         18 uses
+FD1P3DZ         478 uses
+FD1P3IZ         105 uses
+FD1P3XZ         9 uses
+HSOSC           1 use
+INV             25 uses
+IOL_B           5 uses
+PDP4K           9 uses
+RGB             1 use
+VHI             39 uses
+VLO             39 uses
+LUT4            555 uses
+
+I/O ports: 33
+I/O primitives: 30
+BB_B           1 use
+IB             8 uses
+OB             16 uses
+OBZ_B          5 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   601 of 5280 (11%)
+
+RAM/ROM usage summary
+Block Rams : 9 of 30 (30%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 555 (10%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 555 = 555 
+

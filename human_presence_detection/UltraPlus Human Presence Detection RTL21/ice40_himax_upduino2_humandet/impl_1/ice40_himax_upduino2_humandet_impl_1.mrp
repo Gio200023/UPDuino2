@@ -1,0 +1,339 @@
+Lattice Mapping Report File for Design Module
+     'ice40_himax_upduino2_humandet_impl_1'
+
+Target Vendor:        LATTICE
+Target Device:        iCE40UP5KSG48
+Target Performance:   High-Performance_1.2V
+
+Mapper:    version Radiant Software (64-bit) 3.1.0.43.2
+Mapped on: Tue Mar 22 11:09:51 2022
+
+Design Information
+------------------
+
+Command line:   map -i ice40_himax_upduino2_humandet_impl_1_syn.udb -pdc
+     C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence
+     Detection RTL21/ice40_himax_upduino2_humandet/himax_upduino2.pdc -o
+     ice40_himax_upduino2_humandet_impl_1_map.udb -mp
+     ice40_himax_upduino2_humandet_impl_1.mrp -hierrpt -inferGSR -gui
+
+Design Summary
+--------------
+
+   Number of slice registers: 385 out of  5280 (7%)
+   Number of I/O registers:      6 out of   117 (5%)
+   Number of LUT4s:           710 out of  5280 (13%)
+      Number of logic LUT4s:             394
+      Number of inserted feedthru LUT4s: 147
+      Number of replicated LUT4s:          3
+      Number of ripple logic:             83 (166 LUT4s)
+   Number of IO sites used:   30 out of 39 (77%)
+      Number of IO sites used for general PIO: 27
+      Number of IO sites used for I3C: 0 out of 2 (0%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for PIO+I3C: 27 out of 36 (75%)
+      Number of IO sites used for OD+RGB IO buffers: 3 out of 3 (100%)
+      (note: If RGB LED drivers are not used, sites can be used as OD outputs,
+       see TN1288 iCE40 LED Driver Usage Guide)
+      Number of IO sites used for PIO+I3C+OD+RGB: 30 out of 39 (77%)
+   Number of DSPs:             0 out of 8 (0%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  1 out of 1 (100%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      1 out of 1 (100%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            0 out of 4 (0%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             5 out of 30 (16%)
+   Number of PLLs:             0 out of 1 (0%)
+   Number of Clocks:  2
+      Net clk: 230 loads, 230 rising, 0 falling (Driver: Pin
+     genblk1.u_hfosc.osc_inst/CLKHF)
+      Net cam_pclk_c: 146 loads, 146 rising, 0 falling (Driver: Port cam_pclk)
+   Number of Clock Enables:  19
+      Net VCC: 18 loads, 0 SLICEs
+      Net u_resetn.u_r_resetn0_RNO: 1 loads, 1 SLICEs
+      Net u_resetn.un3_cnt_en_i: 8 loads, 8 SLICEs
+      Net u_lsc_i2cm_himax.N_38_0: 16 loads, 16 SLICEs
+      Net u_lsc_i2cm_himax.u_lsc_i2cm.i2c_running_i: 24 loads, 24 SLICEs
+      Net u_lsc_i2cm_himax.u_lsc_i2cm.un1_tick_0_i: 7 loads, 7 SLICEs
+      Net g_on_en_uart.u_lsc_uart.fifo_rd: 7 loads, 7 SLICEs
+
+                                    Page 1
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_data_tmp[5]: 12 loads, 12
+     SLICEs
+      Net genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.en: 10 loads, 10
+     SLICEs
+      Net genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.wd_cnte_0_i: 9
+     loads, 9 SLICEs
+      Net genblk5.u_ice40_himax_video_process_128.c_we_lcd: 2 loads, 0 SLICEs
+      Net genblk5.u_ice40_himax_video_process_128.bpcnt_lcd_RNIMGJK: 5 loads, 5
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_128.o_pix_we_0_i: 1 loads, 0
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_128.un1_r_accu_lcd15_0_i: 31
+     loads, 31 SLICEs
+      Net u_spi_lcd_tx.clk_phase: 15 loads, 15 SLICEs
+      Net u_spi_lcd_tx.waddre_0_i: 9 loads, 9 SLICEs
+      Net u_spi_lcd_tx.un1_o_running16_0: 1 loads, 1 SLICEs
+      Net u_spi_lcd_tx.raddre_0_i: 6 loads, 6 SLICEs
+      Net u_spi_lcd_tx.un3_empty_0_i: 1 loads, 1 SLICEs
+   Number of LSRs:  3
+      Net cam_de_p_i: 6 loads, 6 SLICEs
+      Net lcd_resetn_c_i: 183 loads, 183 SLICEs
+      Net genblk5.u_ice40_himax_video_process_128.un1_o_width3_1_0: 5 loads, 5
+     SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net lcd_resetn_c_i: 183 loads
+      Net VCC: 63 loads
+      Net genblk5.u_ice40_himax_video_process_128.lcnt[0]: 52 loads
+      Net genblk5.u_ice40_himax_video_process_128.N_553: 40 loads
+      Net genblk5.u_ice40_himax_video_process_128.un1_r_accu_lcd15_0_i: 31 loads
+      Net genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.en: 26 loads
+      Net u_spi_lcd_tx.clk_phase: 26 loads
+      Net u_lsc_i2cm_himax.u_lsc_i2cm.i2c_running_i: 24 loads
+      Net w_load_done: 24 loads
+      Net u_spi_lcd_tx.empty: 21 loads
+
+
+
+
+   Number of warnings:  16
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Top module port 'debug_scl' does not connect to anything.
+WARNING - map: Top module port 'debug_sda' does not connect to anything.
+WARNING - map: Top module port 'uart_rxd' does not connect to anything.
+WARNING - map: Top module port 'spi_miso' does not connect to anything.
+WARNING - map: Top module port 'aux_det' does not connect to anything.
+WARNING - map: Top module port 'aux_idx[1]' does not connect to anything.
+WARNING - map: Top module port 'aux_idx[0]' does not connect to anything.
+WARNING - map: The clock port [cam_pclk] is assigned to a non clock dedicated
+     pin [19], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+WARNING - map: Top module port 'debug_scl' does not connect to anything.
+WARNING - map: Top module port 'debug_sda' does not connect to anything.
+WARNING - map: Top module port 'uart_rxd' does not connect to anything.
+
+                                    Page 2
+
+
+
+
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: Top module port 'spi_miso' does not connect to anything.
+WARNING - map: Top module port 'aux_det' does not connect to anything.
+WARNING - map: Top module port 'aux_idx[1]' does not connect to anything.
+WARNING - map: Top module port 'aux_idx[0]' does not connect to anything.
+WARNING - map: The clock port [cam_pclk] is assigned to a non clock dedicated
+     pin [19], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_clk             | BIDIR     | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_pclk            | INPUT     | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_hsync           | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_vsync           | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[0]         | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[1]         | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[2]         | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[3]         | INPUT     | LVCMOS33  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_trig            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_mclk            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_scl             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_sda             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| standby             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| uart_txd            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_css             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_mosi            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| lcd_spi_gpo         | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| lcd_spi_clk         | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| lcd_spi_css         | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| lcd_spi_mosi        | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| lcd_resetn          | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+                                    Page 3
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
+| oled[0]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| oled[1]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| oled[2]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| oled[3]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| oled[4]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| oled[5]             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| REDn                | OUTPUT    | NA        |       |       | RGB       |
++---------------------+-----------+-----------+-------+-------+-----------+
+| GRNn                | OUTPUT    | NA        |       |       | RGB       |
++---------------------+-----------+-----------+-------+-------+-----------+
+| BLUn                | OUTPUT    | NA        |       |       | RGB       |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+OSC Summary
+-----------
+
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            genblk1.u_hfosc.osc_inst
+  Power UP:                            NODE     VCC
+  Enable Signal:                       NODE     VCC
+  OSC Output:                          NODE     clk
+  DIV Setting:                                  01
+
+ASIC Components
+---------------
+
+Instance Name: u_io_cam_de
+         Type: IOLOGIC
+Instance Name: u_io_cam_vsync
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[3]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[2]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[1]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[0]
+         Type: IOLOGIC
+Instance Name: u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_ram_dq_inst/mem_mai
+     n/inst0/PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0/iCE40UP.sp4k.ebr_inst
+         Type: EBR
+Instance Name: g_on_en_uart.u_lsc_uart/genblk1.u_ram512x8_0/lscc_ram_dp_inst/mem
+     _main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr
+     _inst
+         Type: EBR
+Instance Name: genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lsc
+     c_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/I
+     CE_MEM.u_mem0.ebr_inst
+         Type: EBR
+Instance Name: genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lsc
+     c_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/I
+
+                                    Page 4
+
+
+
+
+
+ASIC Components (cont)
+----------------------
+     CE_MEM.u_mem0.ebr_inst
+         Type: EBR
+Instance Name: u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/N
+     ON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/ICE_MEM.u_mem0.ebr_inst
+         Type: EBR
+Instance Name: RGB_DRIVER.RGB_CORE_inst
+         Type: RGBA_DRV
+Instance Name: genblk1.u_hfosc.osc_inst
+         Type: HFOSC
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 66 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 5
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2021 Lattice Semiconductor
+     Corporation,  All rights reserved.

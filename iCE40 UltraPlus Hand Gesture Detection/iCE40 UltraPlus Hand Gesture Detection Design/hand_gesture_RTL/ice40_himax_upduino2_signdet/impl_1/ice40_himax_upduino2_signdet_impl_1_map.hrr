@@ -1,0 +1,344 @@
+---------------------------------------------------
+Report for cell lsc_ml_ice40_himax_signdet_top
+   Instance path: lsc_ml_ice40_himax_signdet_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       5.00        100.0
+                                  LUT4	       1226        100.0
+                                 IOREG	          5        100.0
+                                 IOBUF	         33        100.0
+                                PFUREG	        610        100.0
+                                   EBR	          9        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      himax_led_strobe	          1        11.7
+ice40_himax_signdet_clkgen_0_0_0_1_2_3_7_6	          1         0.0
+ice40_himax_video_process_128_32_wide_br_Z25_layer0	          1        29.0
+                          ice40_resetn	          1         1.1
+lsc_i2cm_himax_80_0s_324x324_20fps_ir_0_1_2_3_7	          1         6.9
+                     lsc_uart_103_1K_0	          1        12.5
+                     spi_lcd_tx_0_OLED	          1         6.0
+      spi_loader_wrap_TRI_SPRAM_131072	          1         6.9
+                          strobe_ctl_0	          1         1.8
+---------------------------------------------------
+Report for cell ice40_himax_signdet_clkgen_0_0_0_1_2_3_7_6
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_ice40_sigdet_clkgen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.2
+---------------------------------------------------
+Report for cell ice40_resetn
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_resetn
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         1.1
+                                PFUREG	          9         1.5
+---------------------------------------------------
+Report for cell lsc_i2cm_himax_80_0s_324x324_20fps_ir_0_1_2_3_7
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         85         6.9
+                                PFUREG	         72        11.8
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           lsc_i2cm_16	          1         4.7
+                rom_himax_cfg_20fps_ir	          1         0.0
+---------------------------------------------------
+Report for cell lsc_i2cm_16
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax/u_lsc_i2cm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         58         4.7
+                                PFUREG	         42         6.9
+---------------------------------------------------
+Report for cell rom_himax_cfg_20fps_ir
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/u_rom
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core_Z2_layer0	          1         0.0
+---------------------------------------------------
+Report for cell rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core_Z2_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/u_rom/PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell strobe_ctl_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_strobe_ctl.u_strobe_ctl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         22         1.8
+                                PFUREG	         15         2.5
+---------------------------------------------------
+Report for cell himax_led_strobe
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_himax_led_strobe
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        143        11.7
+                                PFUREG	         78        12.8
+---------------------------------------------------
+Report for cell lsc_uart_103_1K_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        153        12.5
+                                PFUREG	        101        16.6
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         dpram1024x8_0	          1         0.0
+---------------------------------------------------
+Report for cell dpram1024x8_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_0	          1         0.0
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_0	          1         0.0
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0	          1         0.0
+dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0	          1         0.0
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell spi_loader_wrap_TRI_SPRAM_131072
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_loader
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         85         6.9
+                                PFUREG	         46         7.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        spi_loader_tri_spram_Z4_layer0	          1         6.9
+---------------------------------------------------
+Report for cell spi_loader_tri_spram_Z4_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_loader/g_on_code_tri_spram.u_spi_loader
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         85         6.9
+                                PFUREG	         46         7.5
+---------------------------------------------------
+Report for cell ice40_himax_video_process_128_32_wide_br_Z25_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        355        29.0
+                                PFUREG	        211        34.6
+                                   EBR	          5        55.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         dpram1024x8_1	          1         0.6
+                           dpram256x16	          1         0.0
+                           dpram256x32	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x16
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x16_accu
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x16_ipgen_lscc_ram_dp_Z14_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x16_ipgen_lscc_ram_dp_Z14_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x16_accu/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x16_ipgen_lscc_ram_dp_main_Z12_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x16_ipgen_lscc_ram_dp_main_Z12_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x16_accu/lscc_ram_dp_inst/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x16_accu/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell dpram256x32
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x32_accu0_lcd
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x32_ipgen_lscc_ram_dp_Z18_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x32_ipgen_lscc_ram_dp_Z18_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x32_accu0_lcd/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x32_ipgen_lscc_ram_dp_main_Z15_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x32_ipgen_lscc_ram_dp_main_Z15_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram256x32_ipgen_lscc_ram_dp_core_Z16_layer0	          1         0.0
+dpram256x32_ipgen_lscc_ram_dp_core_Z17_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x32_ipgen_lscc_ram_dp_core_Z17_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell dpram256x32_ipgen_lscc_ram_dp_core_Z16_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell dpram1024x8_1
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram1024x8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.6
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_1	          1         0.6
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_1
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram1024x8/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.6
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_1	          1         0.6
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_1
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram1024x8/lscc_ram_dp_inst/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.6
+                                   EBR	          2        22.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_1	          1         0.2
+dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_1	          1         0.3
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_1
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram1024x8/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.2
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_1
+   Instance path: lsc_ml_ice40_himax_signdet_top/g_on_wide_br.u_ice40_himax_video_process_128_32_wide/u_ram1024x8/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.3
+                                   EBR	          1        11.1
+---------------------------------------------------
+Report for cell spi_lcd_tx_0_OLED
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_lcd_tx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         73         6.0
+                                PFUREG	         66        10.8
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                       dpram_oled_fifo	          1         0.0
+---------------------------------------------------
+Report for cell dpram_oled_fifo
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_lcd_tx/genblk1.u_dpram_oled_fifo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram_oled_fifo_ipgen_lscc_ram_dp_Z7_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram_oled_fifo_ipgen_lscc_ram_dp_Z7_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_lcd_tx/genblk1.u_dpram_oled_fifo/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram_oled_fifo_ipgen_lscc_ram_dp_main_Z5_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram_oled_fifo_ipgen_lscc_ram_dp_main_Z5_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_lcd_tx/genblk1.u_dpram_oled_fifo/lscc_ram_dp_inst/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+dpram_oled_fifo_ipgen_lscc_ram_dp_core_Z6_layer0	          1         0.0
+---------------------------------------------------
+Report for cell dpram_oled_fifo_ipgen_lscc_ram_dp_core_Z6_layer0
+   Instance path: lsc_ml_ice40_himax_signdet_top/u_spi_lcd_tx/genblk1.u_dpram_oled_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        11.1

@@ -1,0 +1,205 @@
+Synthesis options:
+The -a option is iCE40UP.
+The -t option is SG48.
+The -sp option is High-Performance_1.2V.
+The -p option is iCE40UP5K.
+                                                          
+
+
+##########################################################
+
+
+### Lattice Family     : iCE40UP
+
+
+### Device             : iCE40UP5K
+
+
+### Package            : SG48
+
+
+### Performance Grade  : High-Performance_1.2V
+
+
+                                                         
+
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Area
+Top-level module name = lsc_ml_ice40_himax_signdet_top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output HDL file name = ice40_himax_upduino2_signdet_impl_1.vm.
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-sdc option: SDC file input is ice40_himax_upduino2_signdet_impl_1_cpe.ldc.
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/cnn_accel (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/i2c (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/impl_1 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8 (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo (searchpath added)
+-path C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir (searchpath added)
+-path C:/lscc/radiant/3.1/ispfpga/ice40tp/data (searchpath added)
+Mixed language design
+Verilog design file = C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_decision_filter.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/strobe_ctl.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_led_con.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_seq_wide_br.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/cnn_accel/rtl/cnn_accel.v
+Verilog design file = C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/i2c/rtl/i2c.v
+VHDL library = pmi
+VHDL design file = C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v. VERI-1482
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(1): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_addsub.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_addsub.v(40): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(2): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_add.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_add.v(50): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/adder/rtl/lscc_adder.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(3): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_complex_mult.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_complex_mult.v(52): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(4): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_counter.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_counter.v(39): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/counter/rtl/lscc_cntr.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(5): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_fifo.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_fifo.v(44): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(6): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_fifo_dc.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_fifo_dc.v(47): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(7): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_mac.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_mac.v(52): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(8): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_multaddsubsum.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_multaddsubsum.v(53): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(9): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_multaddsub.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_multaddsub.v(52): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(10): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_mult.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_mult.v(51): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(11): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dp.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dp.v(48): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(12): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dq.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dq.v(45): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(13): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_rom.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_rom.v(45): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/rom/rtl/lscc_rom.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(14): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_sub.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_sub.v(50): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(15): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dp_be.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dp_be.v(49): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(16): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dq_be.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file c:/lscc/radiant/3.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.v(17): analyzing included file c:/lscc/radiant/3.1/ip/pmi/pmi_dsp.v. VERI-1328
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/ice40_himax_signdet_clkgen.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/lsc_ml_ice40_himax_signdet_top.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/signdet_post.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/signdet_decision_filter.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/himax_led_strobe.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/strobe_ctl.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/lsc_i2cs_signdet.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/ice40_resetn.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cm.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cm_16.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cm_himax.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cs.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cs_fsm.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_led_con.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_uart.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_loader_spram.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_loader_tri_spram.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_loader_wrap.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_lcd_tx.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/ice40_himax_video_process_128_32_wide_br.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/ice40_himax_video_process_128_32_seq_wide_br.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram256x16/rtl/dpram256x16.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram256x32/rtl/dpram256x32.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/ice40_himax_upduino2_signdet/cnn_accel/rtl/cnn_accel.v. VERI-1482
+Analyzing Verilog file c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/ice40_himax_upduino2_signdet/i2c/rtl/i2c.v. VERI-1482
+Analyzing VHDL file c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.vhd. VHDL-1481
+Analyzing VHDL file c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.vhd
+
+INFO - synthesis: c:/lscc/radiant/3.1/ip/pmi/pmi_ice40up.vhd(4): analyzing package components. VHDL-1014
+unit lsc_ml_ice40_himax_signdet_top is not yet analyzed. VHDL-1485
+INFO - synthesis: The default VHDL library search path is now "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/impl_1". VHDL-1504
+Top module language type = Verilog.
+Top module name (Verilog, mixed language): lsc_ml_ice40_himax_signdet_top
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/lsc_ml_ice40_himax_signdet_top.v(21): compiling module lsc_ml_ice40_himax_signdet_top. VERI-1018
+INFO - synthesis: C:/lscc/radiant/3.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(339): compiling module IOL_B(LATCHIN="NONE_DDR"). VERI-1018
+INFO - synthesis: C:/lscc/radiant/3.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): compiling module HSOSC(CLKHF_DIV="0b01"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/ice40_himax_signdet_clkgen.v(2): compiling module ice40_himax_signdet_clkgen(EN_CLKMASK=1'b0,EN_SINGLE_CLK=1'b0). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/ice40_resetn.v(3): compiling module ice40_resetn. VERI-1018
+INFO - synthesis: C:/lscc/radiant/3.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(523): compiling module FD1P3XZ. VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cm_himax.v(2): compiling module lsc_i2cm_himax(EN_ALT=0,CONF_SEL="324x324_20fps_ir"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_i2cm_16.v(3): compiling module lsc_i2cm_16. VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v(11): compiling module rom_himax_cfg_20fps_ir. VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v(165): compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom(FAMILY="iCE40UP",RADDR_DEPTH=256,RADDR_WIDTH=8,RDATA_WIDTH=16,REGMODE="noreg",INIT_FILE="C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/misc/ram256x16_himax_324x324_20fps   ....   NIT_VALUE_08="0x00013067002030610000020F0040210200802101000501000000010100513060",INIT_VALUE_09="0x0000000000000000000000000000000000000104007002050030020300000202"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v(427): compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst(FAMILY="iCE40UP",ADDR_DEPTH=256,ADDR_WIDTH=8,DATA_WIDTH=16,REGMODE="noreg",INIT_FILE="C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/misc/ram256x16_himax_324x324_20f   ....   NIT_VALUE_08="0x00013067002030610000020F0040210200802101000501000000010100513060",INIT_VALUE_09="0x0000000000000000000000000000000000000104007002050030020300000202"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v(1306): compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core(FAMILY="iCE40UP",DATA_WIDTH=32'b010000,GSR="",INIT_MODE="mem_file",POSx=32'b0,POSy=32'b0,MEM_SIZE="16,256",MEM_ID="rom_himax_cfg_20fps_ir",INIT_VALUE_00="0x00C03050000A304700003045000A304400081007000810030000010000000103",INIT_VALUE_01="0x001F30580029305700F8305600F73055000330   ....   T_VALUE_38="0x00",INIT_VALUE_39="0x00",INIT_VALUE_3A="0x00",INIT_VALUE_3B="0x00",INIT_VALUE_3C="0x00",INIT_VALUE_3D="0x00",INIT_VALUE_3E="0x00",INIT_VALUE_3F="0x00"). VERI-1018
+INFO - synthesis: C:/lscc/radiant/3.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(693): compiling module PDP4K(INITVAL_0="0x00C03050000A304700003045000A304400081007000810030000010000000103",INITVAL_1="0x001F30580029305700F8305600F7305500033054000030530050305200423051",INITVAL_2="0x00011006007F03500032100200401001004310000004306500003064001E3059",INITVAL_3="0x0000200300072000000010120040100C0090100B0060100A00A0100900001008",INI   ....   0000020F0040210200802101000501000000010100513060",INITVAL_9="0x0000000000000000000000000000000000000104007002050030020300000202",DATA_WIDTH_W="16",DATA_WIDTH_R="16"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/himax_led_strobe.v(2): compiling module himax_led_strobe. VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/lsc_uart.v(3): compiling module lsc_uart(PERIOD=16'b0100111000011,BUFFER_SIZE="1K"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v(11): compiling module dpram1024x8. VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v(187): compiling module dpram1024x8_ipgen_lscc_ram_dp(MEM_ID="dpram1024x8",MEM_SIZE="8,1024",FAMILY="iCE40UP",WADDR_WIDTH=10,WDATA_WIDTH=8,RADDR_WIDTH=10,RDATA_WIDTH=8,REGMODE="noreg",INIT_FILE_FORMAT="hex",BYTE_ENABLE=0,BYTE_SIZE=8,BYTE_WIDTH=1). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v(461): compiling module dpram1024x8_ipgen_lscc_ram_dp_main(MEM_ID="dpram1024x8",MEM_SIZE="8,1024",FAMILY="iCE40UP",WADDR_WIDTH=10,WDATA_WIDTH=8,RADDR_WIDTH=10,RDATA_WIDTH=8,REGMODE="noreg",INIT_FILE_FORMAT="hex",BYTE_ENABLE=0,BYTE_SIZE=8,BYTE_WIDTH=1). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v(3561): compiling module dpram1024x8_ipgen_lscc_ram_dp_core(MEM_ID="dpram1024x8",MEM_SIZE="8,1024",FAMILY="iCE40UP",DATA_WIDTH_W=32'b0100,DATA_WIDTH_R=32'b0100,REGMODE="noreg",BYTE_ENABLE=1'b0,POSx=32'b0,POSy=32'b0). VERI-1018
+INFO - synthesis: C:/lscc/radiant/3.1/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(693): compiling module PDP4K(DATA_WIDTH_W="4",DATA_WIDTH_R="4"). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v(3561): compiling module dpram1024x8_ipgen_lscc_ram_dp_core(MEM_ID="dpram1024x8",MEM_SIZE="8,1024",FAMILY="iCE40UP",DATA_WIDTH_W=32'b0100,DATA_WIDTH_R=32'b0100,REGMODE="noreg",BYTE_ENABLE=1'b0,POSx=32'b0100,POSy=32'b0). VERI-1018
+INFO - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_loader_wrap.v(4): compiling module spi_loader_wrap(MEM_TYPE="EBRAM"). VERI-1018
+ERROR - synthesis: c:/users/lunar/desktop/ice40 ultraplus hand gesture detection/ice40 ultraplus hand gesture detection design/hand_gesture_rtl/src/common/spi_loader_wrap.v(43): instantiating unknown module spi_loader_ebram. VERI-1063

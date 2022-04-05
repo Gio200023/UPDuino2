@@ -1,0 +1,17 @@
+<top name = "lsc_ml_ice40_himax_signdet_top"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+    <clockitem name = "cam_pclk"  type = "port" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 1
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+</top>

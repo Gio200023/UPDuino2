@@ -1,0 +1,65 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+               Version R-2021.03LR-SP1 for win64 - Oct 12, 2021 
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    C:\lscc\radiant\3.1\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\radiant\3.1\synpbase
+Hostname:    DESKTOP-EQ342IA
+Date:        Thu Mar 17 23:27:56 2022
+Version:     R-2021.03LR-SP1
+
+Arguments:   -product synplify_pro -batch ice40_himax_upduino2_signdet_clone_impl1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+"force_gsr" is unrecognized option for current device
+Copied C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1.srr to C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\backup\ice40_himax_upduino2_signdet_clone_impl1.srr
+log file: "C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1.srr"
+Running: clone_impl1 in foreground
+
+Running proj_1|clone_impl1
+
+Running Flow: compile (Compile) on proj_1|clone_impl1
+# Thu Mar 17 23:27:56 2022
+
+Running Flow: compile_flow (Compile Process) on proj_1|clone_impl1
+# Thu Mar 17 23:27:56 2022
+
+Running: compiler (Compile Input) on proj_1|clone_impl1
+# Thu Mar 17 23:27:56 2022
+Warning: The following files were not found:
+C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc
+C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc
+Warning: File does not exist: C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc
+compiler exited with errors
+Job failed on: proj_1|clone_impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\synlog\ice40_himax_upduino2_signdet_clone_impl1_compiler.srr"
+# Thu Mar 17 23:27:58 2022
+
+Return Code: 2
+Run Time:00h:00m:02s
+Complete: Compile Process on proj_1|clone_impl1
+Complete: Compile on proj_1|clone_impl1
+Complete: Logic Synthesis on proj_1|clone_impl1
+Copied C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1.srr to C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\ice40_himax_upduino2_signdet_clone_impl1.srf
+Error: At line 97 while processing "ice40_himax_upduino2_signdet_clone_impl1_synplify.tcl"
+2
+TCL script complete: "ice40_himax_upduino2_signdet_clone_impl1_synplify.tcl"
+TCL script had errors: "ice40_himax_upduino2_signdet_clone_impl1_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\proj_1.prj
+batch mode default:no

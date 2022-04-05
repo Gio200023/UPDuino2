@@ -1,0 +1,51 @@
+Logfile for Reveal Analyzer
+Version: Radiant 3.1.1.232.1
+Platform: Windows10 64bit
+Filename: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/impl_1/reveal_debug.log
+First created: ven mar 25 11:03:53 2022
+[11:03:57] Detect USB port
+[11:03:57] Connecting cableserver to detect cable port....
+[11:04:04] @Connect
+[11:04:04] @QueryCablewDescription
+[11:04:04] @Read
+[11:04:04] cable[0]=FTUSB-0,USB2,Single RS232-HS Location 0000
+[11:04:04] @Disconnect
+[11:04:08] Scan Debug device
+[11:04:08] Connecting cableserver to scan device info....
+[11:04:08] @Connect
+[11:04:08] @SetSharableApplications,3,Propel,Mico,Reveal
+[11:04:09] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:04:09] @GetServerStatus
+[11:04:09] @Read
+[11:04:09] @LockCable(Share_Propel)
+[11:04:12] @ScanDeviceChain
+[11:04:12] @Read
+[11:04:12] device[0]=+
+[11:04:12] @ResetHeaderTrailer
+[11:04:12] @SetTargetDevice,0
+[11:04:12] @JumpState,TEST_LOGIC_RESET
+[11:04:12] @JumpState,RUN_TEST_IDLE
+[11:04:12] @ShiftIR,8,0,ER1
+[11:04:12] @JumpState,RUN_TEST_IDLE
+[11:04:12] @ShiftDR,24,0,data (select rom)
+[11:04:12] @JumpState,RUN_TEST_IDLE
+[11:04:12] @ShiftIR,8,0,NOP
+[11:04:12] @JumpState,RUN_TEST_IDLE
+[11:04:12] @ShiftIR,8,0,ER2
+[11:04:12] @JumpState,RUN_TEST_IDLE
+[11:04:12] @ShiftDR,64,1,data (read rom)
+[11:04:12] @GetTDO,data,64
+[11:04:12] jtaghub_rom[0] = FF
+[11:04:12] jtaghub_rom[1] = FF
+[11:04:12] jtaghub_rom[2] = FF
+[11:04:12] jtaghub_rom[3] = FF
+[11:04:12] jtaghub_rom[4] = FF
+[11:04:12] jtaghub_rom[5] = FF
+[11:04:12] jtaghub_rom[6] = FF
+[11:04:12] jtaghub_rom[7] = FF
+[11:04:12] summary of devices on USB2 cable:
+[11:04:12] 1. +
+[11:04:12] @UnlockCable
+[11:04:12] @ReleaseCablePort
+[11:04:12] @Disconnect
+Last closed: ven mar 25 11:04:17 2022

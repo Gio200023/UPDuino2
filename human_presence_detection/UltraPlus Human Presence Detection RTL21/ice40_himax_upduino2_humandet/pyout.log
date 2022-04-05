@@ -1,0 +1,130 @@
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: 'user_init_file' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\rtl\dpram256x32_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\dpram256x32.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\misc\dpram256x32_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\misc\dpram256x32_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\constraints\dpram256x32.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\dpram256x32.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: 'user_init_file' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\rtl\dpram512x8_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\dpram512x8.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\misc\dpram512x8_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\misc\dpram512x8_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\constraints\dpram512x8.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\dpram512x8.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: 'user_init_file' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\dpram_lcd_fifo.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\misc\dpram_lcd_fifo_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\misc\dpram_lcd_fifo_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\constraints\dpram_lcd_fifo.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\dpram_lcd_fifo.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: 'user_init_file' is not valid IP setting, ignored!
+ERROR: ERROR -- Initialization file is mandatory
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\rtl\rom_himax_cfg_1fps_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\rom_himax_cfg_1fps.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\misc\rom_himax_cfg_1fps_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\misc\rom_himax_cfg_1fps_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\rtl\rom_himax_cfg_1fps.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/rom)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\constraints\rom_himax_cfg_1fps.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\rom_himax_cfg_1fps.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\rtl\rom_himax_cfg_324_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\rom_himax_cfg_324.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\misc\rom_himax_cfg_324_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\misc\rom_himax_cfg_324_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\rtl\rom_himax_cfg_324.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dq)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\constraints\rom_himax_cfg_324.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\rom_himax_cfg_324.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\rtl\rom_himax_cfg_324_dim_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\rom_himax_cfg_324_dim.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\misc\rom_himax_cfg_324_dim_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\misc\rom_himax_cfg_324_dim_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\rtl\rom_himax_cfg_324_dim.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dq)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\constraints\rom_himax_cfg_324_dim.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\rom_himax_cfg_324_dim.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\rom_himax_cfg_324_dim_maxfps_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rom_himax_cfg_324_dim_maxfps.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\misc\rom_himax_cfg_324_dim_maxfps_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\misc\rom_himax_cfg_324_dim_maxfps_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\rom_himax_cfg_324_dim_maxfps.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dq)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\constraints\rom_himax_cfg_324_dim_maxfps.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rom_himax_cfg_324_dim_maxfps.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\rom_himax_cfg_324_faceid_bb.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\rom_himax_cfg_324_faceid.cfg 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\misc\rom_himax_cfg_324_faceid_tmpl.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\misc\rom_himax_cfg_324_faceid_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\rom_himax_cfg_324_faceid.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dq)
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\constraints\rom_himax_cfg_324_faceid.ldc 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\design.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\component.xml 
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\rom_himax_cfg_324_faceid.ipx 
+WARNING: 'en_outclken' is not valid IP setting, ignored!
+WARNING: 'user_init_mode' is not valid IP setting, ignored!
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_lcd\rtl\rom_himax_cfg_lcd_bb.v 

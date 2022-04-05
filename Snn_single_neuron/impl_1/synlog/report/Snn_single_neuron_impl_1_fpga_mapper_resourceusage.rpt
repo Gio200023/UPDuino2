@@ -1,0 +1,18 @@
+---------------------------------------
+Resource Usage Report for spike_network 
+
+Mapping to part: ice40up5kuwg30i-6
+Cell usage:
+VHI             1 use
+VLO             1 use
+
+I/O ports: 7
+I/O primitives: 2
+OBZ_B          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 of 5280 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+

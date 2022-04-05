@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PwrIpInstActivityPortsMappings>
+    <PwrIpInstActivityPortsMapping PwrTabName="Logic Block" PwrIpName="Logic">
+        <PwrIpInstIdentifier Key="Clk" Value="COMBINATORIAL"/>
+        <ActivityPortsMapping/>
+    </PwrIpInstActivityPortsMapping>
+    <PwrIpInstActivityPortsMapping PwrTabName="I/O" PwrIpName="Input Output">
+        <PwrIpInstIdentifier Key="Bank" Value="1"/>
+        <PwrIpInstIdentifier Key="Clk" Value="COMBINATORIAL"/>
+        <PwrIpInstIdentifier Key="_InType" Value="LVCMOS33"/>
+        <PwrIpInstIdentifier Key="_OutType" Value="LVCMOS33-8"/>
+        <PwrIpInstIdentifier Key="_Pull" Value="na"/>
+        <ActivityPortsMapping/>
+    </PwrIpInstActivityPortsMapping>
+    <PwrIpInstActivityPortsMapping PwrTabName="I/O" PwrIpName="Bank Voltage">
+        <PwrIpInstIdentifier Key="Bank" Value="0"/>
+        <ActivityPortsMapping/>
+    </PwrIpInstActivityPortsMapping>
+    <PwrIpInstActivityPortsMapping PwrTabName="I/O" PwrIpName="Bank Voltage">
+        <PwrIpInstIdentifier Key="Bank" Value="1"/>
+        <ActivityPortsMapping/>
+    </PwrIpInstActivityPortsMapping>
+    <PwrIpInstActivityPortsMapping PwrTabName="I/O" PwrIpName="Bank Voltage">
+        <PwrIpInstIdentifier Key="Bank" Value="2"/>
+        <ActivityPortsMapping/>
+    </PwrIpInstActivityPortsMapping>
+</PwrIpInstActivityPortsMappings>

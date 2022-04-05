@@ -1,0 +1,276 @@
+# Reading pref.tcl
+# do {C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/ProvaSImulation/ProvaSImulation.mdo}
+# Loading project ProvaSImulation
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:56 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v 
+# -- Compiling module dpram_lcd_fifo
+# -- Compiling module dpram_lcd_fifo_ipgen_lscc_ram_dp
+# -- Compiling module dpram_lcd_fifo_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram_lcd_fifo_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram_lcd_fifo
+# End time: 12:09:56 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:57 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v 
+# -- Compiling module dpram_oled_fifo
+# -- Compiling module dpram_oled_fifo_ipgen_lscc_ram_dp
+# -- Compiling module dpram_oled_fifo_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram_oled_fifo_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram_oled_fifo
+# End time: 12:09:57 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:57 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v 
+# -- Compiling module spi_lcd_tx
+# 
+# Top level modules:
+# 	spi_lcd_tx
+# End time: 12:09:57 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:57 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v 
+# -- Compiling module signdet_post
+# 
+# Top level modules:
+# 	signdet_post
+# End time: 12:09:58 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:58 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v 
+# -- Compiling module dpram1024x8
+# -- Compiling module dpram1024x8_ipgen_lscc_ram_dp
+# -- Compiling module dpram1024x8_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram1024x8_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram1024x8
+# End time: 12:09:58 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:58 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v 
+# -- Compiling module dpram2048x8
+# -- Compiling module dpram2048x8_ipgen_lscc_ram_dp
+# -- Compiling module dpram2048x8_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram2048x8_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram2048x8
+# End time: 12:09:58 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:58 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v 
+# -- Compiling module dpram256x32
+# -- Compiling module dpram256x32_ipgen_lscc_ram_dp
+# -- Compiling module dpram256x32_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram256x32_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram256x32
+# End time: 12:09:58 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:58 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v 
+# -- Compiling module dpram256x16
+# -- Compiling module dpram256x16_ipgen_lscc_ram_dp
+# -- Compiling module dpram256x16_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram256x16_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram256x16
+# End time: 12:09:58 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:58 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v 
+# -- Compiling module ice40_himax_video_process_128_32_wide_br
+# 
+# Top level modules:
+# 	ice40_himax_video_process_128_32_wide_br
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v 
+# -- Compiling module spi_loader_spram
+# 
+# Top level modules:
+# 	spi_loader_spram
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v 
+# -- Compiling module spi_loader_tri_spram
+# 
+# Top level modules:
+# 	spi_loader_tri_spram
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_ebram.v 
+# -- Compiling module spi_loader_ebram
+# 
+# Top level modules:
+# 	spi_loader_ebram
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v 
+# -- Compiling module spi_loader_wrap
+# 
+# Top level modules:
+# 	spi_loader_wrap
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v 
+# -- Compiling module dpram4096x8
+# -- Compiling module dpram4096x8_ipgen_lscc_ram_dp
+# -- Compiling module dpram4096x8_ipgen_lscc_ram_dp_main
+# -- Compiling module dpram4096x8_ipgen_lscc_ram_dp_core
+# 
+# Top level modules:
+# 	dpram4096x8
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v 
+# -- Compiling module lsc_uart
+# 
+# Top level modules:
+# 	lsc_uart
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v 
+# -- Compiling module lsc_i2cs_fsm
+# 
+# Top level modules:
+# 	lsc_i2cs_fsm
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v 
+# -- Compiling module lsc_i2cs
+# -- Compiling module double_sync2
+# 
+# Top level modules:
+# 	lsc_i2cs
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v 
+# -- Compiling module lsc_i2cs_signdet
+# 
+# Top level modules:
+# 	lsc_i2cs_signdet
+# End time: 12:09:59 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:09:59 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v 
+# -- Compiling module himax_led_strobe
+# 
+# Top level modules:
+# 	himax_led_strobe
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v 
+# -- Compiling module rom_himax_cfg_20fps_ir
+# -- Compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom
+# -- Compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst
+# -- Compiling module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core
+# 
+# Top level modules:
+# 	rom_himax_cfg_20fps_ir
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v 
+# -- Compiling module lsc_i2cm_16
+# 
+# Top level modules:
+# 	lsc_i2cm_16
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v 
+# -- Compiling module lsc_i2cm_himax
+# 
+# Top level modules:
+# 	lsc_i2cm_himax
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v 
+# -- Compiling module ice40_resetn
+# 
+# Top level modules:
+# 	ice40_resetn
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v 
+# -- Compiling module ice40_himax_signdet_clkgen
+# 
+# Top level modules:
+# 	ice40_himax_signdet_clkgen
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+# Start time: 12:10:00 on Mar 21,2022
+# vlog -reportprogress 300 "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work work C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v 
+# -- Compiling module lsc_ml_ice40_himax_signdet_top
+# ** Error: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_ml_ice40_himax_signdet_top.v(402): (vlog-2730) Undefined variable: 'w_uart_dout_vld'.
+# End time: 12:10:00 on Mar 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/lscc/radiant/3.1/modeltech/win32loem/vlog failed.
+# Error in macro C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\ProvaSImulation\ProvaSImulation.mdo line 74
+# C:/lscc/radiant/3.1/modeltech/win32loem/vlog failed.
+#     while executing
+# "vlog  "+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src" -work..."
+#     invoked from within
+# "if {![file exists "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_..."
+vsim -gui 80
+# vsim -gui 80 
+# Start time: 12:12:36 on Mar 21,2022
+# ** Error: (vsim-3170) Could not find '80'.
+#         Searched libraries:
+#             C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/ProvaSImulation/work
+# Error loading design
+# End time: 12:12:37 on Mar 21,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 35
+# Compile of lsc_ml_ice40_himax_signdet_top.v failed with 1 errors.
+restart -f
+# No Design Loaded!
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 

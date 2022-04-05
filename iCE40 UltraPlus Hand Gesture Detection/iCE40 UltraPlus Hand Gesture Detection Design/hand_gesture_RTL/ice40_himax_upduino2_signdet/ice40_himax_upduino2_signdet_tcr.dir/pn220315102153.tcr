@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/15/2022 08:56:49
+#Project Location: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet; Project name: ice40_himax_upduino2_signdet
+prj_open "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/ice40_himax_upduino2_signdet.rdf"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cm.v"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_himax_video_process_128_32_wide_br.v"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_himax_video_process_128_32_seq_wide_br.v"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_lcd_tx.v"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_loader_tri_spram.v"
+prj_disable_source "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_led_con.v"
+prj_save 
+#Stop recording: 3/15/2022 10:21:53

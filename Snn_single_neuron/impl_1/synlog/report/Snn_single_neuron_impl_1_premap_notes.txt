@@ -1,0 +1,10 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\users\lunar\desktop\snn_single_neuron\source\impl_1\neuron.v":45:8:45:18|Tristate driver neuron_out7 (in view: work.spike_network(verilog)) on net neuron_out7 (in view: work.spike_network(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\snn_single_neuron\source\impl_1\neuron.v":46:8:46:18|Tristate driver neuron_out8 (in view: work.spike_network(verilog)) on net neuron_out8 (in view: work.spike_network(verilog)) has its enable tied to GND.
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist spike_network 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: MO111 :"c:\users\lunar\desktop\snn_single_neuron\source\impl_1\neuron.v":46:8:46:18|Tristate driver neuron_out8 (in view: work.spike_network(verilog)) on net neuron_out8 (in view: work.spike_network(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\snn_single_neuron\source\impl_1\neuron.v":45:8:45:18|Tristate driver neuron_out7 (in view: work.spike_network(verilog)) on net neuron_out7 (in view: work.spike_network(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file C:\Users\lunar\Desktop\Snn_single_neuron\impl_1\Snn_single_neuron_impl_1.sap.

@@ -1,0 +1,108 @@
+#--  Synopsys, Inc.
+#--  Version R-2021.03LR-SP1
+#--  Project file C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1\scratchproject.prs
+
+#project files
+add_file -constraint "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/clone_impl1/ice40_himax_upduino2_signdet_clone_impl1_cpe.ldc"
+add_file -verilog "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v"
+add_file -vhdl -lib pmi "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_himax_signdet_clkgen.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_ml_ice40_himax_signdet_top.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/signdet_post.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/signdet_decision_filter.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/himax_led_strobe.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/strobe_ctl.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cs_signdet.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_resetn.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cm.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cm_16.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cm_himax.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cs.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_i2cs_fsm.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_led_con.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/lsc_uart.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_loader_spram.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_loader_tri_spram.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_loader_wrap.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/spi_lcd_tx.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_himax_video_process_128_32_wide_br.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/ice40_himax_video_process_128_32_seq_wide_br.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram1024x8/rtl/dpram1024x8.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram256x16/rtl/dpram256x16.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram_oled_fifo/rtl/dpram_oled_fifo.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram256x32/rtl/dpram256x32.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram2048x8/rtl/dpram2048x8.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram4096x8/rtl/dpram4096x8.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v"
+add_file -verilog -vlog_std v2001 "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v"
+
+
+#implementation: "clone_impl1"
+impl -add "C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\clone_impl1" -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/clone_impl1/}
+set_option -include_path {C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram1024x8;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram2048x8;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram256x16;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram256x32;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram4096x8;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram_lcd_fifo;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/dpram_oled_fifo;C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/source/clone_impl1/rom_himax_cfg_20fps_ir}
+
+#device options
+set_option -technology SBTICE40UP
+set_option -part iCE40UP5K
+set_option -package SG48I
+set_option -speed_grade -6
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "lsc_ml_ice40_himax_signdet_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# Lattice iCE40UP
+set_option -lattice_software Radiant
+set_option -maxfan 1000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 0
+set_option -run_prop_extract 1
+set_option -seqshift_no_replicate 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/clone_impl1/ice40_himax_upduino2_signdet_clone_impl1.vm"
+
+#set log file 
+set_option log_file "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/clone_impl1/ice40_himax_upduino2_signdet_clone_impl1.srf" 
+impl -active "clone_impl1"

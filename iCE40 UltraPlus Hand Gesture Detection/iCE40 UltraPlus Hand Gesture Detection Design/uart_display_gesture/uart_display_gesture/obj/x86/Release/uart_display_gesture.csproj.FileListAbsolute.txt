@@ -1,0 +1,13 @@
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\bin\Release\uart_display_gesture.exe
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\bin\Release\uart_display_gesture.pdb
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.csprojAssemblyReference.cache
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\MainWindow.baml
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\MainWindow.g.cs
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\App.g.cs
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture_MarkupCompile.cache
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.g.resources
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.Properties.Resources.resources
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.csproj.GenerateResource.cache
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.csproj.CoreCompileInputs.cache
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.exe
+C:\Users\Softnautics\Desktop\jay\hand-gesture-rework\uart_display_gesture\uart_display_gesture\obj\x86\Release\uart_display_gesture.pdb

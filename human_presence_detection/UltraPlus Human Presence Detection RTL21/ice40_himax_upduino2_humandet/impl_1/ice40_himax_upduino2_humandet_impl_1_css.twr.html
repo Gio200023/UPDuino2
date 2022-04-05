@@ -1,0 +1,5440 @@
+<HTML>
+<HEAD>
+<TITLE>Timing Report</TITLE>
+<link href="file:///C:/lscc/radiant/3.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/3.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+tapath {
+  display: none;
+}
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" class="Child" onclick="hideTocList()"><PRE>
+<A name="timing_rpt_top">Timing Report</A><B><U><big></big></U></B>
+Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 3.1.0.43.2
+
+Tue Mar 22 11:10:08 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2021 Lattice Semiconductor Corporation,  All rights reserved.
+
+Command line:    timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp High-Performance_1.2V -hsp m -pwrprd -html -rpt ice40_himax_upduino2_humandet_impl_1.twr ice40_himax_upduino2_humandet_impl_1.udb -gui
+
+---------------------------------------------------
+Design:          lsc_ml_ice40_himax_humandet_top
+Family:          iCE40UP
+Device:          iCE40UP5K
+Package:         SG48
+Performance:     High-Performance_1.2V
+Package Status:                     Preliminary    Version 1.5
+*Performance Hardware Data Status :   Advanced Version 1.0
+---------------------------------------------------
+
+
+=====================================================================
+                    Table of Contents
+=====================================================================
+<LI>    <A href=#Timing_rpt_DesignChecking>1  DESIGN CHECKING</A></LI>
+<LI>        <A href=#Timing_rpt_SDCConstraints>1.1  SDC Constraints</A></LI>
+<LI>        <A href=#Timing_rpt_CombinationalLoop>1.2  Combinational Loop</A></LI>
+<LI>    <A href=#Timing_rpt_ClockSummary>2  CLOCK SUMMARY</A></LI>
+<LI>        <A href=#Timing_rpt_Clk_1>2.1  Clock clk</A></LI>
+<LI>        <A href=#Timing_rpt_Clk_2>2.2  Clock cam_pclk</A></LI>
+<LI>    <A href=#Timing_rpt_AnalysisSummary>3  TIMING ANALYSIS SUMMARY</A></LI>
+<LI>        <A href=#Timing_rpt_Overall>3.1  Overall (Setup and Hold)</A></LI>
+<LI>            <A href=#Timing_rpt_ConstraintCoverage>3.1.1  Constraint Coverage</A></LI>
+<LI>            <A href=#Timing_rpt_Errors>3.1.2  Timing Errors</A></LI>
+<LI>            <A href=#Timing_rpt_TotalScore>3.1.3  Total Timing Score</A></LI>
+<LI>        <A href=#Timing_rpt_SetupSummary>3.2  Setup Summary Report</A></LI>
+<LI>        <A href=#Timing_rpt_HoldSummary>3.3  Hold Summary Report</A></LI>
+<LI>        <A href=#Timing_rpt_UnconstrainedReport>3.4  Unconstrained Report</A></LI>
+<LI>            <A href=#Timing_rpt_UnconstrainedEndpoints>3.4.1  Unconstrained Start/End Points</A></LI>
+<LI>            <A href=#Timing_rpt_StartEndPointsWithoutTimingConstraints>3.4.2  Start/End Points Without Timing Constraints</A></LI>
+<LI>    <A href=#Timing_rpt_DetailedReport>4  DETAILED REPORT</A></LI>
+<LI>        <A href=#Timing_rpt_SetupDetailedReport>4.1  Setup Detailed Report</A></LI>
+<LI>        <A href=#Timing_rpt_HoldDetailedReport>4.2  Hold Detailed Report</A></LI>
+
+=====================================================================
+                    End of Table of Contents
+=====================================================================
+
+
+<A name="Timing_rpt_DesignChecking"></A><B><U><big>1  DESIGN CHECKING</big></U></B>
+
+<A name="Timing_rpt_SDCConstraints"></A><B><U><big>1.1  SDC Constraints</big></U></B>
+
+create_clock -name {clk} -period 41.6667 [get_pins {genblk1.u_hfosc.osc_inst/CLKHF }] 
+create_clock -name {cam_pclk} -period 83.3333333333333 [get_ports cam_pclk]
+
+Operating conditions:
+--------------------
+    Temperature: 85C
+
+<A name="Timing_rpt_CombinationalLoop"></A><B><U><big>1.2  Combinational Loop</big></U></B>
+
+
+<A name="Timing_rpt_ClockSummary"></A><B><U><big>2  CLOCK SUMMARY</big></U></B>
+
+<A name="Timing_rpt_Clk_1"></A><B><U><big>2.1 Clock "clk"</big></U></B>
+
+create_clock -name {clk} -period 41.6667 [get_pins {genblk1.u_hfosc.osc_inst/CLKHF }] 
+
+Single Clock Domain
+-------------------------------------------------------------------------------------------------------
+               Clock clk                |                    |       Period       |     Frequency      
+-------------------------------------------------------------------------------------------------------
+ From clk                               |             Target |          41.667 ns |         24.000 MHz 
+                                        | Actual (all paths) |          20.830 ns |         48.008 MHz 
+genblk1.u_hfosc.osc_inst/CLKHF (MPW)    |   (50% duty cycle) |          20.830 ns |         48.008 MHz 
+-------------------------------------------------------------------------------------------------------
+
+Clock Domain Crossing
+------------------------------------------------------------------------------------------------------
+               Clock clk                |   Worst Time Between Edges   |           Comment            
+------------------------------------------------------------------------------------------------------
+ From cam_pclk                          |                    41.666 ns |            slack = 30.680 ns 
+------------------------------------------------------------------------------------------------------
+<A name="Timing_rpt_Clk_2"></A><B><U><big>2.2 Clock "cam_pclk"</big></U></B>
+
+create_clock -name {cam_pclk} -period 83.3333333333333 [get_ports cam_pclk]
+
+Single Clock Domain
+-------------------------------------------------------------------------------------------------------
+             Clock cam_pclk             |                    |       Period       |     Frequency      
+-------------------------------------------------------------------------------------------------------
+ From cam_pclk                          |             Target |          83.333 ns |         12.000 MHz 
+                                        | Actual (all paths) |          19.415 ns |         51.507 MHz 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/RCLK (MPW)                                                                
+                                        |   (50% duty cycle) |           1.340 ns |        746.269 MHz 
+-------------------------------------------------------------------------------------------------------
+
+Clock Domain Crossing
+------------------------------------------------------------------------------------------------------
+             Clock cam_pclk             |   Worst Time Between Edges   |           Comment            
+------------------------------------------------------------------------------------------------------
+ From clk                               |                    41.666 ns |            slack = 32.706 ns 
+------------------------------------------------------------------------------------------------------
+
+
+<A name="Timing_rpt_AnalysisSummary"></A><B><U><big>3  TIMING ANALYSIS SUMMARY</big></U></B>
+
+<A name="Timing_rpt_Overall"></A><B><U><big>3.1  Overall (Setup and Hold)</big></U></B>
+
+<A name="Timing_rpt_ConstraintCoverage"></A><B><U><big>3.1.1  Constraint Coverage</big></U></B>
+
+Constraint Coverage: 98.2209%
+
+<A name="Timing_rpt_Errors"></A><B><U><big>3.1.2  Timing Errors</big></U></B>
+
+Timing Errors: 0 endpoints (setup), 0 endpoints (hold)
+
+<A name="Timing_rpt_TotalScore"></A><B><U><big>3.1.3  Total Timing Score</big></U></B>
+
+Total Negative Slack: 0.000 ns (setup), 0.000 ns (hold)
+
+<A name="Timing_rpt_SetupSummary"></A><B><U><big>3.2  Setup Summary Report</big></U></B>
+
+-------------------------------------------------------
+          Listing 10 End Points          |    Slack    
+-------------------------------------------------------
+u_spi_lcd_tx/o_init_done.ff_inst/SP      |   23.774 ns 
+u_spi_lcd_tx/o_running.ff_inst/SP        |   25.125 ns 
+u_spi_lcd_tx/raddr_Z[0].ff_inst/SP       |   25.642 ns 
+{u_spi_lcd_tx/raddr_Z[1].ff_inst/SP   u_spi_lcd_tx/raddr_Z[2].ff_inst/SP}              
+                                         |   25.642 ns 
+{u_spi_lcd_tx/raddr_Z[3].ff_inst/SP   u_spi_lcd_tx/raddr_Z[4].ff_inst/SP}              
+                                         |   25.642 ns 
+{u_spi_lcd_tx/raddr_Z[5].ff_inst/SP   u_spi_lcd_tx/raddr_Z[6].ff_inst/SP}              
+                                         |   25.642 ns 
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[5].ff_inst/D              
+                                         |   26.051 ns 
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_Z.ff_inst/D              
+                                         |   26.568 ns 
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_Z[7].ff_inst/D              
+                                         |   26.568 ns 
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[7].ff_inst/D              
+                                         |   26.568 ns 
+-------------------------------------------------------
+                                         |             
+Setup # of endpoints with negative slack:|           0 
+                                         |             
+-------------------------------------------------------
+
+<A name="Timing_rpt_HoldSummary"></A><B><U><big>3.3  Hold Summary Report</big></U></B>
+
+-------------------------------------------------------
+          Listing 10 End Points          |    Slack    
+-------------------------------------------------------
+genblk5.u_ice40_himax_video_process_128/lcd_cmd_wr.ff_inst/D              
+                                         |    0.223 ns 
+genblk5.u_ice40_himax_video_process_128/frame_en.ff_inst/D              
+                                         |    0.421 ns 
+genblk5.u_ice40_himax_video_process_128/lcd_running_d_Z[0].ff_inst/D              
+                                         |    0.421 ns 
+u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/RADDR7              
+                                         |    1.411 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA13              
+                                         |    1.433 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA14              
+                                         |    1.433 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA15              
+                                         |    1.433 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA0              
+                                         |    1.433 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA1              
+                                         |    1.433 ns 
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA3              
+                                         |    1.433 ns 
+-------------------------------------------------------
+                                         |             
+Hold # of endpoints with negative slack: |           0 
+                                         |             
+-------------------------------------------------------
+
+<A name="Timing_rpt_UnconstrainedReport"></A><B><U><big>3.4  Unconstrained Report</big></U></B>
+
+<A name="Timing_rpt_UnconstrainedEndpoints"></A><B><U><big>3.4.1  Unconstrained Start/End Points</big></U></B>
+
+Clocked but unconstrained timing start points
+-------------------------------------------------------------------
+         Listing 7 Start Points         |           Type           
+-------------------------------------------------------------------
+u_spi_lcd_tx/SPI_CLK.ff_inst/Q          |          No required time
+u_lsc_i2cm_himax/u_lsc_i2cm/r_scl_out.ff_inst/Q                           
+                                        |          No required time
+g_on_en_uart.u_lsc_uart/o_txd_Z.ff_inst/Q                           
+                                        |          No required time
+u_lsc_i2cm_himax/u_lsc_i2cm/r_sda_out.ff_inst/Q                           
+                                        |          No required time
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/o_load_done_rep0.ff_inst/Q                           
+                                        |          No required time
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CLK_Z.ff_inst/Q                           
+                                        |          No required time
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI.ff_inst/Q                           
+                                        |          No required time
+-------------------------------------------------------------------
+                                        |                          
+Number of unconstrained timing start po |                          
+ints                                    |                         7
+                                        |                          
+-------------------------------------------------------------------
+
+Clocked but unconstrained timing end points
+-------------------------------------------------------------------
+          Listing 6 End Points          |           Type           
+-------------------------------------------------------------------
+u_io_cam_de/PADDI                       |           No arrival time
+u_io_cam_vsync/PADDI                    |           No arrival time
+u_io_cam_data[3]/PADDI                  |           No arrival time
+u_io_cam_data[2]/PADDI                  |           No arrival time
+u_io_cam_data[1]/PADDI                  |           No arrival time
+u_io_cam_data[0]/PADDI                  |           No arrival time
+-------------------------------------------------------------------
+                                        |                          
+Number of unconstrained timing end poin |                          
+ts                                      |                         6
+                                        |                          
+-------------------------------------------------------------------
+
+<A name="Timing_rpt_StartEndPointsWithoutTimingConstraints"></A><B><U><big>3.4.2  Start/End Points Without Timing Constraints</big></U></B>
+
+I/O ports without constraint
+----------------------------
+Possible constraints to use on I/O ports are:
+set_input_delay,
+set_output_delay,
+set_max_delay,
+create_clock,
+create_generated_clock,
+...
+
+-------------------------------------------------------------------
+     Listing 10 Start or End Points     |           Type           
+-------------------------------------------------------------------
+cam_hsync                               |                     input
+cam_vsync                               |                     input
+cam_data[0]                             |                     input
+cam_data[1]                             |                     input
+cam_data[2]                             |                     input
+cam_data[3]                             |                     input
+debug_scl                               |                     input
+debug_sda                               |                     input
+uart_rxd                                |                     input
+spi_miso                                |                     input
+-------------------------------------------------------------------
+                                        |                          
+Number of I/O ports without constraint  |                        26
+                                        |                          
+-------------------------------------------------------------------
+
+Registers without clock definition
+Define the clock for these registers.
+--------------------------------------------------
+There is no instance satisfying reporting criteria
+
+
+<A name="Timing_rpt_DetailedReport"></A><B><U><big>4  DETAILED REPORT</big></U></B>
+<A name="Timing_rpt_SetupDetailedReport"></A><B><U><big>4.1  Setup Detailed Report</big></U></B>
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Detail report of critical paths
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q  (SLICE_R9C23B)
+Path End         : u_spi_lcd_tx/o_init_done.ff_inst/SP  (SLICE_R12C28D)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 82.0% (route), 18.0% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 23.773 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_359/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_359/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/o_init_done.ff_inst/SP",
+        "phy_name":"SLICE_361/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_359/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_359/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d[5]",
+            "phy_name":"u_spi_lcd_tx.waddr_clk_d[5]"
+        },
+        "arrive":9.047,
+        "delay":2.146
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_530/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_530/F1"
+        },
+        "arrive":9.497,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty_17_1",
+            "phy_name":"u_spi_lcd_tx.empty_17_1"
+        },
+        "arrive":12.649,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_RNI0B105[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_491/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_RNI0B105[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_491/F1"
+        },
+        "arrive":13.099,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty_17_9",
+            "phy_name":"u_spi_lcd_tx.empty_17_9"
+        },
+        "arrive":15.655,
+        "delay":2.556
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/A",
+            "phy_name":"u_spi_lcd_tx.SLICE_484/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_484/F0"
+        },
+        "arrive":16.105,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty",
+            "phy_name":"u_spi_lcd_tx.empty"
+        },
+        "arrive":19.469,
+        "delay":3.364
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_init_done_RNO/A",
+            "phy_name":"u_spi_lcd_tx.SLICE_548/D0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_init_done_RNO/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_548/F0"
+        },
+        "arrive":19.919,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un3_empty_0_i",
+            "phy_name":"u_spi_lcd_tx.un3_empty_0_i"
+        },
+        "arrive":23.204,
+        "delay":3.285
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK->u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q
+                                          SLICE_R9C23B    CLK_TO_Q0_DELAY  1.391         6.901  2       
+u_spi_lcd_tx/waddr_clk_d[5]                               NET DELAY        2.146         9.047  2       
+u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/D->u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/Z
+                                          SLICE_R9C23A    A1_TO_F1_DELAY   0.450         9.497  1       
+u_spi_lcd_tx/empty_17_1                                   NET DELAY        3.152        12.649  1       
+u_spi_lcd_tx/raddr_RNI0B105[2]/B->u_spi_lcd_tx/raddr_RNI0B105[2]/Z
+                                          SLICE_R9C25A    A1_TO_F1_DELAY   0.450        13.099  2       
+u_spi_lcd_tx/empty_17_9                                   NET DELAY        2.556        15.655  2       
+u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/A->u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/Z
+                                          SLICE_R9C26B    A0_TO_F0_DELAY   0.450        16.105  21      
+u_spi_lcd_tx/empty                                        NET DELAY        3.364        19.469  21      
+u_spi_lcd_tx/o_init_done_RNO/A->u_spi_lcd_tx/o_init_done_RNO/Z
+                                          SLICE_R11C28C   D0_TO_F0_DELAY   0.450        19.919  1       
+u_spi_lcd_tx/un3_empty_0_i ( CE )                         NET DELAY        3.285        23.204  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/o_init_done.ff_inst/CK",
+        "phy_name":"SLICE_361/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -23.203  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     23.773  
+
+
+
+
+++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q  (SLICE_R9C23B)
+Path End         : u_spi_lcd_tx/o_running.ff_inst/SP  (SLICE_R11C28C)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 80.5% (route), 19.5% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 25.124 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_359/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_359/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/o_running.ff_inst/SP",
+        "phy_name":"u_spi_lcd_tx.SLICE_548/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_359/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_359/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d[5]",
+            "phy_name":"u_spi_lcd_tx.waddr_clk_d[5]"
+        },
+        "arrive":9.047,
+        "delay":2.146
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_530/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_530/F1"
+        },
+        "arrive":9.497,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty_17_1",
+            "phy_name":"u_spi_lcd_tx.empty_17_1"
+        },
+        "arrive":12.649,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_RNI0B105[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_491/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_RNI0B105[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_491/F1"
+        },
+        "arrive":13.099,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty_17_9",
+            "phy_name":"u_spi_lcd_tx.empty_17_9"
+        },
+        "arrive":15.655,
+        "delay":2.556
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/A",
+            "phy_name":"u_spi_lcd_tx.SLICE_484/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_484/F0"
+        },
+        "arrive":16.105,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/empty",
+            "phy_name":"u_spi_lcd_tx.empty"
+        },
+        "arrive":19.191,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNO_0/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_413/B1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNO_0/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_413/F1"
+        },
+        "arrive":19.641,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un1_o_running16_0",
+            "phy_name":"u_spi_lcd_tx.un1_o_running16_0"
+        },
+        "arrive":21.853,
+        "delay":2.212
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/CK->u_spi_lcd_tx/waddr_clk_d_Z[5].ff_inst/Q
+                                          SLICE_R9C23B    CLK_TO_Q0_DELAY  1.391         6.901  2       
+u_spi_lcd_tx/waddr_clk_d[5]                               NET DELAY        2.146         9.047  2       
+u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/D->u_spi_lcd_tx/waddr_clk_d_RNIK6081[4]/Z
+                                          SLICE_R9C23A    A1_TO_F1_DELAY   0.450         9.497  1       
+u_spi_lcd_tx/empty_17_1                                   NET DELAY        3.152        12.649  1       
+u_spi_lcd_tx/raddr_RNI0B105[2]/B->u_spi_lcd_tx/raddr_RNI0B105[2]/Z
+                                          SLICE_R9C25A    A1_TO_F1_DELAY   0.450        13.099  2       
+u_spi_lcd_tx/empty_17_9                                   NET DELAY        2.556        15.655  2       
+u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/A->u_spi_lcd_tx/waddr_clk_RNIKDJVA[0]/Z
+                                          SLICE_R9C26B    A0_TO_F0_DELAY   0.450        16.105  21      
+u_spi_lcd_tx/empty                                        NET DELAY        3.086        19.191  21      
+u_spi_lcd_tx/o_running_RNO_0/B->u_spi_lcd_tx/o_running_RNO_0/Z
+                                          SLICE_R10C28B   B1_TO_F1_DELAY   0.450        19.641  1       
+u_spi_lcd_tx/un1_o_running16_0 ( CE )                     NET DELAY        2.212        21.853  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/o_running.ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_548/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -21.852  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     25.124  
+
+
+
+
+++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q  (SLICE_R10C27D)
+Path End         : u_spi_lcd_tx/raddr_Z[0].ff_inst/SP  (SLICE_R8C24A)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 79.7% (route), 20.3% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 25.641 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[0].ff_inst/SP",
+        "phy_name":"u_spi_lcd_tx.SLICE_82/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt[3]",
+            "phy_name":"u_spi_lcd_tx.bit_cnt[3]"
+        },
+        "arrive":8.980,
+        "delay":2.079
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/B0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/F0"
+        },
+        "arrive":9.430,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un5_rd_0",
+            "phy_name":"u_spi_lcd_tx.un5_rd_0"
+        },
+        "arrive":12.582,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/F1"
+        },
+        "arrive":13.032,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_0",
+            "phy_name":"u_spi_lcd_tx.rd_0"
+        },
+        "arrive":16.184,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F0"
+        },
+        "arrive":16.661,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_d",
+            "phy_name":"u_spi_lcd_tx.rd_d"
+        },
+        "arrive":16.966,
+        "delay":0.305
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/C1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F1"
+        },
+        "arrive":17.416,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/raddre_0_i",
+            "phy_name":"u_spi_lcd_tx.raddre_0_i"
+        },
+        "arrive":21.336,
+        "delay":3.920
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK->u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q
+                                          SLICE_R10C27D   CLK_TO_Q0_DELAY  1.391         6.901  3       
+u_spi_lcd_tx/bit_cnt[3]                                   NET DELAY        2.079         8.980  3       
+u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B->u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z
+                                          SLICE_R10C28A   B0_TO_F0_DELAY   0.450         9.430  4       
+u_spi_lcd_tx/un5_rd_0                                     NET DELAY        3.152        12.582  4       
+u_spi_lcd_tx/o_running_RNIDBKD1/C->u_spi_lcd_tx/o_running_RNIDBKD1/Z
+                                          SLICE_R9C27A    A1_TO_F1_DELAY   0.450        13.032  3       
+u_spi_lcd_tx/rd_0                                         NET DELAY        3.152        16.184  3       
+u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D->u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z
+                                          SLICE_R9C25B    A0_TO_F0_DELAY   0.477        16.661  1       
+u_spi_lcd_tx/rd_d                                         NET DELAY        0.305        16.966  1       
+u_spi_lcd_tx/o_running_RNIPKU9E/C->u_spi_lcd_tx/o_running_RNIPKU9E/Z
+                                          SLICE_R9C25B    C1_TO_F1_DELAY   0.450        17.416  6       
+u_spi_lcd_tx/raddre_0_i ( CE )                            NET DELAY        3.920        21.336  6       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[0].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_82/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -21.335  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     25.641  
+
+
+
+
+++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q  (SLICE_R10C27D)
+Path End         : {u_spi_lcd_tx/raddr_Z[1].ff_inst/SP   u_spi_lcd_tx/raddr_Z[2].ff_inst/SP}  (SLICE_R8C24B)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 79.7% (route), 20.3% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 25.641 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"{u_spi_lcd_tx/raddr_Z[1].ff_inst/SP   u_spi_lcd_tx/raddr_Z[2].ff_inst/SP}",
+        "phy_name":"u_spi_lcd_tx.SLICE_81/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt[3]",
+            "phy_name":"u_spi_lcd_tx.bit_cnt[3]"
+        },
+        "arrive":8.980,
+        "delay":2.079
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/B0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/F0"
+        },
+        "arrive":9.430,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un5_rd_0",
+            "phy_name":"u_spi_lcd_tx.un5_rd_0"
+        },
+        "arrive":12.582,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/F1"
+        },
+        "arrive":13.032,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_0",
+            "phy_name":"u_spi_lcd_tx.rd_0"
+        },
+        "arrive":16.184,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F0"
+        },
+        "arrive":16.661,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_d",
+            "phy_name":"u_spi_lcd_tx.rd_d"
+        },
+        "arrive":16.966,
+        "delay":0.305
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/C1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F1"
+        },
+        "arrive":17.416,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/raddre_0_i",
+            "phy_name":"u_spi_lcd_tx.raddre_0_i"
+        },
+        "arrive":21.336,
+        "delay":3.920
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK->u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q
+                                          SLICE_R10C27D   CLK_TO_Q0_DELAY  1.391         6.901  3       
+u_spi_lcd_tx/bit_cnt[3]                                   NET DELAY        2.079         8.980  3       
+u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B->u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z
+                                          SLICE_R10C28A   B0_TO_F0_DELAY   0.450         9.430  4       
+u_spi_lcd_tx/un5_rd_0                                     NET DELAY        3.152        12.582  4       
+u_spi_lcd_tx/o_running_RNIDBKD1/C->u_spi_lcd_tx/o_running_RNIDBKD1/Z
+                                          SLICE_R9C27A    A1_TO_F1_DELAY   0.450        13.032  3       
+u_spi_lcd_tx/rd_0                                         NET DELAY        3.152        16.184  3       
+u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D->u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z
+                                          SLICE_R9C25B    A0_TO_F0_DELAY   0.477        16.661  1       
+u_spi_lcd_tx/rd_d                                         NET DELAY        0.305        16.966  1       
+u_spi_lcd_tx/o_running_RNIPKU9E/C->u_spi_lcd_tx/o_running_RNIPKU9E/Z
+                                          SLICE_R9C25B    C1_TO_F1_DELAY   0.450        17.416  6       
+u_spi_lcd_tx/raddre_0_i ( CE )                            NET DELAY        3.920        21.336  6       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[1].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_81/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -21.335  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     25.641  
+
+
+
+
+++++ Path 5 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q  (SLICE_R10C27D)
+Path End         : {u_spi_lcd_tx/raddr_Z[3].ff_inst/SP   u_spi_lcd_tx/raddr_Z[4].ff_inst/SP}  (SLICE_R8C24C)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 79.7% (route), 20.3% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 25.641 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"{u_spi_lcd_tx/raddr_Z[3].ff_inst/SP   u_spi_lcd_tx/raddr_Z[4].ff_inst/SP}",
+        "phy_name":"u_spi_lcd_tx.SLICE_80/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt[3]",
+            "phy_name":"u_spi_lcd_tx.bit_cnt[3]"
+        },
+        "arrive":8.980,
+        "delay":2.079
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/B0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/F0"
+        },
+        "arrive":9.430,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un5_rd_0",
+            "phy_name":"u_spi_lcd_tx.un5_rd_0"
+        },
+        "arrive":12.582,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/F1"
+        },
+        "arrive":13.032,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_0",
+            "phy_name":"u_spi_lcd_tx.rd_0"
+        },
+        "arrive":16.184,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F0"
+        },
+        "arrive":16.661,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_d",
+            "phy_name":"u_spi_lcd_tx.rd_d"
+        },
+        "arrive":16.966,
+        "delay":0.305
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/C1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F1"
+        },
+        "arrive":17.416,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/raddre_0_i",
+            "phy_name":"u_spi_lcd_tx.raddre_0_i"
+        },
+        "arrive":21.336,
+        "delay":3.920
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK->u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q
+                                          SLICE_R10C27D   CLK_TO_Q0_DELAY  1.391         6.901  3       
+u_spi_lcd_tx/bit_cnt[3]                                   NET DELAY        2.079         8.980  3       
+u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B->u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z
+                                          SLICE_R10C28A   B0_TO_F0_DELAY   0.450         9.430  4       
+u_spi_lcd_tx/un5_rd_0                                     NET DELAY        3.152        12.582  4       
+u_spi_lcd_tx/o_running_RNIDBKD1/C->u_spi_lcd_tx/o_running_RNIDBKD1/Z
+                                          SLICE_R9C27A    A1_TO_F1_DELAY   0.450        13.032  3       
+u_spi_lcd_tx/rd_0                                         NET DELAY        3.152        16.184  3       
+u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D->u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z
+                                          SLICE_R9C25B    A0_TO_F0_DELAY   0.477        16.661  1       
+u_spi_lcd_tx/rd_d                                         NET DELAY        0.305        16.966  1       
+u_spi_lcd_tx/o_running_RNIPKU9E/C->u_spi_lcd_tx/o_running_RNIPKU9E/Z
+                                          SLICE_R9C25B    C1_TO_F1_DELAY   0.450        17.416  6       
+u_spi_lcd_tx/raddre_0_i ( CE )                            NET DELAY        3.920        21.336  6       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[3].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_80/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -21.335  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     25.641  
+
+
+
+
+++++ Path 6 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q  (SLICE_R10C27D)
+Path End         : {u_spi_lcd_tx/raddr_Z[5].ff_inst/SP   u_spi_lcd_tx/raddr_Z[6].ff_inst/SP}  (SLICE_R8C24D)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 79.7% (route), 20.3% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 25.641 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"{u_spi_lcd_tx/raddr_Z[5].ff_inst/SP   u_spi_lcd_tx/raddr_Z[6].ff_inst/SP}",
+        "phy_name":"u_spi_lcd_tx.SLICE_79/CE"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_378/Q0"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt[3]",
+            "phy_name":"u_spi_lcd_tx.bit_cnt[3]"
+        },
+        "arrive":8.980,
+        "delay":2.079
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/B0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_414/F0"
+        },
+        "arrive":9.430,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/un5_rd_0",
+            "phy_name":"u_spi_lcd_tx.un5_rd_0"
+        },
+        "arrive":12.582,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/A1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIDBKD1/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_488/F1"
+        },
+        "arrive":13.032,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_0",
+            "phy_name":"u_spi_lcd_tx.rd_0"
+        },
+        "arrive":16.184,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/A0"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F0"
+        },
+        "arrive":16.661,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/rd_d",
+            "phy_name":"u_spi_lcd_tx.rd_d"
+        },
+        "arrive":16.966,
+        "delay":0.305
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/C",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/C1"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/o_running_RNIPKU9E/Z",
+            "phy_name":"u_spi_lcd_tx.SLICE_415/F1"
+        },
+        "arrive":17.416,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/raddre_0_i",
+            "phy_name":"u_spi_lcd_tx.raddre_0_i"
+        },
+        "arrive":21.336,
+        "delay":3.920
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/CK->u_spi_lcd_tx/bit_cnt_Z[3].ff_inst/Q
+                                          SLICE_R10C27D   CLK_TO_Q0_DELAY  1.391         6.901  3       
+u_spi_lcd_tx/bit_cnt[3]                                   NET DELAY        2.079         8.980  3       
+u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/B->u_spi_lcd_tx/bit_cnt_RNIHAGF[2]/Z
+                                          SLICE_R10C28A   B0_TO_F0_DELAY   0.450         9.430  4       
+u_spi_lcd_tx/un5_rd_0                                     NET DELAY        3.152        12.582  4       
+u_spi_lcd_tx/o_running_RNIDBKD1/C->u_spi_lcd_tx/o_running_RNIDBKD1/Z
+                                          SLICE_R9C27A    A1_TO_F1_DELAY   0.450        13.032  3       
+u_spi_lcd_tx/rd_0                                         NET DELAY        3.152        16.184  3       
+u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/D->u_spi_lcd_tx/waddr_clk_RNIL29A8[0]/Z
+                                          SLICE_R9C25B    A0_TO_F0_DELAY   0.477        16.661  1       
+u_spi_lcd_tx/rd_d                                         NET DELAY        0.305        16.966  1       
+u_spi_lcd_tx/o_running_RNIPKU9E/C->u_spi_lcd_tx/o_running_RNIPKU9E/Z
+                                          SLICE_R9C25B    C1_TO_F1_DELAY   0.450        17.416  6       
+u_spi_lcd_tx/raddre_0_i ( CE )                            NET DELAY        3.920        21.336  6       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[5].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_79/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -21.335  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     25.641  
+
+
+
+
+++++ Path 7 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q  (SLICE_R17C5C)
+Path End         : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[5].ff_inst/D  (SLICE_R17C4A)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 79.1% (route), 20.9% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 26.050 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[1].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[5].ff_inst/D",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_208/DI0"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt[0]"
+        },
+        "arrive":9.259,
+        "delay":2.358
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/D1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/F1"
+        },
+        "arrive":9.709,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cst_ns_0_o2_3[3]"
+        },
+        "arrive":12.795,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/F1"
+        },
+        "arrive":13.245,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.N_143_0"
+        },
+        "arrive":16.331,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/B0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/F0"
+        },
+        "arrive":16.781,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SPI_MOSI_1_sqmuxa_1"
+        },
+        "arrive":20.450,
+        "delay":3.669
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[5]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_208/A0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[5]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_208/F0"
+        },
+        "arrive":20.927,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_6[5]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt_6[5]"
+        },
+        "arrive":20.927,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q
+                                          SLICE_R17C5C    CLK_TO_Q1_DELAY  1.391         6.901  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]
+                                                          NET DELAY        2.358         9.259  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z
+                                          SLICE_R17C6D    D1_TO_F1_DELAY   0.450         9.709  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]
+                                                          NET DELAY        3.086        12.795  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z
+                                          SLICE_R16C5A    B1_TO_F1_DELAY   0.450        13.245  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0
+                                                          NET DELAY        3.086        16.331  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z
+                                          SLICE_R16C7B    B0_TO_F0_DELAY   0.450        16.781  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1
+                                                          NET DELAY        3.669        20.450  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[5]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[5]/Z
+                                          SLICE_R17C4A    A0_TO_F0_DELAY   0.477        20.927  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_6[5] ( DI0 )
+                                                          NET DELAY        0.000        20.927  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[5].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_208/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -20.926  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     26.050  
+
+
+
+
+++++ Path 8 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q  (SLICE_R17C5C)
+Path End         : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_Z.ff_inst/D  (SLICE_R15C5C)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 78.4% (route), 21.6% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 26.567 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[1].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_Z.ff_inst/D",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_588/DI1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt[0]"
+        },
+        "arrive":9.259,
+        "delay":2.358
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/D1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/F1"
+        },
+        "arrive":9.709,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cst_ns_0_o2_3[3]"
+        },
+        "arrive":12.795,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/F1"
+        },
+        "arrive":13.245,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.N_143_0"
+        },
+        "arrive":16.331,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/B0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/F0"
+        },
+        "arrive":16.781,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SPI_MOSI_1_sqmuxa_1"
+        },
+        "arrive":19.933,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_RNO/B",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_588/A1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_RNO/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_588/F1"
+        },
+        "arrive":20.410,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SPI_CSS"
+        },
+        "arrive":20.410,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q
+                                          SLICE_R17C5C    CLK_TO_Q1_DELAY  1.391         6.901  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]
+                                                          NET DELAY        2.358         9.259  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z
+                                          SLICE_R17C6D    D1_TO_F1_DELAY   0.450         9.709  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]
+                                                          NET DELAY        3.086        12.795  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z
+                                          SLICE_R16C5A    B1_TO_F1_DELAY   0.450        13.245  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0
+                                                          NET DELAY        3.086        16.331  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z
+                                          SLICE_R16C7B    B0_TO_F0_DELAY   0.450        16.781  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1
+                                                          NET DELAY        3.152        19.933  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_RNO/B->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_RNO/Z
+                                          SLICE_R15C5C    A1_TO_F1_DELAY   0.477        20.410  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS ( DI1 )
+                                                          NET DELAY        0.000        20.410  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_CSS_Z.ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_588/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -20.409  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     26.567  
+
+
+
+
+++++ Path 9 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q  (SLICE_R17C5C)
+Path End         : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_Z[7].ff_inst/D  (SLICE_R15C5B)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 78.4% (route), 21.6% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 26.567 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[1].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_Z[7].ff_inst/D",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_223/DI1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt[0]"
+        },
+        "arrive":9.259,
+        "delay":2.358
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/D1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/F1"
+        },
+        "arrive":9.709,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cst_ns_0_o2_3[3]"
+        },
+        "arrive":12.795,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/F1"
+        },
+        "arrive":13.245,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.N_143_0"
+        },
+        "arrive":16.331,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/B0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/F0"
+        },
+        "arrive":16.781,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SPI_MOSI_1_sqmuxa_1"
+        },
+        "arrive":19.933,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_RNO[7]/B",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_223/A1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_RNO[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_223/F1"
+        },
+        "arrive":20.410,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_6",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cst_6"
+        },
+        "arrive":20.410,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q
+                                          SLICE_R17C5C    CLK_TO_Q1_DELAY  1.391         6.901  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]
+                                                          NET DELAY        2.358         9.259  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z
+                                          SLICE_R17C6D    D1_TO_F1_DELAY   0.450         9.709  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]
+                                                          NET DELAY        3.086        12.795  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z
+                                          SLICE_R16C5A    B1_TO_F1_DELAY   0.450        13.245  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0
+                                                          NET DELAY        3.086        16.331  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z
+                                          SLICE_R16C7B    B0_TO_F0_DELAY   0.450        16.781  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1
+                                                          NET DELAY        3.152        19.933  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_RNO[7]/B->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_RNO[7]/Z
+                                          SLICE_R15C5B    A1_TO_F1_DELAY   0.477        20.410  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_6 ( DI1 )
+                                                          NET DELAY        0.000        20.410  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_Z[6].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_223/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -20.409  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     26.567  
+
+
+
+
+++++ Path 10 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q  (SLICE_R17C5C)
+Path End         : genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[7].ff_inst/D  (SLICE_R17C5D)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 5
+Delay Ratio      : 78.4% (route), 21.6% (logic)
+Clock Skew       : 0.000 ns
+Setup Constraint : 41.666 ns 
+Path Slack       : 26.567 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[1].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":5.510,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  152     
+u_resetn/clk_i                                               NET DELAY      5.510         5.510  152     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[7].ff_inst/D",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_206/DI0"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_212/Q1"
+        },
+        "arrive":6.901,
+        "delay":1.391
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt[0]"
+        },
+        "arrive":9.259,
+        "delay":2.358
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/D1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_456/F1"
+        },
+        "arrive":9.709,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cst_ns_0_o2_3[3]"
+        },
+        "arrive":12.795,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_451/F1"
+        },
+        "arrive":13.245,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.N_143_0"
+        },
+        "arrive":16.331,
+        "delay":3.086
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/B0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_533/F0"
+        },
+        "arrive":16.781,
+        "delay":0.450
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SPI_MOSI_1_sqmuxa_1"
+        },
+        "arrive":19.933,
+        "delay":3.152
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[7]/A",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_206/A0"
+        },
+        "pin1":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[7]/Z",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_206/F0"
+        },
+        "arrive":20.410,
+        "delay":0.477
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_6[7]",
+            "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.cnt_6[7]"
+        },
+        "arrive":20.410,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/CK->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[0].ff_inst/Q
+                                          SLICE_R17C5C    CLK_TO_Q1_DELAY  1.391         6.901  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt[0]
+                                                          NET DELAY        2.358         9.259  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIPBB51[7]/Z
+                                          SLICE_R17C6D    D1_TO_F1_DELAY   0.450         9.709  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cst_ns_0_o2_3[3]
+                                                          NET DELAY        3.086        12.795  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/C->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNIH92G3[6]/Z
+                                          SLICE_R16C5A    B1_TO_F1_DELAY   0.450        13.245  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/N_143_0
+                                                          NET DELAY        3.086        16.331  10      
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/phase_RNI617V3/Z
+                                          SLICE_R16C7B    B0_TO_F0_DELAY   0.450        16.781  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/SPI_MOSI_1_sqmuxa_1
+                                                          NET DELAY        3.152        19.933  8       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[7]/A->genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_RNO[7]/Z
+                                          SLICE_R17C5D    A0_TO_F0_DELAY   0.477        20.410  1       
+genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_6[7] ( DI0 )
+                                                          NET DELAY        0.000        20.410  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/cnt_Z[7].ff_inst/CK",
+        "phy_name":"genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_206/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":41.666,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":47.176,
+        "delay":5.510
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000        41.666  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000        41.666  152     
+u_resetn/clk_i ( CLK )                                       NET DELAY      5.510        47.176  152     
+                                                             Uncertainty    0.000        47.176  
+                                                             Setup time     0.199        46.977  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            46.977  
+Arrival Time                                                                            -20.409  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                     26.567  
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    End of Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+
+##########################################################
+
+<A name="Timing_rpt_HoldDetailedReport"></A><B><U><big>4.2  Hold Detailed Report</big></U></B>
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Detail report of critical paths
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : r_lcd_running_Z.ff_inst/Q  (SLICE_R11C26B)
+Path End         : genblk5.u_ice40_himax_video_process_128/lcd_cmd_wr.ff_inst/D  (SLICE_R11C25C)
+Source Clock     : clk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 2
+Delay Ratio      : 51.0% (route), 49.0% (logic)
+Clock Skew       : 1.854 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 0.222 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":3.041,
+        "delay":3.041
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  153     
+u_resetn/clk_i                                               NET DELAY      3.041         3.041  153     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/lcd_cmd_wr.ff_inst/D",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/DI1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+        },
+        "arrive":3.809,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/r_lcd_running",
+            "phy_name":"r_lcd_running"
+        },
+        "arrive":4.869,
+        "delay":1.060
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/D1",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/D1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/F1",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/F1"
+        },
+        "arrive":5.118,
+        "delay":0.249
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128.o_lcd_mode8$n1",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.o_lcd_mode8$n1"
+        },
+        "arrive":5.118,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+r_lcd_running_Z.ff_inst/CK->r_lcd_running_Z.ff_inst/Q
+                                          SLICE_R11C26B   CLK_TO_Q1_DELAY  0.768         3.809  4       
+genblk5.u_ice40_himax_video_process_128/r_lcd_running
+                                                          NET DELAY        1.060         4.869  4       
+genblk5.u_ice40_himax_video_process_128.SLICE_616/D1->genblk5.u_ice40_himax_video_process_128.SLICE_616/F1
+                                          SLICE_R11C25C   D1_TO_F1_DELAY   0.249         5.118  1       
+genblk5.u_ice40_himax_video_process_128.o_lcd_mode8$n1 ( DI1 )
+                                                          NET DELAY        0.000         5.118  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/lcd_cmd_wr.ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_616/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( CLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.000         4.895  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.895  
+Arrival Time                                                                                                   5.118  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           0.222  
+
+
+
+
+++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : r_lcd_running_Z.ff_inst/Q  (SLICE_R11C26B)
+Path End         : genblk5.u_ice40_himax_video_process_128/frame_en.ff_inst/D  (SLICE_R11C25B)
+Source Clock     : clk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 2
+Delay Ratio      : 55.3% (route), 44.7% (logic)
+Clock Skew       : 1.854 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 0.420 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":3.041,
+        "delay":3.041
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  153     
+u_resetn/clk_i                                               NET DELAY      3.041         3.041  153     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/frame_en.ff_inst/D",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_617/DI1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+        },
+        "arrive":3.809,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/r_lcd_running",
+            "phy_name":"r_lcd_running"
+        },
+        "arrive":5.067,
+        "delay":1.258
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/frame_en_RNO/D",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_617/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/frame_en_RNO/Z",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_617/F1"
+        },
+        "arrive":5.316,
+        "delay":0.249
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/frame_en_0",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.frame_en_0"
+        },
+        "arrive":5.316,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+r_lcd_running_Z.ff_inst/CK->r_lcd_running_Z.ff_inst/Q
+                                          SLICE_R11C26B   CLK_TO_Q1_DELAY  0.768         3.809  4       
+genblk5.u_ice40_himax_video_process_128/r_lcd_running
+                                                          NET DELAY        1.258         5.067  4       
+genblk5.u_ice40_himax_video_process_128/frame_en_RNO/D->genblk5.u_ice40_himax_video_process_128/frame_en_RNO/Z
+                                          SLICE_R11C25B   B1_TO_F1_DELAY   0.249         5.316  1       
+genblk5.u_ice40_himax_video_process_128/frame_en_0 ( DI1 )
+                                                          NET DELAY        0.000         5.316  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/frame_en.ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_617/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( CLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.000         4.895  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.895  
+Arrival Time                                                                                                   5.316  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           0.420  
+
+
+
+
+++++ Path 3 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : r_lcd_running_Z.ff_inst/Q  (SLICE_R11C26B)
+Path End         : genblk5.u_ice40_himax_video_process_128/lcd_running_d_Z[0].ff_inst/D  (SLICE_R11C27A)
+Source Clock     : clk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 2
+Delay Ratio      : 55.3% (route), 44.7% (logic)
+Clock Skew       : 1.854 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 0.420 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":3.041,
+        "delay":3.041
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  153     
+u_resetn/clk_i                                               NET DELAY      3.041         3.041  153     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"r_lcd_running_Z.ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/lcd_running_d_Z[0].ff_inst/D",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/DI1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"r_lcd_running_Z.ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_557/Q1"
+        },
+        "arrive":3.809,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/r_lcd_running",
+            "phy_name":"r_lcd_running"
+        },
+        "arrive":5.067,
+        "delay":1.258
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/B1",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/B1"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/F1",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/F1"
+        },
+        "arrive":5.316,
+        "delay":0.249
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"r_lcd_running.sig_118.FeedThruLUT",
+            "phy_name":"r_lcd_running.sig_118.FeedThruLUT"
+        },
+        "arrive":5.316,
+        "delay":0.000
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+r_lcd_running_Z.ff_inst/CK->r_lcd_running_Z.ff_inst/Q
+                                          SLICE_R11C26B   CLK_TO_Q1_DELAY  0.768         3.809  4       
+genblk5.u_ice40_himax_video_process_128/r_lcd_running
+                                                          NET DELAY        1.258         5.067  4       
+genblk5.u_ice40_himax_video_process_128.SLICE_314/B1->genblk5.u_ice40_himax_video_process_128.SLICE_314/F1
+                                          SLICE_R11C27A   B1_TO_F1_DELAY   0.249         5.316  1       
+r_lcd_running.sig_118.FeedThruLUT ( DI1 )
+                                                          NET DELAY        0.000         5.316  1       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/lcd_running_d_Z[1].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_314/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( CLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.000         4.895  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.895  
+Arrival Time                                                                                                   5.316  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           0.420  
+
+
+
+
+++++ Path 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : u_spi_lcd_tx/raddr_Z[7].ff_inst/Q  (SLICE_R8C25A)
+Path End         : u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/RADDR7  (EBR_EBR_R7C26)
+Source Clock     : clk (R)
+Destination Clock: clk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.411 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[7].ff_inst/CK",
+        "phy_name":"u_spi_lcd_tx.SLICE_78/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":3.041,
+        "delay":3.041
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name     Delay Name     Delay  Arrival Time  Fanout  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  153     
+u_resetn/clk_i                                               NET DELAY      3.041         3.041  153     
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/raddr_Z[7].ff_inst/Q",
+        "phy_name":"u_spi_lcd_tx.SLICE_78/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/RADDR7",
+        "phy_name":"u_spi_lcd_tx.genblk1.u_dpram_lcd_fifo.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/RADDR7"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_Z[7].ff_inst/CK",
+            "phy_name":"u_spi_lcd_tx.SLICE_78/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"u_spi_lcd_tx/raddr_Z[7].ff_inst/Q",
+            "phy_name":"u_spi_lcd_tx.SLICE_78/Q0"
+        },
+        "arrive":3.809,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/raddr[7]",
+            "phy_name":"u_spi_lcd_tx.raddr[7]"
+        },
+        "arrive":4.511,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+u_spi_lcd_tx/raddr_Z[7].ff_inst/CK->u_spi_lcd_tx/raddr_Z[7].ff_inst/Q
+                                          SLICE_R8C25A    CLK_TO_Q0_DELAY  0.768         3.809  3       
+u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/raddr[7] ( RADDR7 )
+                                                          NET DELAY        0.702         4.511  3       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk1.u_hfosc.osc_inst/CLKHF",
+        "phy_name":"genblk1.u_hfosc.osc_inst/CLKHF"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"u_spi_lcd_tx/genblk1.u_dpram_lcd_fifo/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/RCLK",
+        "phy_name":"u_spi_lcd_tx.genblk1.u_dpram_lcd_fifo.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/RCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"u_resetn/clk_i",
+            "phy_name":"clk"
+        },
+        "arrive":3.041,
+        "delay":3.041
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                             CONSTRAINT     0.000         0.000  1       
+genblk1.u_hfosc.osc_inst/CLKHF            HFOSC_HFOSC_R1C32  CLOCK LATENCY  0.000         0.000  153     
+u_resetn/clk_i ( RCLK )                                      NET DELAY      3.041         3.041  153     
+                                                             Uncertainty    0.000         3.041  
+                                                             Hold time      0.059         3.100  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Required Time                                                                            -3.100  
+Arrival Time                                                                              4.511  
+----------------------------------------  -----------------  -------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                      1.411  
+
+
+
+
+++++ Path 5 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/Q  (SLICE_R21C22A)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA13  (EBR_EBR_R20C22)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_227/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_227/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA13",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA13"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_227/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_227/Q0"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[3]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[3]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[3].ff_inst/Q
+                                          SLICE_R21C22A   CLK_TO_Q0_DELAY  0.768         5.663  4       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[3] ( WDATA13 )
+                                                          NET DELAY        0.702         6.365  4       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
+
+++++ Path 6 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/Q  (SLICE_R21C22D)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA14  (EBR_EBR_R20C22)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA14",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA14"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/Q1"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[4]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[4]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[4].ff_inst/Q
+                                          SLICE_R21C22D   CLK_TO_Q1_DELAY  0.768         5.663  4       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[4] ( WDATA14 )
+                                                          NET DELAY        0.702         6.365  4       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
+
+++++ Path 7 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/Q  (SLICE_R21C22D)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA15  (EBR_EBR_R20C22)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA15",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA15"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_244/Q0"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[5]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[5]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[5].ff_inst/Q
+                                          SLICE_R21C22D   CLK_TO_Q0_DELAY  0.768         5.663  4       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/g_accu_lcd[5] ( WDATA15 )
+                                                          NET DELAY        0.702         6.365  4       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
+
+++++ Path 8 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/Q  (SLICE_R21C20D)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA0  (EBR_EBR_R20C20)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/Q1"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA0",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA0"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/Q1"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[6]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[6]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[6].ff_inst/Q
+                                          SLICE_R21C20D   CLK_TO_Q1_DELAY  0.768         5.663  4       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[6] ( WDATA0 )
+                                                          NET DELAY        0.702         6.365  4       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
+
+++++ Path 9 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/Q  (SLICE_R21C20D)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA1  (EBR_EBR_R20C20)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA1",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA1"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_242/Q0"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[7]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[7]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[7].ff_inst/Q
+                                          SLICE_R21C20D   CLK_TO_Q0_DELAY  0.768         5.663  4       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[7] ( WDATA1 )
+                                                          NET DELAY        0.702         6.365  4       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
+
+++++ Path 10 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Path Begin       : genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/Q  (SLICE_R21C20B)
+Path End         : genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA3  (EBR_EBR_R20C20)
+Source Clock     : cam_pclk (R)
+Destination Clock: cam_pclk (R)
+Logic Level      : 1
+Delay Ratio      : 47.8% (route), 52.2% (logic)
+Clock Skew       : 0.000 ns
+Hold Constraint  : 0.000 ns 
+Path Slack       : 1.433 ns  (Passed)
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/CK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_240/CLK"
+    },
+    "path_sections":[
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+Name                                      Cell/Site Name                   Delay Name            Delay  Arrival Time  Fanout  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c
+                                                                           NET DELAY             4.613         4.895  96      
+
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/Q",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_240/Q0"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WDATA3",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WDATA3"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/CK",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_240/CLK"
+        },
+        "pin1":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/Q",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.SLICE_240/Q0"
+        },
+        "arrive":5.663,
+        "delay":0.768
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[9]",
+            "phy_name":"genblk5.u_ice40_himax_video_process_128.g_accu_lcd[9]"
+        },
+        "arrive":6.365,
+        "delay":0.702
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/CK->genblk5.u_ice40_himax_video_process_128/g_accu_lcd_Z[9].ff_inst/Q
+                                          SLICE_R21C20B   CLK_TO_Q0_DELAY  0.768         5.663  2       
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/g_accu_lcd[9] ( WDATA3 )
+                                                          NET DELAY        0.702         6.365  2       
+
+<tapath class="path_info">
+<xmp>
+{
+    "path_begin":
+    {
+        "type":"port",
+        "log_name":"cam_pclk",
+        "phy_name":"cam_pclk"
+    },
+    "path_end":
+    {
+        "type":"pin",
+        "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/ICE_MEM.u_mem0.ebr_inst/WCLK",
+        "phy_name":"genblk5.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0.ICE_MEM.u_mem0.ebr_inst/WCLK"
+    },
+    "path_sections":[
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "pin1":
+        {
+            "log_name":"",
+            "phy_name":""
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"cam_pclk",
+            "phy_name":"cam_pclk"
+        },
+        "arrive":0.000,
+        "delay":0.000
+    },
+    {
+        "type":"site_delay",
+        "pin0":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/B",
+            "phy_name":"cam_pclk_ibuf.bb_inst/IOPAD"
+        },
+        "pin1":
+        {
+            "log_name":"cam_pclk_ibuf.bb_inst/O",
+            "phy_name":"cam_pclk_ibuf.bb_inst/PADDI"
+        },
+        "arrive":0.282,
+        "delay":0.282
+    },
+    {
+        "type":"net_delay",
+        "net":
+        {
+            "log_name":"genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c",
+            "phy_name":"cam_pclk_c"
+        },
+        "arrive":4.895,
+        "delay":4.613
+    }
+    ]
+}
+</xmp>
+</tapath>
+
+                                                                           CONSTRAINT            0.000         0.000  1       
+cam_pclk                                  lsc_ml_ice40_himax_humandet_top  CLOCK LATENCY         0.000         0.000  1       
+cam_pclk                                                                   NET DELAY             0.000         0.000  1       
+cam_pclk_ibuf.bb_inst/B->cam_pclk_ibuf.bb_inst/O
+                                          PIO_19                           IOPAD_TO_PADDI_DELAY  0.282         0.282  96      
+genblk5.u_ice40_himax_video_process_128/u_ram256x32_accu0_lcd/lscc_ram_dp_inst/mem_main/NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0/cam_pclk_c ( WCLK )
+                                                                           NET DELAY             4.613         4.895  96      
+                                                                           Uncertainty           0.000         4.895  
+                                                                           Hold time             0.037         4.932  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Required Time                                                                                                 -4.932  
+Arrival Time                                                                                                   6.365  
+----------------------------------------  -------------------------------  --------------------  -----  ------------  ------  
+Path Slack  (Passed)                                                                                           1.433  
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+                    End of Detailed Report for timing paths 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+
+##########################################################
+
+
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"<span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#timing_rpt_top>Timing Report</A></LI>
+<LI><A href=#Timing_rpt_DesignChecking>1  DESIGN CHECKING</A></LI>
+<UL>
+<LI><A href=#Timing_rpt_SDCConstraints>1.1  SDC Constraints</A></LI>
+<LI><A href=#Timing_rpt_CombinationalLoop>1.2  Combinational Loop</A></LI>
+</UL>
+<LI><A href=#Timing_rpt_ClockSummary>2  CLOCK SUMMARY</A></LI>
+<LI><A href=#Timing_rpt_AnalysisSummary>3  TIMING ANALYSIS SUMMARY</A></LI>
+<UL>
+<LI><A href=#Timing_rpt_Overall>3.1  Overall (Setup and Hold)</A></LI>
+<LI><A href=#Timing_rpt_SetupSummary>3.2  Setup Summary Report</A></LI>
+<LI><A href=#Timing_rpt_HoldSummary>3.3  Hold Summary Report</A></LI>
+<LI><A href=#Timing_rpt_UnconstrainedReport>3.4  Unconstrained Report</A></LI>
+</UL>
+<LI><A href=#Timing_rpt_DetailedReport>4  DETAILED REPORT</A></LI>
+<UL>
+<LI><A href=#Timing_rpt_SetupDetailedReport>4.1  Setup Detailed Report</A></LI>
+<LI><A href=#Timing_rpt_HoldDetailedReport>4.2  Hold Detailed Report</A></LI>
+</UL>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+   var funScroll = function() {
+      var top = document.body.scrollTop;
+      if (top == 0) {
+         scrollStep = 0;
+         return;
+      }
+      if (scrollStep == 0)
+         scrollStep = top/20 + 1;
+      top -= scrollStep;
+      if (top < 0)
+         top = 0;
+      document.body.scrollTop = top;
+      requestAnimationFrame(funScroll);
+   };
+   funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+   var backToTop = document.getElementById('back_to_top')
+   if (document.body.scrollTop > 0) {
+      backToTop.style.display = 'block';
+   } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+   bottom:20px; right:20px;
+   width:30px; height:30px;
+   font-size: 20px;
+   padding: 2px 5px 2px 5px;
+   position:fixed;
+   background-color:rgba(210,210,210,0.1);
+   border-style: solid;
+   border-color: rgba(192,192,192,0.8);
+   border-width:1px;
+   display:none;
+   -webkit-transform: rotate(90deg);
+   -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+   outline-width:0px;
+}
+</style>
+
+<style type='text/css'>
+pre {
+  margin-left: 2em;
+}
+tapath {
+  display: none;
+}
+.tools {
+  font-family: arial;
+  font-size: 0.8em;
+  text-align: center;
+  display: inline-block;
+}
+.tools:before{
+  content: "Shown in: ";
+  color: #1c79ec;
+  text-align: center;
+  padding-left: 0.5em;
+}
+.tools a {
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.tools a:link {
+  text-decoration: none;
+}
+.tools a:hover {
+  color: #1c79ec;
+}
+.tools a:before {
+  content: " ";
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 2px;
+}
+.tools a:after {
+  text-align: center;
+  padding-right: 5px;
+}
+.na:before {
+  background: url("qrc:///report-view-html/images/netlist_analyzer_16.png") no-repeat center;
+}
+.na:after {
+  content: "Netlist Analyzer";
+}
+.fp:before {
+  background: url("qrc:///report-view-html/images/floorplanview_16.png") no-repeat center;
+}
+.fp:after {
+  content: "Physical Designer Placement Mode";
+}
+.phv:before {
+  background: url("qrc:///report-view-html/images/epic_16.png") no-repeat center;
+}
+.phv:after {
+  content: "Physical Designer Routing Mode";
+}
+</style>
+<script type='text/javascript'>
+<!--
+var show_log = 0; var show_phy = 1;
+function createTool(cls, path_obj) {
+  var tool = document.createElement('a');
+  tool.className = cls;
+  tool.onclick = (function(tool, path) {
+    return function() {
+      var tool_name;
+      var logical = false;
+      if (typeof path !== 'string' || path === null || path.length == 0)
+        return;
+      switch (cls) {
+        case 'na':
+          tool_name = 'SCHEMATIC_VIEW';
+          logical = true;
+          break;
+        case 'fp':
+          tool_name = 'FLOORPLANNER';
+          break;
+        case 'phv':
+          tool_name = 'PHYSICAL_VIEW';
+          break;
+      }
+      var url = 'NGView://' + tool_name + '/tapath?' + (logical?'view_type=tech&':'') + 'path=' +
+                encodeURIComponent(path);
+      this.href = url;
+    }
+  })(cls, path_obj).bind(tool);
+  return tool;
+}
+function createTools(path_element) {
+  var tools = document.createElement('span');
+  tools.className = 'tools';
+  var path = path_element.textContent;
+  if (show_log) 
+    tools.appendChild(createTool('na', path));
+  if (show_phy) {
+    tools.appendChild(createTool('fp', path));
+    tools.appendChild(createTool('phv', path));
+  }
+  var p = path_element.parentNode;
+  p.insertBefore(tools, path_element);
+}
+function handleLeftpaths(left_paths, index) {
+    if (left_paths.length > index) {
+      setTimeout(function(paths, i) {
+        return function() {
+          var path = paths[i];
+          createTools(path);
+          handleLeftpaths(paths, i+1);
+        }
+      }(left_paths, index));
+    }
+}
+window.onload = function() {
+  if (!show_log && !show_phy) return; 
+  if (typeof window._$radiant !== 'undefined') {
+    var all_paths = document.getElementsByTagName('tapath');
+    handleLeftpaths(all_paths, 0);
+  }
+}
+//-->
+</script>
+</BODY>
+

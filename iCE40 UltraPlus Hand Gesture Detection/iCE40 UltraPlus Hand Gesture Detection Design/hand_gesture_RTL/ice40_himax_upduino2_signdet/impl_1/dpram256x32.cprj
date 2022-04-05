@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd"
+-ver "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v"
+-sdc  "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/constraints/dpram256x32.ldc"
+-path "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32"
+-top dpram256x32
+-a "iCE40UP"

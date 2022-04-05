@@ -1,0 +1,190 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:Can't find top module!
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\3.1\ip\pmi\pmi_iCE40UP.vhd'.
+@N|Running in 64-bit mode
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2572:17:2572:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2579:17:2579:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2622:17:2622:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2629:17:2629:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2672:17:2672:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2679:17:2679:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":815:25:815:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":819:25:819:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":850:29:850:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":854:29:854:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1047:25:1047:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1053:25:1053:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v":666:25:666:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v":672:25:672:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v":144:11:144:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v":153:11:153:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2572:17:2572:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2579:17:2579:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2622:17:2622:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2629:17:2629:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2672:17:2672:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":2679:17:2679:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":815:25:815:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":819:25:819:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":850:29:850:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":854:29:854:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1047:25:1047:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1053:25:1053:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v":666:25:666:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v":672:25:672:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v":144:11:144:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v":153:11:153:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":348:7:348:11|Synthesizing module IOL_B in library work.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":795:7:795:11|Synthesizing module HSOSC in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":2:7:2:32|Synthesizing module ice40_himax_signdet_clkgen in library work.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":533:7:533:13|Synthesizing module FD1P3XZ in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\ice40_resetn.v":3:7:3:18|Synthesizing module ice40_resetn in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_16.v":3:7:3:17|Synthesizing module lsc_i2cm_16 in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_himax.v":2:7:2:20|Synthesizing module lsc_i2cm_himax in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":427:7:427:48|Synthesizing module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":1306:7:1306:53|Synthesizing module rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core in library work.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":703:7:703:11|Synthesizing module PDP4K in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":165:7:165:43|Synthesizing module rom_himax_cfg_20fps_ir_ipgen_lscc_rom in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":11:7:11:28|Synthesizing module rom_himax_cfg_20fps_ir in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":2:7:2:22|Synthesizing module himax_led_strobe in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":4:7:4:21|Synthesizing module spi_loader_wrap in library work.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":753:7:753:12|Synthesizing module SP256K in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_tri_spram.v":4:7:4:26|Synthesizing module spi_loader_tri_spram in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\signdet_post.v":1:7:1:18|Synthesizing module signdet_post in library work.
+@N: CG364 :"C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v":611:7:611:9|Synthesizing module RGB in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_lcd_tx.v":2:7:2:16|Synthesizing module spi_lcd_tx in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":461:7:461:44|Synthesizing module dpram_oled_fifo_ipgen_lscc_ram_dp_main in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":3561:7:3561:44|Synthesizing module dpram_oled_fifo_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":187:7:187:39|Synthesizing module dpram_oled_fifo_ipgen_lscc_ram_dp in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":11:7:11:21|Synthesizing module dpram_oled_fifo in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v":21:7:21:36|Synthesizing module lsc_ml_ice40_himax_signdet_top in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\strobe_ctl.v":2:7:2:16|Synthesizing module strobe_ctl in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":3:7:3:14|Synthesizing module lsc_uart in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":461:7:461:40|Synthesizing module dpram1024x8_ipgen_lscc_ram_dp_main in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3561:7:3561:40|Synthesizing module dpram1024x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3561:7:3561:40|Synthesizing module dpram1024x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":187:7:187:35|Synthesizing module dpram1024x8_ipgen_lscc_ram_dp in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":11:7:11:17|Synthesizing module dpram1024x8 in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":461:7:461:40|Synthesizing module dpram256x16_ipgen_lscc_ram_dp_main in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":3561:7:3561:40|Synthesizing module dpram256x16_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":187:7:187:35|Synthesizing module dpram256x16_ipgen_lscc_ram_dp in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":11:7:11:17|Synthesizing module dpram256x16 in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":461:7:461:40|Synthesizing module dpram256x32_ipgen_lscc_ram_dp_main in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3561:7:3561:40|Synthesizing module dpram256x32_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3561:7:3561:40|Synthesizing module dpram256x32_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":187:7:187:35|Synthesizing module dpram256x32_ipgen_lscc_ram_dp in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":11:7:11:17|Synthesizing module dpram256x32 in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":461:7:461:40|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp_main in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3561:7:3561:40|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3561:7:3561:40|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3561:7:3561:40|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3561:7:3561:40|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp_core in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":187:7:187:35|Synthesizing module dpram2048x8_ipgen_lscc_ram_dp in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":11:7:11:17|Synthesizing module dpram2048x8 in library work.
+@N: CG364 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_wide_br.v":19:7:19:46|Synthesizing module ice40_himax_video_process_128_32_wide_br in library work.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v":643:0:643:5|Register bit result_cnt[0] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v":643:0:643:5|Register bit result_cnt[1] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v":643:0:643:5|Register bit result_cnt[2] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v":643:0:643:5|Register bit result_cnt[3] is always 0.
+@N: CL135 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_wide_br.v":424:0:424:5|Found sequential shift pix_d2 with address depth of 3 words and data bit width of 16.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_wide_br.v":657:0:657:5|Register bit o_dout[0] is always 0.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_wide_br.v":38:16:38:26|Input i_frame_req is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v":568:31:568:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":568:31:568:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v":568:31:568:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v":568:31:568:35|Input ben_i is unused.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":62:0:62:5|Register bit tx_period_cnt[15] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":304:0:304:5|Register bit rx_period_cnt[15] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":62:0:62:5|Register bit tx_period_cnt[14] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":304:0:304:5|Register bit rx_period_cnt[14] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":62:0:62:5|Register bit tx_period_cnt[13] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v":304:0:304:5|Register bit rx_period_cnt[13] is always 0.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":3664:10:3664:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":3667:10:3667:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":3673:31:3673:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v":568:31:568:35|Input ben_i is unused.
+@N: CL201 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_tri_spram.v":101:4:101:9|Trying to extract state machine for register cst.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_delay[1] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_delay[3] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_duration[0] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_duration[1] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_duration[2] is always 0.
+@N: CL189 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v":39:0:39:5|Register bit r_duration[6] is always 0.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":1396:10:1396:14|Input rst_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":1398:10:1398:24|Input rd_out_clk_en_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":1402:31:1402:35|Input ben_i is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v":530:31:530:35|Input ben_i is unused.
+@N: CL201 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_himax.v":60:0:60:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_16.v":12:7:12:12|Input scl_in is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":6:16:6:26|Input i_init_done is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":7:16:7:26|Input i_cam_vsync is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":8:16:8:26|Input i_load_done is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":9:16:9:23|Input i_ml_rdy is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":10:16:10:24|Input i_vid_rdy is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v":11:16:11:23|Input i_rd_req is unused.
+@N|Running in 64-bit mode
+

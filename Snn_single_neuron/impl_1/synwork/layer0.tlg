@@ -1,0 +1,32 @@
+@N: CG364 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":2:7:2:12|Synthesizing module neuron in library work.
+Running optimization stage 1 on neuron .......
+Finished optimization stage 1 on neuron (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+@N: CG364 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":38:7:38:19|Synthesizing module spike_network in library work.
+@W: CG360 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":45:8:45:18|Removing wire neuron_out7, as there is no assignment to it.
+@W: CG360 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":46:8:46:18|Removing wire neuron_out8, as there is no assignment to it.
+Running optimization stage 1 on spike_network .......
+@W: CL318 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":45:8:45:18|*Output neuron_out7 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":46:8:46:18|*Output neuron_out8 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL168 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":91:7:91:13|Removing instance neuron8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":82:7:82:13|Removing instance neuron7 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":73:7:73:13|Removing instance neuron6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":64:7:64:13|Removing instance neuron5 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":55:7:55:13|Removing instance neuron4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on spike_network (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+Running optimization stage 2 on spike_network .......
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":40:7:40:9|Input clk is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":41:7:41:12|Input resetn is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":42:7:42:16|Input neuron_in1 is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":43:7:43:16|Input neuron_in2 is unused.
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":44:7:44:16|Input neuron_in3 is unused.
+Finished optimization stage 2 on spike_network (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+Running optimization stage 2 on neuron .......
+@N: CL189 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":22:0:22:5|Register bit V_i[4] is always 0.
+@W: CL260 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":22:0:22:5|Pruning register bit 4 of V_i[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":5:7:5:12|Input resetn is unused.
+Finished optimization stage 2 on neuron (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\lunar\Desktop\Snn_single_neuron\impl_1\synwork\layer0.rt.csv
+

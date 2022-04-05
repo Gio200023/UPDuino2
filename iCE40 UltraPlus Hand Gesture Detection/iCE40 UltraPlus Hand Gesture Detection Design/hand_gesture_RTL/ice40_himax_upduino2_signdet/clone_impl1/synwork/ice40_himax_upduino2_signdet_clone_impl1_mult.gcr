@@ -1,0 +1,18 @@
+i clk
+m 0 0
+u 327 2438
+n ckid0_0 {t:u_spi_lcd_tx.genblk1\.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.mem_init\.u_mem0.ICE_MEM\.u_mem0.CKR} Clock Optimization not enabled
+p {t:clk_inferred_clock.OUT[0]}{t:g_on_en_uart\.r_uart_din[7:0].C}
+e ckid0_1 {t:g_on_en_uart\.r_uart_din[7:0].C} dffe
+d ckid0_0,ckid0_1 {t:u_hfosc.CLKHF} HSOSC Clock Optimization not enabled
+i cam_pclk
+m 0 0
+u 102 295
+p {p:cam_pclk}{t:u_spi_lcd_tx.wclk}{p:u_spi_lcd_tx.wclk}{t:u_spi_lcd_tx.waddr[9:0].C}
+e ckid0_2 {t:u_spi_lcd_tx.waddr[9:0].C} dffpatr
+c ckid0_2 {p:cam_pclk} port Unsupported/too complex instance on clock path
+i clk_i
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

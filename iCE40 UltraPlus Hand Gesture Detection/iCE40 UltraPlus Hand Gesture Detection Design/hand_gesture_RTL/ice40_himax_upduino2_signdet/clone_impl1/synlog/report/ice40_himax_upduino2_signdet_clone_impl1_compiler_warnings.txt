@@ -1,0 +1,3 @@
+@W: CS133 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs_fsm.v":40:26:40:36|Ignoring property syn_useioff
+@W: CS133 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs_fsm.v":68:40:68:50|Ignoring property syn_useioff
+

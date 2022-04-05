@@ -1,0 +1,58 @@
+SLICE/D1 input genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_30 has no outgoing device arc
+SLICE/CIN1 input genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_30 has no outgoing device arc
+     ** genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_30/COUT0 is driving a pin on an incomplete path
+SLICE/C0 input genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_30 is on an incomplete path
+SLICE/CIN0 input genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.SLICE_30 is on an incomplete path
+SLICE/CIN0 input g_on_en_uart.u_lsc_uart.SLICE_23 is on an incomplete path
+SLICE/D1 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_15_c_0.SLICE_15 has no outgoing device arc
+SLICE/D0 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_15_c_0.SLICE_15 has no outgoing device arc
+SLICE/D1 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_21_c_0.SLICE_14 has no outgoing device arc
+SLICE/D0 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_21_c_0.SLICE_14 has no outgoing device arc
+SLICE/D0 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_9_c_0.SLICE_13 has no outgoing device arc
+SLICE/CIN1 input g_on_en_uart.u_lsc_uart.un1_fifo_raddr_clk_0_I_9_c_0.SLICE_13 has no outgoing device arc
+SLICE/D1 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_0 has no outgoing device arc
+SLICE/CIN1 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_0 has no outgoing device arc
+     ** u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_0/COUT0 is driving a pin on an incomplete path
+SLICE/C0 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_0 is on an incomplete path
+SLICE/CIN0 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_0 is on an incomplete path
+SLICE/D1 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_5 has no outgoing device arc
+SLICE/CIN1 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_5 has no outgoing device arc
+     ** u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_5/COUT0 is driving a pin on an incomplete path
+SLICE/C0 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_5 is on an incomplete path
+SLICE/CIN0 input u_lsc_i2cm_himax.u_lsc_i2cm.SLICE_5 is on an incomplete path
+SLICE/CIN1 input u_lsc_i2cm_himax.i2c_cnt_cry_c_0[5].SLICE_9 has no outgoing device arc
+SLICE/CIN1 input genblk5.u_ice40_himax_video_process_128.un9_g_accu_lcd_cry_9_c_0.SLICE_39 has no outgoing device arc
+SLICE/CIN0 input genblk5.u_ice40_himax_video_process_128.r_accu_lcd_RNO_0[9].SLICE_45 is on an incomplete path
+SLICE/CIN0 input genblk5.u_ice40_himax_video_process_128.b_accu_lcd_RNO_0[9].SLICE_51 is on an incomplete path
+SLICE/CIN1 input genblk5.u_ice40_himax_video_process_128.SLICE_57 has no outgoing device arc
+SLICE/CIN1 input genblk5.u_ice40_himax_video_process_128.SLICE_62 has no outgoing device arc
+SLICE/D1 input genblk5.u_ice40_himax_video_process_128.SLICE_67 has no outgoing device arc
+SLICE/CIN1 input genblk5.u_ice40_himax_video_process_128.SLICE_67 has no outgoing device arc
+     ** genblk5.u_ice40_himax_video_process_128.SLICE_67/COUT0 is driving a pin on an incomplete path
+SLICE/C0 input genblk5.u_ice40_himax_video_process_128.SLICE_67 is on an incomplete path
+SLICE/CIN0 input genblk5.u_ice40_himax_video_process_128.SLICE_67 is on an incomplete path
+SLICE/D1 input u_spi_lcd_tx.SLICE_77 has no outgoing device arc
+SLICE/CIN1 input u_spi_lcd_tx.SLICE_77 has no outgoing device arc
+     ** u_spi_lcd_tx.SLICE_77/COUT0 is driving a pin on an incomplete path
+SLICE/C0 input u_spi_lcd_tx.SLICE_77 is on an incomplete path
+SLICE/CIN0 input u_spi_lcd_tx.SLICE_77 is on an incomplete path
+PIO/IOPAD output  cam_trig_obuf.bb_inst has no incoming device arc
+     *** cam_trig is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[5].bb_inst has no incoming device arc
+     *** oled[5] is driven by constant or a pin on an incomplete path
+RGBA_DRV/RGB2 output  RGB_DRIVER.RGB_CORE_inst has no incoming device arc
+RGBA_DRV/RGB1 output  RGB_DRIVER.RGB_CORE_inst has no incoming device arc
+     *** RGB_DRIVER.rgb1Pad/PADDO is driven by constant or a pin on an incomplete path
+     *** RGB_DRIVER.rgb2Pad/PADDO is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[3].bb_inst has no incoming device arc
+     *** oled[3] is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[2].bb_inst has no incoming device arc
+     *** oled[2] is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[4].bb_inst has no incoming device arc
+     *** oled[4] is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  standby_obuf.bb_inst has no incoming device arc
+     *** standby is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[0].bb_inst has no incoming device arc
+     *** oled[0] is driven by constant or a pin on an incomplete path
+PIO/IOPAD output  oled_obuf[1].bb_inst has no incoming device arc
+     *** oled[1] is driven by constant or a pin on an incomplete path

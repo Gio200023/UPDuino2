@@ -1,0 +1,41 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "spike_network")
+  (DATE "Tue Mar 22 17:33:06 2022")
+  (VENDOR "Lattice")
+  (PROGRAM "backanno")
+  (VERSION "Radiant Software (64-bit) 3.1.0.43.2")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "neuron_out7")
+    (INSTANCE neuron_out7_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO neuron_out7 (1914:2001:2088)(1914:2001:2088))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "neuron_out8")
+    (INSTANCE neuron_out8_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO neuron_out8 (1914:2001:2088)(1914:2001:2088))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "spike_network")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT SLICE_0/F0 neuron_out7_I/PADDO (3694:3861:4028)(3694:3861:4028))
+        (INTERCONNECT SLICE_0/F0 neuron_out8_I/PADDO (3694:3861:4028)(3694:3861:4028))
+      )
+    )
+  )
+)

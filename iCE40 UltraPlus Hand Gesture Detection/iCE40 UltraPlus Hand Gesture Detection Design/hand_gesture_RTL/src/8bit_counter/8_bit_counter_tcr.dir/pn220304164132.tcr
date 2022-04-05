@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/4/2022 16:40:54
+#Project Location: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/8bit_counter; Project name: 8_bit_counter
+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet
+ice40_himax_upduino2_signdet
+#Start recording tcl command: 3/4/2022 16:41:32
+#Project Location: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet; Project name: ice40_himax_upduino2_signdet
+prj_archive -dir "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/8bit_counter" -extract "C:/lscc/radiant/3.1/examples/8bit_counter.zip"
+prj_close
+prj_open "C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/ice40_himax_upduino2_signdet.rdf"
+#Stop recording: 3/4/2022 16:41:32

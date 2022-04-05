@@ -1,0 +1,75 @@
+
+tmcheck -par "ice40_himax_upduino2_humandet_impl_1.par" 
+
+bitgen -w "ice40_himax_upduino2_humandet_impl_1.udb" -f "ice40_himax_upduino2_humandet_impl_1.t2b" 
+Loading ice40_himax_upduino2_humandet_impl_1.udb ...
+Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/lscc/radiant/3.1/ispfpga.
+Package Status:                     Preliminary    Version 1.5.
+Performance Hardware Data Status:   Advanced       Version 1.0.
+
+
+
+Design:  lsc_ml_ice40_himax_humandet_top
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:   High-Performance_1.2V
+WARNING - bitgen: Unable to find the instance/port 'spi_miso' in the constraint 'ldc_set_location -site {17} [get_ports spi_miso]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {17} [get_ports spi_miso]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'aux_det' in the constraint 'ldc_set_location -site {35} [get_ports aux_det]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {35} [get_ports aux_det]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'aux_idx[0]' in the constraint 'ldc_set_location -site {13} [get_ports {aux_idx[0]}]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {13} [get_ports {aux_idx[0]}]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'aux_idx[1]' in the constraint 'ldc_set_location -site {18} [get_ports {aux_idx[1]}]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {18} [get_ports {aux_idx[1]}]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'uart_rxd' in the constraint 'ldc_set_location -site {46} [get_ports uart_rxd]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {46} [get_ports uart_rxd]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'debug_scl' in the constraint 'ldc_set_location -site {2} [get_ports debug_scl]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {2} [get_ports debug_scl]', the locate object is not specified
+
+WARNING - bitgen: Unable to find the instance/port 'debug_sda' in the constraint 'ldc_set_location -site {48} [get_ports debug_sda]'
+
+WARNING - bitgen: In the constraint 'ldc_set_location -site {48} [get_ports debug_sda]', the locate object is not specified
+
+Successfully loading design udb and device data from disks and to up-layer in CPU time: 0 secs , REAL time: 0 secs 
+
+
+
+BITGEN: Bitstream Generator Radiant Software (64-bit) 3.1.0.43.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2021 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1.bin".
+Bitstream generation complete!
+
+Total CPU Time: 1 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 112 MB
+

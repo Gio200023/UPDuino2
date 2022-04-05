@@ -1,0 +1,4 @@
+@E: CS187 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":56:10:56:10|Expecting ,
+@E: CS187 :"C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v":100:0:100:8|Expecting endmodule
+@E::Verilog compiler failed
+

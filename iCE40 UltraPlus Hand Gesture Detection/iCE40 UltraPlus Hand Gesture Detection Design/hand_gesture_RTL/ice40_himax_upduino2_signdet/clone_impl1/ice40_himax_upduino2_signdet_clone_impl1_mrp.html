@@ -1,0 +1,532 @@
+<HTML>
+<HEAD>
+<TITLE>Map Report</TITLE>
+<link href="file:///C:/lscc/radiant/3.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/3.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Mrp"></A>Lattice Mapping Report File for Design Module
+     'ice40_himax_upduino2_signdet_clone_impl1'
+
+Target Vendor:        LATTICE
+Target Device:        iCE40UP5KSG48
+Target Performance:   High-Performance_1.2V
+
+Mapper:    version Radiant Software (64-bit) 3.1.0.43.2
+Mapped on: Thu Mar 17 16:19:46 2022
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -i ice40_himax_upduino2_signdet_clone_impl1_syn.udb -pdc
+     C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40
+     UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduin
+     o2_signdet/source/clone_impl1/himax_upduino2.pdc -o
+     ice40_himax_upduino2_signdet_clone_impl1_map.udb -mp
+     ice40_himax_upduino2_signdet_clone_impl1.mrp -hierrpt -gui
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of slice registers: 158 out of  5280 (3%)
+   Number of I/O registers:      0 out of   117 (0%)
+   Number of LUT4s:           306 out of  5280 (6%)
+      Number of logic LUT4s:             196
+      Number of inserted feedthru LUT4s:  50
+      Number of replicated LUT4s:          4
+      Number of ripple logic:             28 (56 LUT4s)
+   Number of IO sites used:   8 out of 39 (21%)
+      Number of IO sites used for general PIO: 8
+      Number of IO sites used for I3C: 0 out of 2 (0%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for PIO+I3C: 8 out of 36 (22%)
+      Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
+      (note: If RGB LED drivers are not used, sites can be used as OD outputs,
+       see TN1288 iCE40 LED Driver Usage Guide)
+      Number of IO sites used for PIO+I3C+OD+RGB: 8 out of 39 (21%)
+   Number of DSPs:             0 out of 8 (0%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  1 out of 1 (100%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      0 out of 1 (0%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            0 out of 4 (0%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             1 out of 30 (3%)
+   Number of PLLs:             0 out of 1 (0%)
+   Number of Clocks:  1
+      Net clk: 157 loads, 157 rising, 0 falling (Driver: Pin u_hfosc/CLKHF)
+   Number of Clock Enables:  13
+      Net VCC_net: 4 loads, 0 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.n1878: 8 loads, 8 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.w_rd: 8 loads, 8 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.ne_bitclk: 16
+     loads, 16 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.i2cdevaddr_6__
+     N_641: 5 loads, 5 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.pe_bitclk: 1
+
+     loads, 1 SLICEs
+      Net rsr_7__N_640: 7 loads, 7 SLICEs
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.n1879: 8
+     loads, 8 SLICEs
+      Net running_N_230: 16 loads, 16 SLICEs
+      Net u_resetn.cnt_en: 5 loads, 5 SLICEs
+      Net u_resetn.cnt_en_N_130: 1 loads, 1 SLICEs
+      Net u_lsc_i2cm_himax.n1136: 7 loads, 7 SLICEs
+      Net u_lsc_i2cm_himax.u_lsc_i2cm.n1143: 8 loads, 8 SLICEs
+   Number of LSRs:  1
+      Net resetn_N_132: 105 loads, 105 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net resetn_N_132: 105 loads
+      Net i2c_running: 28 loads
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.cnt8: 21 loads
+      Net lsb_addr: 19 loads
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.n7_adj_1388:
+     16 loads
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.ne_bitclk: 16
+     loads
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.sst[0]: 16
+     loads
+      Net running_N_230: 16 loads
+      Net u_lsc_i2cm_himax.u_lsc_i2cm.seq_cnt[0]: 16 loads
+      Net g_on_en_i2cs.u_lsc_i2cs_local.u_lsc_i2cs.u_lsc_i2cs_fsm.sst[1]: 15
+     loads
+
+
+
+
+   Number of warnings:  78
+   Number of errors:    0
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (5) : No
+     port matched 'oled[0]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (6) : No
+     port matched 'oled[1]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (7) : No
+     port matched 'oled[2]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (8) : No
+     port matched 'oled[3]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (9) : No
+     port matched 'oled[4]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (10) : No
+     port matched 'oled[5]'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (18) : No
+     port matched 'spi_clk'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (19) : No
+     port matched 'spi_css'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (20) : No
+     port matched 'spi_mosi'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (21) : No
+     port matched 'spi_miso'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (24) : No
+     port matched 'lcd_resetn'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (25) : No
+     port matched 'lcd_spi_clk'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (26) : No
+     port matched 'lcd_spi_css'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (27) : No
+     port matched 'lcd_spi_gpo'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (28) : No
+     port matched 'lcd_spi_mosi'.
+WARNING - map: C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture
+     Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ic
+     e40_himax_upduino2_signdet/source/clone_impl1/himax_upduino2.pdc (32) : No
+     port matched 'debug'.
+WARNING - map: No port matched 'oled[0]'.
+WARNING - map: Can't resolve object 'oled[0]' in constraint 'ldc_set_location
+     -site {34} [get_ports {oled[0]}]'.
+WARNING - map: No port matched 'oled[1]'.
+WARNING - map: Can't resolve object 'oled[1]' in constraint 'ldc_set_location
+     -site {43} [get_ports {oled[1]}]'.
+WARNING - map: No port matched 'oled[2]'.
+WARNING - map: Can't resolve object 'oled[2]' in constraint 'ldc_set_location
+     -site {36} [get_ports {oled[2]}]'.
+WARNING - map: No port matched 'oled[3]'.
+WARNING - map: Can't resolve object 'oled[3]' in constraint 'ldc_set_location
+     -site {42} [get_ports {oled[3]}]'.
+WARNING - map: No port matched 'oled[4]'.
+WARNING - map: Can't resolve object 'oled[4]' in constraint 'ldc_set_location
+
+     -site {38} [get_ports {oled[4]}]'.
+WARNING - map: No port matched 'oled[5]'.
+WARNING - map: Can't resolve object 'oled[5]' in constraint 'ldc_set_location
+     -site {28} [get_ports {oled[5]}]'.
+WARNING - map: No port matched 'spi_clk'.
+WARNING - map: Can't resolve object 'spi_clk' in constraint 'ldc_set_location
+     -site {15} [get_ports spi_clk]'.
+WARNING - map: No port matched 'spi_css'.
+WARNING - map: Can't resolve object 'spi_css' in constraint 'ldc_set_location
+     -site {16} [get_ports spi_css]'.
+WARNING - map: No port matched 'spi_mosi'.
+WARNING - map: Can't resolve object 'spi_mosi' in constraint 'ldc_set_location
+     -site {14} [get_ports spi_mosi]'.
+WARNING - map: No port matched 'spi_miso'.
+WARNING - map: Can't resolve object 'spi_miso' in constraint 'ldc_set_location
+     -site {17} [get_ports spi_miso]'.
+WARNING - map: No port matched 'lcd_resetn'.
+WARNING - map: Can't resolve object 'lcd_resetn' in constraint 'ldc_set_location
+     -site {27} [get_ports lcd_resetn]'.
+WARNING - map: No port matched 'lcd_spi_clk'.
+WARNING - map: Can't resolve object 'lcd_spi_clk' in constraint
+     'ldc_set_location -site {23} [get_ports lcd_spi_clk]'.
+WARNING - map: No port matched 'lcd_spi_css'.
+WARNING - map: Can't resolve object 'lcd_spi_css' in constraint
+     'ldc_set_location -site {26} [get_ports lcd_spi_css]'.
+WARNING - map: No port matched 'lcd_spi_gpo'.
+WARNING - map: Can't resolve object 'lcd_spi_gpo' in constraint
+     'ldc_set_location -site {32} [get_ports lcd_spi_gpo]'.
+WARNING - map: No port matched 'lcd_spi_mosi'.
+WARNING - map: Can't resolve object 'lcd_spi_mosi' in constraint
+     'ldc_set_location -site {25} [get_ports lcd_spi_mosi]'.
+WARNING - map: No port matched 'debug'.
+WARNING - map: Can't resolve object 'debug' in constraint 'ldc_set_location
+     -site {18} [get_ports debug]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {34} [get_ports
+     {oled[0]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {43} [get_ports
+     {oled[1]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {36} [get_ports
+     {oled[2]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {42} [get_ports
+     {oled[3]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {38} [get_ports
+     {oled[4]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {28} [get_ports
+     {oled[5]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {15} [get_ports
+     spi_clk]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {16} [get_ports
+     spi_css]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {14} [get_ports
+     spi_mosi]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {17} [get_ports
+     spi_miso]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {27} [get_ports
+     lcd_resetn]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {23} [get_ports
+
+     lcd_spi_clk]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {26} [get_ports
+     lcd_spi_css]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {32} [get_ports
+     lcd_spi_gpo]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {25} [get_ports
+     lcd_spi_mosi]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {18} [get_ports
+     debug]'.
+WARNING - map: Top module port 'cam_pclk' does not connect to anything.
+WARNING - map: Top module port 'cam_hsync' does not connect to anything.
+WARNING - map: Top module port 'cam_vsync' does not connect to anything.
+WARNING - map: Top module port 'cam_data[3]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[2]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[1]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[0]' does not connect to anything.
+WARNING - map: Top module port 'cam_pclk' does not connect to anything.
+WARNING - map: Top module port 'cam_hsync' does not connect to anything.
+WARNING - map: Top module port 'cam_vsync' does not connect to anything.
+WARNING - map: Top module port 'cam_data[3]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[2]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[1]' does not connect to anything.
+WARNING - map: Top module port 'cam_data[0]' does not connect to anything.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| debug_sda           | BIDIR     | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| standby             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_sda             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_mclk            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_scl             | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_trig            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| debug_scl           | INPUT     | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| strobe              | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+OSC Summary
+-----------
+
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            u_hfosc
+  Power UP:                            NODE     VCC_net
+  Enable Signal:                       NODE     VCC_net
+  OSC Output:                          NODE     clk
+  DIV Setting:                                  01
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: u_hfosc
+         Type: HFOSC
+Instance Name: u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/u_rom/PRIM
+     _MODE.xADDR[0].xDATA[0].mem_file.mem0/iCE40UP.sp4k
+         Type: EBR
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 59 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2021 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#mrp_di>Design Information</A></LI>
+<LI><A href=#mrp_ds>Design Summary</A></LI>
+<LI><A href=#mrp_dwe>Design Errors/Warnings</A></LI>
+<LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
+<LI><A href=#mrp_asic>ASIC Components</A></LI>
+<LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

@@ -1,0 +1,294 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : impl_1
+Synopsys HDL compiler and linker, Version comp202103synp2, Build 168R, Built Oct 12 2021 09:17:10, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+18       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 50
+MID:  lib.cell.view
+60       work.lscc_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+61       work.lscc_adder.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+62       work.lscc_cntr.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+63       work.lscc_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+64       work.lscc_fifo.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+65       work.lscc_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+66       work.lscc_fifo_dc_main.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+67       work.lscc_fifo_hw_core.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+68       work.lscc_fifo_main.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+69       work.lscc_fifo_mem.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+70       work.lscc_fifo_mem_core.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+71       work.lscc_fifo_mem_main.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+72       work.lscc_hard_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+73       work.lscc_mult_accumulate.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+74       work.lscc_mult_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+75       work.lscc_mult_add_sub_sum.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+76       work.lscc_multiplier.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+77       work.lscc_multiplier_dsp.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+78       work.lscc_multiplier_lut.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+79       work.lscc_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+80       work.lscc_ram_dp_core.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+81       work.lscc_ram_dp_main.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+82       work.lscc_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+83       work.lscc_ram_dq_core.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+84       work.lscc_ram_dq_inst.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+85       work.lscc_ram_dq_main.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+86       work.lscc_rom.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+87       work.lscc_rom_inst.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+88       work.lscc_rom_inst_core.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+89       work.lscc_soft_fifo.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+90       work.lscc_soft_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+91       work.lscc_subtractor.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+92       work.lscc_write_through.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+93       work.pmi_add.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+94       work.pmi_addsub.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+95       work.pmi_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+96       work.pmi_counter.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+97       work.pmi_dsp.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+98       work.pmi_fifo.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+99       work.pmi_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+100      work.pmi_mac.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+101      work.pmi_mult.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (module definition)
+102      work.pmi_multaddsub.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+103      work.pmi_multaddsubsum.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+104      work.pmi_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+105      work.pmi_ram_dp_be.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+106      work.pmi_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+107      work.pmi_ram_dq_be.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+108      work.pmi_rom.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+109      work.pmi_sub.verilog may have changed because the following files changed:
+                        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_ml_ice40_himax_signdet_top.v (2022-03-21 12:25:57, 2022-03-21 16:48:22) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 68
+FID:  path (timestamp)
+0        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\cnn_accel\rtl\cnn_accel.v (2019-12-02 12:34:00)
+76       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\rtl\i2c.v (2022-03-04 16:53:38)
+1        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\ice40_resetn.v (2018-05-29 11:17:06)
+2        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm.v (2018-05-29 11:17:06)
+3        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_16.v (2018-05-29 11:17:06)
+4        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cm_himax.v (2020-04-20 16:10:30)
+5        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cs.v (2020-05-22 16:29:52)
+6        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_i2cs_fsm.v (2020-05-22 16:29:52)
+7        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_led_con.v (2018-05-29 11:17:06)
+8        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\lsc_uart.v (2018-05-29 15:32:14)
+9        C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_lcd_tx.v (2020-05-22 16:29:52)
+77       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_ebram.v (2018-05-29 11:17:08)
+10       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_spram.v (2019-03-21 15:12:02)
+11       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_tri_spram.v (2019-03-06 17:38:52)
+12       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v (2020-03-06 13:03:28)
+13       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\himax_led_strobe.v (2020-05-22 16:26:14)
+14       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_signdet_clkgen.v (2018-09-07 17:38:06)
+15       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_seq_wide_br.v (2020-05-22 16:01:26)
+16       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\ice40_himax_video_process_128_32_wide_br.v (2020-05-22 15:14:48)
+17       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\lsc_i2cs_signdet.v (2020-05-22 16:28:40)
+20       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v (2022-03-04 16:45:00)
+22       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v (2022-03-04 16:45:01)
+24       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v (2022-03-04 16:45:01)
+26       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v (2022-03-04 16:45:01)
+28       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\rtl\dpram4096x8.v (2022-03-04 16:45:01)
+30       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v (2022-03-04 16:45:01)
+32       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v (2022-03-04 16:45:02)
+33       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v (2022-03-04 16:45:02)
+34       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\signdet_decision_filter.v (2019-12-02 12:31:12)
+35       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\signdet_post.v (2019-12-02 12:31:14)
+36       C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\strobe_ctl.v (2020-05-22 15:47:40)
+37       C:\lscc\radiant\3.1\ip\pmi\../common/adder/rtl/lscc_adder.v (2019-08-05 09:40:57)
+38       C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl/lscc_add_sub.v (2019-10-18 13:58:02)
+39       C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl/lscc_complex_mult.v (2021-09-10 03:26:39)
+40       C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl/lscc_cntr.v (2019-08-05 09:41:47)
+41       C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl/lscc_fifo.v (2021-07-13 10:17:25)
+42       C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl/lscc_fifo_dc.v (2021-09-22 10:53:27)
+43       C:\lscc\radiant\3.1\ip\pmi\../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2020-03-18 10:18:16)
+44       C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2020-03-18 10:17:43)
+45       C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2020-03-18 10:15:40)
+46       C:\lscc\radiant\3.1\ip\pmi\../common/multiplier/rtl/lscc_multiplier.v (2019-08-05 09:42:13)
+47       C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl/lscc_ram_dp.v (2021-07-13 10:17:26)
+48       C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl/lscc_ram_dq.v (2021-07-13 10:17:26)
+49       C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl/lscc_rom.v (2021-07-13 10:17:26)
+50       C:\lscc\radiant\3.1\ip\pmi\../common/subtractor/rtl/lscc_subtractor.v (2019-08-05 09:43:15)
+51       C:\lscc\radiant\3.1\ip\pmi\pmi_add.v (2019-07-11 01:12:46)
+52       C:\lscc\radiant\3.1\ip\pmi\pmi_addsub.v (2019-07-11 01:13:20)
+53       C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v (2019-07-11 01:14:03)
+54       C:\lscc\radiant\3.1\ip\pmi\pmi_counter.v (2019-07-11 01:14:35)
+55       C:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v (2018-09-07 06:04:55)
+56       C:\lscc\radiant\3.1\ip\pmi\pmi_fifo.v (2020-11-06 07:30:47)
+57       C:\lscc\radiant\3.1\ip\pmi\pmi_fifo_dc.v (2020-11-06 07:29:39)
+58       C:\lscc\radiant\3.1\ip\pmi\pmi_iCE40UP.v (2018-09-25 02:25:35)
+59       C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v (2019-07-11 01:15:11)
+60       C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v (2019-07-11 01:15:37)
+61       C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v (2019-07-11 01:16:06)
+62       C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v (2019-07-11 01:16:55)
+63       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp.v (2020-11-06 07:33:54)
+64       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v (2020-11-06 07:35:16)
+65       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq.v (2020-11-06 07:36:42)
+66       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v (2020-11-06 07:56:52)
+67       C:\lscc\radiant\3.1\ip\pmi\pmi_rom.v (2020-03-11 06:32:38)
+68       C:\lscc\radiant\3.1\ip\pmi\pmi_sub.v (2019-07-11 01:17:30)
+69       C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v (2021-10-12 18:10:10)
+70       C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v (2021-10-12 18:06:50)
+71       C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v (2021-10-12 18:06:50)
+72       C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_pipes.svh (2021-10-12 18:06:50)
+73       C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v (2021-10-12 18:06:50)
+
+*******************************************************************
+Unchanged modules: 95
+MID:  lib.cell.view
+0        work.cnn_accel.verilog
+1        work.cnn_accel_ipgen_bnn_ice40_add.verilog
+2        work.cnn_accel_ipgen_bnn_ice40_addrgen_bin.verilog
+3        work.cnn_accel_ipgen_bnn_ice40_addrgen_conv.verilog
+4        work.cnn_accel_ipgen_bnn_ice40_addrgen_stg.verilog
+5        work.cnn_accel_ipgen_bnn_ice40_bin.verilog
+6        work.cnn_accel_ipgen_bnn_ice40_conv_eu.verilog
+7        work.cnn_accel_ipgen_bnn_ice40_cu.verilog
+8        work.cnn_accel_ipgen_bnn_ice40_fc_eu.verilog
+9        work.cnn_accel_ipgen_bnn_ice40_gmux.verilog
+10       work.cnn_accel_ipgen_bnn_ice40_max_pool_eu.verilog
+11       work.cnn_accel_ipgen_bnn_xnor_ps.verilog
+12       work.cnn_accel_ipgen_cnn_ice40_add.verilog
+13       work.cnn_accel_ipgen_cnn_ice40_addrgen_conv.verilog
+14       work.cnn_accel_ipgen_cnn_ice40_addrgen_stg.verilog
+15       work.cnn_accel_ipgen_cnn_ice40_conv_eu.verilog
+16       work.cnn_accel_ipgen_cnn_ice40_conv_eu_8b.verilog
+17       work.cnn_accel_ipgen_cnn_ice40_cu.verilog
+18       work.cnn_accel_ipgen_cnn_ice40_fc_eu.verilog
+19       work.cnn_accel_ipgen_cnn_ice40_mul.verilog
+20       work.cnn_accel_ipgen_cnn_ice40_mul_8b_dual.verilog
+21       work.cnn_accel_ipgen_cnn_ice40_mul_mux.verilog
+22       work.cnn_accel_ipgen_cnn_ice40_scale_eu.verilog
+23       work.cnn_accel_ipgen_ice40_mul16_reg.verilog
+24       work.cnn_accel_ipgen_lscc_compact_cnn_accelerator.verilog
+25       work.cnn_accel_ipgen_lscc_ml_ice40_bnn.verilog
+26       work.cnn_accel_ipgen_lscc_ml_ice40_cnn.verilog
+27       work.cnn_accel_ipgen_lscc_multiplier.verilog
+28       work.cnn_accel_ipgen_lscc_multiplier_dsp.verilog
+29       work.cnn_accel_ipgen_lscc_multiplier_lut.verilog
+30       work.cnn_accel_ipgen_lscc_ram_dp.verilog
+31       work.cnn_accel_ipgen_mle_ice40up_dpram1024x16.verilog
+32       work.cnn_accel_ipgen_mle_ice40up_dpram2048x16.verilog
+33       work.cnn_accel_ipgen_mle_ice40up_dpram256x16.verilog
+34       work.cnn_accel_ipgen_mle_ice40up_dpram4096x16.verilog
+35       work.cnn_accel_ipgen_mle_ice40up_dpram4096x8.verilog
+36       work.cnn_accel_ipgen_mle_ice40up_mul16.verilog
+37       work.cnn_accel_ipgen_mle_ice40up_mul8_dual.verilog
+38       work.double_sync2.verilog
+39       work.dpram1024x8.verilog
+119      work.dpram1024x8_ipgen_lscc_ram_dp.verilog
+120      work.dpram1024x8_ipgen_lscc_ram_dp_core.verilog
+121      work.dpram1024x8_ipgen_lscc_ram_dp_main.verilog
+40       work.dpram2048x8.verilog
+122      work.dpram2048x8_ipgen_lscc_ram_dp.verilog
+123      work.dpram2048x8_ipgen_lscc_ram_dp_core.verilog
+124      work.dpram2048x8_ipgen_lscc_ram_dp_main.verilog
+41       work.dpram256x16.verilog
+125      work.dpram256x16_ipgen_lscc_ram_dp.verilog
+126      work.dpram256x16_ipgen_lscc_ram_dp_core.verilog
+127      work.dpram256x16_ipgen_lscc_ram_dp_main.verilog
+42       work.dpram256x32.verilog
+128      work.dpram256x32_ipgen_lscc_ram_dp.verilog
+129      work.dpram256x32_ipgen_lscc_ram_dp_core.verilog
+130      work.dpram256x32_ipgen_lscc_ram_dp_main.verilog
+43       work.dpram4096x8.verilog
+131      work.dpram4096x8_ipgen_lscc_ram_dp.verilog
+132      work.dpram4096x8_ipgen_lscc_ram_dp_core.verilog
+133      work.dpram4096x8_ipgen_lscc_ram_dp_main.verilog
+44       work.dpram_lcd_fifo.verilog
+134      work.dpram_lcd_fifo_ipgen_lscc_ram_dp.verilog
+135      work.dpram_lcd_fifo_ipgen_lscc_ram_dp_core.verilog
+136      work.dpram_lcd_fifo_ipgen_lscc_ram_dp_main.verilog
+45       work.dpram_oled_fifo.verilog
+137      work.dpram_oled_fifo_ipgen_lscc_ram_dp.verilog
+138      work.dpram_oled_fifo_ipgen_lscc_ram_dp_core.verilog
+139      work.dpram_oled_fifo_ipgen_lscc_ram_dp_main.verilog
+46       work.himax_led_strobe.verilog
+142      work.i2c.verilog
+143      work.i2c_ipgen_lscc_spi_i2c.verilog
+47       work.ice40_himax_signdet_clkgen.verilog
+48       work.ice40_himax_video_process_128_32_seq_wide_br.verilog
+49       work.ice40_himax_video_process_128_32_wide_br.verilog
+50       work.ice40_resetn.verilog
+51       work.lsc_i2cm.verilog
+52       work.lsc_i2cm_16.verilog
+53       work.lsc_i2cm_himax.verilog
+54       work.lsc_i2cs.verilog
+55       work.lsc_i2cs_fsm.verilog
+56       work.lsc_i2cs_signdet.verilog
+57       work.lsc_led_con.verilog
+58       work.lsc_ml_ice40_himax_signdet_top.verilog
+59       work.lsc_uart.verilog
+110      work.rom_himax_cfg_20fps_ir.verilog
+111      work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom.verilog
+140      work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst.verilog
+141      work.rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core.verilog
+112      work.signdet_decision_filter.verilog
+113      work.signdet_post.verilog
+114      work.spi_lcd_tx.verilog
+144      work.spi_loader_ebram.verilog
+115      work.spi_loader_spram.verilog
+116      work.spi_loader_tri_spram.verilog
+117      work.spi_loader_wrap.verilog
+118      work.strobe_ctl.verilog

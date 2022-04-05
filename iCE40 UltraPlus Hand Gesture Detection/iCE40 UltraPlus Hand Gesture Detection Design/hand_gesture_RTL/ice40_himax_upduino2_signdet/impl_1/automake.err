@@ -1,0 +1,22 @@
+ERROR - "C:/lscc/radiant/3.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v(491):ERROR - "StoppingERROR - Processing input files had at least one error. Exiting.ERROR - netcheck: Signal g_on_wide_br.u_ice40_himax_video_process_128_32_wide.rdata[3] is partially routed.ERROR - All 1 iterations failed with design error(s).
+It is recommended to correct all design errors before running multiple iterations.
+Please check the Place and Route reports (.par) for the individual iterations under the directory
+ ""C:\Users\lunar\Desktop\iCE40".ERROR - netcheck: Signal g_on_wide_br.u_ice40_himax_video_process_128_32_wide.rdata[3] is partially routed.ERROR - All 1 iterations failed with design error(s).
+It is recommended to correct all design errors before running multiple iterations.
+Please check the Place and Route reports (.par) for the individual iterations under the directory
+ ""C:\Users\lunar\Desktop\iCE40".ERROR - netcheck: Signal g_on_wide_br.u_ice40_himax_video_process_128_32_wide.rdata[3] is partially routed.ERROR - All 1 iterations failed with design error(s).
+It is recommended to correct all design errors before running multiple iterations.
+Please check the Place and Route reports (.par) for the individual iterations under the directory
+ ""C:\Users\lunar\Desktop\iCE40".ERROR - netcheck: Signal g_on_wide_br.u_ice40_himax_video_process_128_32_wide.rdata[3] is partially routed.ERROR - All 1 iterations failed with design error(s).
+It is recommended to correct all design errors before running multiple iterations.
+Please check the Place and Route reports (.par) for the individual iterations under the directory
+ ""C:\Users\lunar\Desktop\iCE40".@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":26:42:26:53|Reference to undefined module spi_loader_ebram
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.
+@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":26:42:26:53|Reference to undefined module spi_loader_ebram
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.
+ERROR - "c:/users/lunar/desktop/ice40instantiating unknown module . VERI-1063@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":26:42:26:53|Reference to undefined module spi_loader_ebram
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.
+ERROR - "C:/Users/lunar/Desktop/iCE40net  is constantly driven from multiple places at instance , on port . VDB-1000ERROR - "StoppingERROR - "C:/Users/lunar/Desktop/iCE40another driver from here. VDB-1001ERROR - "Stopping@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_ebram.v":267:13:267:24|Reference to undefined module dpram2048x32
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.
+@E: CG389 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\common\spi_loader_wrap.v":47:50:47:61|Reference to undefined module spi_loader_single_spram
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_signdet_top.

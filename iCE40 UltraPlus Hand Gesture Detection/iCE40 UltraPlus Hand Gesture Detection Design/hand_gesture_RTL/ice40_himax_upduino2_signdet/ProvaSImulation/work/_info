@@ -1,0 +1,1195 @@
+m255
+K4
+z2
+!s11f vlog 2021.4 2021.10, Oct 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/ProvaSImulation
+vdouble_sync2
+Z1 !s110 1647860999
+!i10b 1
+!s100 Jj^TK9Th60DBViN]fMgjm2
+IFUd`CYiW@_;8c9Jo^L;SF0
+R0
+Z2 w1590157792
+Z3 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v
+Z4 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v
+!i122 16
+L0 77 34
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OT;L;2021.4;73
+r1
+!s85 0
+31
+Z7 !s108 1647860999.000000
+Z8 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v|
+Z9 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -O0
+Z11 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common} -work work -O0
+Z12 tCvgOpt 0
+vdpram1024x8
+Z13 !s125 LATTICE_CONN
+Z14 !s110 1647860998
+!i10b 1
+!s100 SEV^:oPNFjNDWe0:YieOC1
+I_1jC3[NW>z`QD]<YF3Ajj0
+R0
+Z15 w1646408700
+Z16 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v
+Z17 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v
+!i122 4
+Z18 L0 11 121
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1647860998.000000
+Z20 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v|
+Z21 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v|
+!s101 -O0
+!i113 1
+R10
+Z22 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram1024x8/rtl} -work work -O0
+R12
+vdpram1024x8_ipgen_lscc_ram_dp
+R14
+!i10b 1
+!s100 OVY_Bg;mz=8ozjfdB6]Xn1
+I;5^P^n^N=oe5A;Tnm`oVi0
+R0
+R15
+R16
+R17
+!i122 4
+Z23 L0 187 219
+R5
+R6
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+!i113 1
+R10
+R22
+R12
+vdpram1024x8_ipgen_lscc_ram_dp_core
+R14
+!i10b 1
+!s100 [o4Sk8@bYPmE?Uh?LGEi^1
+IfcM`F3;fF15jWMgg^e<0R0
+R0
+R15
+R16
+R17
+!i122 4
+Z24 L0 3561 2300
+R5
+R6
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+!i113 1
+R10
+R22
+R12
+vdpram1024x8_ipgen_lscc_ram_dp_main
+R14
+!i10b 1
+!s100 <Ddb^ggW_aeC@gHS=HfRJ3
+Ib7zE_hYR@nalRgf?:9JQF3
+R0
+R15
+R16
+R17
+!i122 4
+Z25 L0 461 3039
+R5
+R6
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+!i113 1
+R10
+R22
+R12
+vdpram2048x8
+R13
+R14
+!i10b 1
+!s100 T4;WHh9EM961YZ:_3B8Xo1
+Imkz9GoXUJ7fMO5W5B`QX=1
+R0
+Z26 w1646408701
+Z27 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v
+Z28 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v
+!i122 5
+R18
+R5
+R6
+r1
+!s85 0
+31
+R19
+Z29 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v|
+Z30 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v|
+!s101 -O0
+!i113 1
+R10
+Z31 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram2048x8/rtl} -work work -O0
+R12
+vdpram2048x8_ipgen_lscc_ram_dp
+R14
+!i10b 1
+!s100 LTG=I`KjYd^TVYVFHgP:L0
+I_NLk==Lh8TlNlCAe0dIi00
+R0
+R26
+R27
+R28
+!i122 5
+R23
+R5
+R6
+r1
+!s85 0
+31
+R19
+R29
+R30
+!s101 -O0
+!i113 1
+R10
+R31
+R12
+vdpram2048x8_ipgen_lscc_ram_dp_core
+R14
+!i10b 1
+!s100 DRPf^fn9?BhL23d7Xi8z40
+Iok<:X62;^ofhC<V6E4G8C3
+R0
+R26
+R27
+R28
+!i122 5
+R24
+R5
+R6
+r1
+!s85 0
+31
+R19
+R29
+R30
+!s101 -O0
+!i113 1
+R10
+R31
+R12
+vdpram2048x8_ipgen_lscc_ram_dp_main
+R14
+!i10b 1
+!s100 ?D8i<HO0oBVk>XCLh8]IC1
+IG`;2hE6]GIZ<W4A78L;GM2
+R0
+R26
+R27
+R28
+!i122 5
+R25
+R5
+R6
+r1
+!s85 0
+31
+R19
+R29
+R30
+!s101 -O0
+!i113 1
+R10
+R31
+R12
+vdpram256x16
+R13
+R14
+!i10b 1
+!s100 VAR82f8@=eWMR<1jT8:Wi0
+IJBV`PelPLTCYT<4MEcd9g2
+R0
+R26
+Z32 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v
+Z33 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v
+!i122 7
+R18
+R5
+R6
+r1
+!s85 0
+31
+R19
+Z34 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v|
+Z35 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl/dpram256x16.v|
+!s101 -O0
+!i113 1
+R10
+Z36 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x16/rtl} -work work -O0
+R12
+vdpram256x16_ipgen_lscc_ram_dp
+R14
+!i10b 1
+!s100 jmg:zzc<`cSSJ]lh?>dHe1
+I`z9[RE6OkKdTOz0Nj^fj]3
+R0
+R26
+R32
+R33
+!i122 7
+R23
+R5
+R6
+r1
+!s85 0
+31
+R19
+R34
+R35
+!s101 -O0
+!i113 1
+R10
+R36
+R12
+vdpram256x16_ipgen_lscc_ram_dp_core
+R14
+!i10b 1
+!s100 n:]`8K13VG3J8XiEaU?=A0
+IM48X1GWZC[hJ5A@Eg^K@33
+R0
+R26
+R32
+R33
+!i122 7
+R24
+R5
+R6
+r1
+!s85 0
+31
+R19
+R34
+R35
+!s101 -O0
+!i113 1
+R10
+R36
+R12
+vdpram256x16_ipgen_lscc_ram_dp_main
+R14
+!i10b 1
+!s100 m=4V`TF@2KRZgBAhQjgJg2
+Iz6Z@TVTYF1CiJeIG[@@9?3
+R0
+R26
+R32
+R33
+!i122 7
+R25
+R5
+R6
+r1
+!s85 0
+31
+R19
+R34
+R35
+!s101 -O0
+!i113 1
+R10
+R36
+R12
+vdpram256x32
+R13
+R14
+!i10b 1
+!s100 95S:OPIbO<>b=kc:hcDW73
+Ihmc3VUJH6PmlXB6e]hmcd0
+R0
+R26
+Z37 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v
+Z38 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v
+!i122 6
+R18
+R5
+R6
+r1
+!s85 0
+31
+R19
+Z39 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v|
+Z40 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl/dpram256x32.v|
+!s101 -O0
+!i113 1
+R10
+Z41 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram256x32/rtl} -work work -O0
+R12
+vdpram256x32_ipgen_lscc_ram_dp
+R14
+!i10b 1
+!s100 Li`0kMR:YHE9NFJF`E9Rf2
+IS8WHjblTSa4H4fJ<Rca8R0
+R0
+R26
+R37
+R38
+!i122 6
+R23
+R5
+R6
+r1
+!s85 0
+31
+R19
+R39
+R40
+!s101 -O0
+!i113 1
+R10
+R41
+R12
+vdpram256x32_ipgen_lscc_ram_dp_core
+R14
+!i10b 1
+!s100 MaJHl2QCZEaUFF1;kYUfC1
+I9LQWze4^9gmlzG5kg[go31
+R0
+R26
+R37
+R38
+!i122 6
+R24
+R5
+R6
+r1
+!s85 0
+31
+R19
+R39
+R40
+!s101 -O0
+!i113 1
+R10
+R41
+R12
+vdpram256x32_ipgen_lscc_ram_dp_main
+R14
+!i10b 1
+!s100 H=NKgjl1<7n:j=Le=1]:z3
+Ia@VE7e0FCZhW4CJKW`TbU0
+R0
+R26
+R37
+R38
+!i122 6
+R25
+R5
+R6
+r1
+!s85 0
+31
+R19
+R39
+R40
+!s101 -O0
+!i113 1
+R10
+R41
+R12
+vdpram4096x8
+R13
+R1
+!i10b 1
+!s100 >W^8JPRTk[YCZjUe[dm^o2
+IzVfBHblNHM=PM=:Q4D]@J1
+R0
+R26
+Z42 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v
+Z43 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v
+!i122 13
+R18
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z44 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v|
+Z45 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v|
+!s101 -O0
+!i113 1
+R10
+Z46 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram4096x8/rtl} -work work -O0
+R12
+vdpram4096x8_ipgen_lscc_ram_dp
+R1
+!i10b 1
+!s100 U^gUQ]Y3N4_O3d0zOR`?:0
+IFn^IEC^=RX?fPC;IYmm=;3
+R0
+R26
+R42
+R43
+!i122 13
+R23
+R5
+R6
+r1
+!s85 0
+31
+R7
+R44
+R45
+!s101 -O0
+!i113 1
+R10
+R46
+R12
+vdpram4096x8_ipgen_lscc_ram_dp_core
+R1
+!i10b 1
+!s100 XT1kM^OT>HK9bThTRE:cb3
+I[h^[kS4XB4=OfcEW0`[IL0
+R0
+R26
+R42
+R43
+!i122 13
+R24
+R5
+R6
+r1
+!s85 0
+31
+R7
+R44
+R45
+!s101 -O0
+!i113 1
+R10
+R46
+R12
+vdpram4096x8_ipgen_lscc_ram_dp_main
+R1
+!i10b 1
+!s100 N<gXaoW14Rn]E1ocT^IbU1
+IobSZno9HkU1Pc4iDaMWf53
+R0
+R26
+R42
+R43
+!i122 13
+R25
+R5
+R6
+r1
+!s85 0
+31
+R7
+R44
+R45
+!s101 -O0
+!i113 1
+R10
+R46
+R12
+vdpram_lcd_fifo
+R13
+Z47 !s110 1647860996
+!i10b 1
+!s100 f5kC9a6X[=HiND[_mlRgk0
+IQhn]Hdb`_o=4:NKE^IG222
+R0
+R26
+Z48 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v
+Z49 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v
+!i122 0
+R18
+R5
+R6
+r1
+!s85 0
+31
+Z50 !s108 1647860996.000000
+Z51 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v|
+Z52 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v|
+!s101 -O0
+!i113 1
+R10
+Z53 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_lcd_fifo/rtl} -work work -O0
+R12
+vdpram_lcd_fifo_ipgen_lscc_ram_dp
+R47
+!i10b 1
+!s100 GYljX8:TiRHd2SN6[nS2C0
+IcBjK@V:]<WLoDD8a6CF:S3
+R0
+R26
+R48
+R49
+!i122 0
+R23
+R5
+R6
+r1
+!s85 0
+31
+R50
+R51
+R52
+!s101 -O0
+!i113 1
+R10
+R53
+R12
+vdpram_lcd_fifo_ipgen_lscc_ram_dp_core
+R47
+!i10b 1
+!s100 a5m`gYWO@AzHnQVh89n193
+IK1nQ6OUzf:?2@0UD8D8AO0
+R0
+R26
+R48
+R49
+!i122 0
+R24
+R5
+R6
+r1
+!s85 0
+31
+R50
+R51
+R52
+!s101 -O0
+!i113 1
+R10
+R53
+R12
+vdpram_lcd_fifo_ipgen_lscc_ram_dp_main
+R47
+!i10b 1
+!s100 [LWHJ64IZ>LlD0:bo1kM^0
+IUG>^no;]2VD4[d<N>0JhF3
+R0
+R26
+R48
+R49
+!i122 0
+R25
+R5
+R6
+r1
+!s85 0
+31
+R50
+R51
+R52
+!s101 -O0
+!i113 1
+R10
+R53
+R12
+vdpram_oled_fifo
+R13
+Z54 !s110 1647860997
+!i10b 1
+!s100 UkeCjb]ZI_bZ4;l?S?b_K1
+I6Ylg1[eDSNKL@kiolHOF@3
+R0
+Z55 w1646408702
+Z56 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v
+Z57 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v
+!i122 1
+R18
+R5
+R6
+r1
+!s85 0
+31
+Z58 !s108 1647860997.000000
+Z59 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v|
+Z60 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v|
+!s101 -O0
+!i113 1
+R10
+Z61 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/dpram_oled_fifo/rtl} -work work -O0
+R12
+vdpram_oled_fifo_ipgen_lscc_ram_dp
+R54
+!i10b 1
+!s100 T2^?86FULQg0b0mF?FU[a2
+I:XK5zA;9::=DA8ob<KROX1
+R0
+R55
+R56
+R57
+!i122 1
+R23
+R5
+R6
+r1
+!s85 0
+31
+R58
+R59
+R60
+!s101 -O0
+!i113 1
+R10
+R61
+R12
+vdpram_oled_fifo_ipgen_lscc_ram_dp_core
+R54
+!i10b 1
+!s100 ZKz8RT5]Sh6M2iz2nM2oN0
+I@=ndgFJdKN7LToF`V;=YZ1
+R0
+R55
+R56
+R57
+!i122 1
+R24
+R5
+R6
+r1
+!s85 0
+31
+R58
+R59
+R60
+!s101 -O0
+!i113 1
+R10
+R61
+R12
+vdpram_oled_fifo_ipgen_lscc_ram_dp_main
+R54
+!i10b 1
+!s100 lZjdYajVYEhL41ZY5eb5Q3
+I9FUMfOQBHLGL^YmmijCC_0
+R0
+R55
+R56
+R57
+!i122 1
+R25
+R5
+R6
+r1
+!s85 0
+31
+R58
+R59
+R60
+!s101 -O0
+!i113 1
+R10
+R61
+R12
+vhimax_led_strobe
+Z62 !s110 1647861000
+!i10b 1
+!s100 O=7lQW=L7WTX=9RR7QK_l1
+IlbE88?mKzMOi41>KWEITl0
+R0
+w1590157574
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v
+!i122 18
+L0 2 81
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/himax_led_strobe.v|
+!s101 -O0
+!i113 1
+R10
+Z63 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src} -work work -O0
+R12
+vice40_himax_signdet_clkgen
+R62
+!i10b 1
+!s100 QzHzKPRK]XHE0O11XSJ;k1
+I]QK9o^7XPRjo9_o:TA_g^0
+R0
+w1536334686
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v
+!i122 23
+L0 2 241
+R5
+R6
+r1
+!s85 0
+31
+Z64 !s108 1647861000.000000
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_signdet_clkgen.v|
+!s101 -O0
+!i113 1
+R10
+R63
+R12
+vice40_himax_video_process_128_32_wide_br
+R1
+!i10b 1
+!s100 19eki8CRP597Na>^DQ16I0
+IIRh2DoLnZ?nMT>UQR9SX60
+R0
+w1590153288
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v
+!i122 8
+L0 19 667
+R5
+R6
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/ice40_himax_video_process_128_32_wide_br.v|
+!s101 -O0
+!i113 1
+R10
+R63
+R12
+vice40_resetn
+R62
+!i10b 1
+!s100 G?:^67c``Udbb3f=8dAzR0
+IlNiemH25IbcSlPooaWFB00
+R0
+Z65 w1527585426
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v
+!i122 22
+L0 3 70
+R5
+R6
+r1
+!s85 0
+31
+R64
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/ice40_resetn.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vlsc_i2cm_16
+R62
+!i10b 1
+!s100 gJ?FJ>_g7g?U7kjSn]@:91
+I]KOSY@Z9]^3D^4SYgI?^e3
+R0
+R65
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v
+!i122 20
+L0 3 304
+R5
+R6
+r1
+!s85 0
+31
+R64
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_16.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vlsc_i2cm_himax
+R62
+!i10b 1
+!s100 LCZi=k9PfzlOQ>_b?Ye2i1
+ILjB_Y:K4O^BQO21Bc0eRZ1
+R0
+w1587391830
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v
+!i122 21
+L0 2 346
+R5
+R6
+r1
+!s85 0
+31
+R64
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cm_himax.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vlsc_i2cs
+R1
+!i10b 1
+!s100 G`LzegcA3F7I0>8^<VmM>0
+IZKQid_?]lXjjUkERPjnZX2
+R0
+R2
+R3
+R4
+!i122 16
+L0 4 71
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vlsc_i2cs_fsm
+R1
+!i10b 1
+!s100 39oZWT`QolmYSb765`Ghl1
+IcR@4RhkVWLlSI74Ci:AHK3
+R0
+R2
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v
+!i122 15
+L0 31 239
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_i2cs_fsm.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vlsc_i2cs_signdet
+R1
+!i10b 1
+!s100 75S^?@TVd0fT]P1[V]zo]2
+ICbY4I=:PmQmfKmFbk=YF81
+R0
+w1590157720
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v
+!i122 17
+L0 4 69
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/lsc_i2cs_signdet.v|
+!s101 -O0
+!i113 1
+R10
+R63
+R12
+vlsc_uart
+R1
+!i10b 1
+!s100 ;=_TE?o1Gz@7eT7@bjb1J0
+I7LZb3X^=H<NTiF0:]?RBg3
+R0
+w1527600734
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v
+!i122 14
+L0 3 352
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/lsc_uart.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vrom_himax_cfg_20fps_ir
+R13
+R62
+!i10b 1
+!s100 GI5IehcW@^D6d3DEUXYe=2
+I1Aad[dnW4WTeK3g>DD`bU1
+R0
+R55
+Z66 8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v
+Z67 FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v
+!i122 19
+L0 11 99
+R5
+R6
+r1
+!s85 0
+31
+R64
+Z68 !s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v|
+Z69 !s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v|
+!s101 -O0
+!i113 1
+R10
+Z70 !s92 {+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/radiant_mem/rom_himax_cfg_20fps_ir/rtl} -work work -O0
+R12
+vrom_himax_cfg_20fps_ir_ipgen_lscc_rom
+R62
+!i10b 1
+!s100 KhCllKL_BTKe7=`gR`R620
+IZNlnU9`@JbVI?ff[XB;181
+R0
+R55
+R66
+R67
+!i122 19
+L0 165 201
+R5
+R6
+r1
+!s85 0
+31
+R64
+R68
+R69
+!s101 -O0
+!i113 1
+R10
+R70
+R12
+vrom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst
+R62
+!i10b 1
+!s100 =:kh0[e<<EN:4V3jkLC5>2
+IZe:OcbkX^j@WHMBjYdk4>2
+R0
+R55
+R66
+R67
+!i122 19
+L0 427 823
+R5
+R6
+r1
+!s85 0
+31
+R64
+R68
+R69
+!s101 -O0
+!i113 1
+R10
+R70
+R12
+vrom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core
+R62
+!i10b 1
+!s100 Ldc?L6@hz4D:hPgBJHzb41
+I<fE2R_=ANfaN@4LXbfR>=3
+R0
+R55
+R66
+R67
+!i122 19
+L0 1306 1678
+R5
+R6
+r1
+!s85 0
+31
+R64
+R68
+R69
+!s101 -O0
+!i113 1
+R10
+R70
+R12
+vsigndet_post
+R14
+!i10b 1
+!s100 kSNgQN6WF[N[aW^LzHQ`j0
+Iz9Y>1SJUiebY2kjiJ=Moi2
+R0
+w1575286274
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v
+!i122 3
+L0 1 76
+R5
+R6
+r1
+!s85 0
+31
+R58
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/signdet_post.v|
+!s101 -O0
+!i113 1
+R10
+R63
+R12
+vspi_lcd_tx
+R54
+!i10b 1
+!s100 ?F60N@EXWNXofhFZ^R^?20
+IGn?52Fe1XCzAOghma^4O;1
+R0
+R2
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v
+!i122 2
+L0 2 295
+R5
+R6
+r1
+!s85 0
+31
+R58
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_lcd_tx.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vspi_loader_ebram
+R1
+!i10b 1
+!s100 GTn^<okW2g3z]mDQ>94o<0
+I;L?F;_jhIEBU`IVNJ;aae0
+R0
+w1527585428
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_ebram.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_ebram.v
+!i122 11
+L0 4 282
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_ebram.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_ebram.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vspi_loader_spram
+R1
+!i10b 1
+!s100 mC]Z^B8aVTYeJGU=EhTzV1
+I<bjGOIUOEXi:bQ0bEU0U33
+R0
+w1553177522
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v
+!i122 9
+L0 4 342
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_spram.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vspi_loader_tri_spram
+R1
+!i10b 1
+!s100 OZ8JD;JeHO@5[_kX;1z162
+IFUo0U8zb[5AbhC`7EH4fL3
+R0
+w1551890332
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v
+!i122 10
+L0 4 391
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_tri_spram.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vspi_loader_wrap
+R1
+!i10b 1
+!s100 PZZaKH=ckgE7_kB?fPgDk0
+Imn^Xa2^zc5a15_dbc^;IW3
+R0
+w1583496208
+8C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v
+FC:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v
+!i122 12
+L0 4 128
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v|
+!s90 -reportprogress|300|+incdir+C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common|-work|work|C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/src/common/spi_loader_wrap.v|
+!s101 -O0
+!i113 1
+R10
+R11
+R12

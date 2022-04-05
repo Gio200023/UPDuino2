@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd"
+-ver "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/rom_himax_cfg_324_dim_maxfps/rtl/rom_himax_cfg_324_dim_maxfps.v"
+-sdc  "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/rom_himax_cfg_324_dim_maxfps/constraints/rom_himax_cfg_324_dim_maxfps.ldc"
+-path "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/rom_himax_cfg_324_dim_maxfps"
+-top rom_himax_cfg_324_dim_maxfps
+-a "iCE40UP"

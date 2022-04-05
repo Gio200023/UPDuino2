@@ -1,0 +1,117 @@
+|__hyper__lib__|syn_hyper_source|2|C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v|0|
+|__hyper__lib__|syn_hyper_connect|4|C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v|0|
+|__hyper__lib__|syn_hyper_source_internal|1|C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v|0|
+|__hyper__lib__|syn_hyper_connect_internal|1|C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v|0|
+|snps_haps|capim|4|C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|umr_clk_reset|0|C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|capim_ui|5|C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|capim_wp|2|C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|capim_wp_ui|2|C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v|0|
+|snps_haps|SceMiMessageOutPort|1|C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiMessageInPort|1|C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockPort|7|C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockControl|1|C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v|0|
+|snps_haps|SceMiClockPortP|6|C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v|0|
+|work|lscc_add_sub|14|C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v|0|
+|work|lscc_adder|20|C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v|0|
+|work|lscc_subtractor|21|C:\lscc\radiant\3.1\ip\pmi\pmi_addsub.v|0|
+|work|pmi_addsub|5|C:\lscc\radiant\3.1\ip\pmi\pmi_add.v|0|
+|work|pmi_add|4|C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v|0|
+|work|lscc_complex_mult|8|C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v|0|
+|work|lscc_mult_add_sub|16|C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v|0|
+|work|lscc_multiplier|16|C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v|0|
+|work|lscc_multiplier_lut|25|C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v|0|
+|work|lscc_multiplier_dsp|25|C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v|0|
+|work|pmi_complex_mult|10|C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v|0|
+|work|lscc_cntr|12|C:\lscc\radiant\3.1\ip\pmi\pmi_counter.v|0|
+|work|pmi_counter|6|C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v|0|
+|work|lscc_fifo|19|C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v|0|
+|work|lscc_fifo_main|18|C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v|0|
+|work|lscc_hard_fifo_dc|29|C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v|0|
+|work|lscc_fifo_hw_core|19|C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v|0|
+|work|lscc_soft_fifo|16|C:\lscc\radiant\3.1\ip\pmi\pmi_fifo.v|0|
+|work|pmi_fifo|13|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_fifo_dc|27|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_fifo_dc_main|26|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_soft_fifo_dc|27|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_fifo_mem|89|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_fifo_mem_main|96|C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v|0|
+|work|lscc_fifo_mem_core|112|C:\lscc\radiant\3.1\ip\pmi\pmi_fifo_dc.v|0|
+|work|pmi_fifo_dc|17|C:\lscc\radiant\3.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v|0|
+|work|lscc_mult_accumulate|18|C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v|0|
+|work|pmi_mac|11|C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v|0|
+|work|lscc_mult_add_sub_sum|16|C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v|0|
+|work|pmi_multaddsubsum|11|C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v|0|
+|work|pmi_multaddsub|10|C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v|0|
+|work|pmi_mult|9|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v|0|
+|work|lscc_ram_dp|89|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v|0|
+|work|lscc_ram_dp_main|96|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v|0|
+|work|lscc_ram_dp_core|112|C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp.v|0|
+|work|pmi_ram_dp|15|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v|0|
+|work|lscc_ram_dq|88|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v|0|
+|work|lscc_ram_dq_main|92|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v|0|
+|work|lscc_write_through|4|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v|0|
+|work|lscc_ram_dq_inst|93|C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v|0|
+|work|lscc_ram_dq_core|106|C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq.v|0|
+|work|pmi_ram_dq|13|C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v|0|
+|work|lscc_rom|82|C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v|0|
+|work|lscc_rom_inst|93|C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v|0|
+|work|lscc_rom_inst_core|105|C:\lscc\radiant\3.1\ip\pmi\pmi_rom.v|0|
+|work|pmi_rom|12|C:\lscc\radiant\3.1\ip\pmi\pmi_sub.v|0|
+|work|pmi_sub|4|C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v|0|
+|work|pmi_ram_dp_be|18|C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v|0|
+|work|pmi_ram_dq_be|14|C:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v|0|
+|work|pmi_dsp|20|C:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v|0|
+|work|ice40_himax_signdet_clkgen|8|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_signdet_clkgen.v|0|
+|work|signdet_post|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\signdet_post.v|0|
+|work|signdet_decision_filter|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\signdet_decision_filter.v|0|
+|work|himax_led_strobe|4|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\himax_led_strobe.v|0|
+|work|strobe_ctl|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\strobe_ctl.v|0|
+|work|lsc_i2cs_signdet|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs_signdet.v|0|
+|work|ice40_resetn|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_resetn.v|0|
+|work|lsc_i2cm|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm.v|0|
+|work|lsc_i2cm_16|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_16.v|0|
+|work|lsc_i2cm_himax|8|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cm_himax.v|0|
+|work|lsc_i2cs|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs.v|0|
+|work|double_sync2|0|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs.v|0|
+|work|lsc_i2cs_fsm|10|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_i2cs_fsm.v|0|
+|work|lsc_led_con|4|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_led_con.v|0|
+|work|lsc_uart|3|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_uart.v|0|
+|work|spi_loader_spram|15|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\spi_loader_spram.v|0|
+|work|spi_loader_tri_spram|14|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\spi_loader_tri_spram.v|0|
+|work|spi_loader_wrap|2|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\spi_loader_wrap.v|0|
+|work|spi_lcd_tx|2|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\spi_lcd_tx.v|0|
+|work|ice40_himax_video_process_128_32_wide_br|15|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_wide_br.v|0|
+|work|ice40_himax_video_process_128_32_seq_wide_br|15|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\ice40_himax_video_process_128_32_seq_wide_br.v|0|
+|work|dpram1024x8|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v|0|
+|work|dpram1024x8_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v|0|
+|work|dpram1024x8_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v|0|
+|work|dpram1024x8_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram1024x8\rtl\dpram1024x8.v|0|
+|work|dpram256x16|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v|0|
+|work|dpram256x16_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v|0|
+|work|dpram256x16_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v|0|
+|work|dpram256x16_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x16\rtl\dpram256x16.v|0|
+|work|dpram_oled_fifo|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_oled_fifo\rtl\dpram_oled_fifo.v|0|
+|work|dpram_oled_fifo_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_oled_fifo\rtl\dpram_oled_fifo.v|0|
+|work|dpram_oled_fifo_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_oled_fifo\rtl\dpram_oled_fifo.v|0|
+|work|dpram_oled_fifo_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_oled_fifo\rtl\dpram_oled_fifo.v|0|
+|work|dpram256x32|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x32\rtl\dpram256x32.v|0|
+|work|dpram256x32_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x32\rtl\dpram256x32.v|0|
+|work|dpram256x32_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x32\rtl\dpram256x32.v|0|
+|work|dpram256x32_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram256x32\rtl\dpram256x32.v|0|
+|work|dpram2048x8|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram2048x8\rtl\dpram2048x8.v|0|
+|work|dpram2048x8_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram2048x8\rtl\dpram2048x8.v|0|
+|work|dpram2048x8_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram2048x8\rtl\dpram2048x8.v|0|
+|work|dpram2048x8_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram2048x8\rtl\dpram2048x8.v|0|
+|work|dpram4096x8|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram4096x8\rtl\dpram4096x8.v|0|
+|work|dpram4096x8_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram4096x8\rtl\dpram4096x8.v|0|
+|work|dpram4096x8_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram4096x8\rtl\dpram4096x8.v|0|
+|work|dpram4096x8_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram4096x8\rtl\dpram4096x8.v|0|
+|work|dpram_lcd_fifo|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v|0|
+|work|dpram_lcd_fifo_ipgen_lscc_ram_dp|89|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v|0|
+|work|dpram_lcd_fifo_ipgen_lscc_ram_dp_main|96|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v|0|
+|work|dpram_lcd_fifo_ipgen_lscc_ram_dp_core|112|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v|0|
+|work|rom_himax_cfg_20fps_ir|1|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v|0|
+|work|rom_himax_cfg_20fps_ir_ipgen_lscc_rom|82|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v|0|
+|work|rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst|93|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v|0|
+|work|rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core|105|C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\rom_himax_cfg_20fps_ir\rtl\rom_himax_cfg_20fps_ir.v|0|

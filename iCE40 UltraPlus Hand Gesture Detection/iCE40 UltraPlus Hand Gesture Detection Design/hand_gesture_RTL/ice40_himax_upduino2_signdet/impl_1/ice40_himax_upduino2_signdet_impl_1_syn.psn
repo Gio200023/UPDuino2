@@ -1,0 +1,37 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 3.1.0.43.2
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o ice40_himax_upduino2_signdet_impl_1_syn.udb -ldc C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/impl_1/ice40_himax_upduino2_signdet_im   ....   and Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/promote.xml ice40_himax_upduino2_signdet_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'ice40_himax_upduino2_signdet_impl_1.vm' ...
+Reading constraint file 'C:/Users/lunar/Desktop/iCE40 UltraPlus Hand Gesture Detection/iCE40 UltraPlus Hand Gesture Detection Design/hand_gesture_RTL/ice40_himax_upduino2_signdet/impl_1/ice40_himax_upduino2_signdet_impl_1.ldc' ...
+Removing unused logic ...
+INFO - Instance u_ice40_sigdet_clkgen/GND_cZ is optimized away.
+INFO - Signal u_resetn/cnt_in_1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal u_lsc_i2cm_himax/u_lsc_i2cm/main_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal u_lsc_i2cm_himax/u_lsc_i2cm/interval_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/u_rom/GND_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/u_rom/VCC_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/GND_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_rom_inst/VCC_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/GND_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/VCC_cZ is optimized away.
+INFO - Signal u_lsc_i2cm_himax/i2c_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal u_himax_led_strobe/un1_r_duration_0_I_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal u_himax_led_strobe/o_strobe6_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal u_himax_led_strobe/un1_period_cnt_a_5_0_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal u_himax_led_strobe/un2_period_cnt_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal u_himax_led_strobe/duration_cnt_1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Instance g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/mem_main/GND_cZ is optimized away.
+INFO - Instance g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/mem_main/VCC_cZ is optimized away.
+INFO - Instance g_on_en_uart.u_lsc_uart/genblk1.u_ram1024x8_0/lscc_ram_dp_inst/GND_cZ is optimized away.
+INFO - ... More instances are optimized away.
+INFO - Signal g_on_en_uart.u_lsc_uart/un1_fifo_raddr_clk_0_I_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - ... More signals are undriven or does not drive anything - clipped
+Starting design annotation....
+Writing output file 'ice40_himax_upduino2_signdet_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 45 MB

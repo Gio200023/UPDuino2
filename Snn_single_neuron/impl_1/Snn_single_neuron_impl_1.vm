@@ -1,0 +1,97 @@
+//
+// Written by Synplify Pro 
+// Product Version "R-2021.03LR-SP1"
+// Program "Synplify Pro", Mapper "map202103lat, Build 074R"
+// Tue Mar 22 17:32:56 2022
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v "
+// file 1 "\c:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v "
+// file 2 "\c:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v "
+// file 3 "\c:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v "
+// file 4 "\c:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\lscc\radiant\3.1\ip\pmi\pmi_ice40up.v "
+// file 6 "\c:\lscc\radiant\3.1\ip\pmi\pmi_addsub.v "
+// file 7 "\c:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v "
+// file 8 "\c:\lscc\radiant\3.1\ip\pmi\pmi_add.v "
+// file 9 "\c:\lscc\radiant\3.1\ip\pmi\../common/adder/rtl\lscc_adder.v "
+// file 10 "\c:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v "
+// file 11 "\c:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v "
+// file 12 "\c:\lscc\radiant\3.1\ip\pmi\pmi_counter.v "
+// file 13 "\c:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v "
+// file 14 "\c:\lscc\radiant\3.1\ip\pmi\pmi_fifo.v "
+// file 15 "\c:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v "
+// file 16 "\c:\lscc\radiant\3.1\ip\pmi\pmi_fifo_dc.v "
+// file 17 "\c:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v "
+// file 18 "\c:\lscc\radiant\3.1\ip\pmi\pmi_mac.v "
+// file 19 "\c:\lscc\radiant\3.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v "
+// file 20 "\c:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v "
+// file 21 "\c:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v "
+// file 22 "\c:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v "
+// file 23 "\c:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v "
+// file 24 "\c:\lscc\radiant\3.1\ip\pmi\pmi_mult.v "
+// file 25 "\c:\lscc\radiant\3.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v "
+// file 26 "\c:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp.v "
+// file 27 "\c:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v "
+// file 28 "\c:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq.v "
+// file 29 "\c:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v "
+// file 30 "\c:\lscc\radiant\3.1\ip\pmi\pmi_rom.v "
+// file 31 "\c:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v "
+// file 32 "\c:\lscc\radiant\3.1\ip\pmi\pmi_sub.v "
+// file 33 "\c:\lscc\radiant\3.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v "
+// file 34 "\c:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v "
+// file 35 "\c:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v "
+// file 36 "\c:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v "
+// file 37 "\c:\users\lunar\desktop\snn_single_neuron\source\impl_1\neuron.v "
+// file 38 "\c:\users\lunar\desktop\snn_single_neuron\source\impl_1\network.v "
+// file 39 "\c:\lscc\radiant\3.1\synpbase\lib\nlconst.dat "
+
+`timescale 100 ps/100 ps
+module spike_network (
+  clk,
+  resetn,
+  neuron_in1,
+  neuron_in2,
+  neuron_in3,
+  neuron_out7,
+  neuron_out8
+)
+;
+input clk ;
+input resetn ;
+input neuron_in1 ;
+input neuron_in2 ;
+input neuron_in3 ;
+output neuron_out7 ;
+output neuron_out8 ;
+wire clk ;
+wire resetn ;
+wire neuron_in1 ;
+wire neuron_in2 ;
+wire neuron_in3 ;
+wire neuron_out7 ;
+wire neuron_out8 ;
+wire GND ;
+wire VCC_x ;
+wire VCC ;
+// @37:45
+  OBZ_B neuron_out7_obuft (
+	.I(GND),
+	.T_N(GND),
+	.O(neuron_out7)
+);
+// @37:46
+  OBZ_B neuron_out8_obuft (
+	.I(GND),
+	.T_N(GND),
+	.O(neuron_out8)
+);
+  VLO GND_cZ (
+	.Z(GND)
+);
+  VHI VCC_cZ (
+	.Z(VCC)
+);
+endmodule /* spike_network */
+

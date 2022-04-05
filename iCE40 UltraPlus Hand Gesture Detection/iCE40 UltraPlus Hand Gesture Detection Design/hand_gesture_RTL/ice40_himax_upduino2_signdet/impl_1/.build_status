@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="1648196515">
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1648196515"/>
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1648196513">
+            <Task name="Map" build_result="0" update_result="2" update_time="1648196513"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1648196513">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1648196513"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1646409222"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="0" build_time="1648196527">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1648196527"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1648196527"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1648196527"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1648196527"/>
+        </Milestone>
+        <Report name="ice40_himax_upduino2_signdet_impl_1.bgn" last_build_time="1648028010" last_build_size="1142"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1.bin" last_build_time="1648028010" last_build_size="104156"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1.lsedata" last_build_time="0" last_build_size="0"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1.twr.html" last_build_time="1646408869" last_build_size="676587"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1.udb" last_build_time="1648028008" last_build_size="197238"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1_map.udb" last_build_time="1648027987" last_build_size="130862"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1_rtl.udb" last_build_time="0" last_build_size="0"/>
+        <Report name="ice40_himax_upduino2_signdet_impl_1_syn.udb" last_build_time="1648027986" last_build_size="80612"/>
+    </Strategy>
+</BuildStatus>

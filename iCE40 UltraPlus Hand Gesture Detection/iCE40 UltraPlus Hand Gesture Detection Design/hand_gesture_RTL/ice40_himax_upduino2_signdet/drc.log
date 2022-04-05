@@ -1,0 +1,10 @@
+DRC: Design Rule Check Radiant Software (64-bit) 3.1.0.43.2
+Mon Mar 14 11:33:06 2022
+
+WARNING - Top module port 'cam_pclk' does not connect to anything.
+WARNING - Top module port 'cam_hsync' does not connect to anything.
+WARNING - Top module port 'cam_vsync' does not connect to anything.
+WARNING - Top module port 'cam_data[3]' does not connect to anything.
+WARNING - Top module port 'cam_data[2]' does not connect to anything.
+WARNING - Top module port 'cam_data[1]' does not connect to anything.
+WARNING - Top module port 'cam_data[0]' does not connect to anything.

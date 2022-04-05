@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/22/2022 11:15:36
+#Project Location: C:/Users/lunar/Desktop/Snn_single_neuron; Project name: Snn_single_neuron
+prj_create -name "Snn_single_neuron" -impl "impl_1" -dev iCE40UP5K-UWG30ITR -performance "High-Performance_1.2V" -synthesis "synplify"
+prj_save 
+prj_add_source "C:/Users/lunar/Desktop/Snn_single_neuron/source/impl_1/neuron.v"
+#Stop recording: 3/22/2022 12:25:04

@@ -1,0 +1,1281 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48I-6 (Lattice)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   lsc_ml_ice40_himax_signdet_top   ########
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         478                                     
+FD1P3BZ         18                                      
+FD1P3IZ         105                                     
+                                                        
+Total FLOPS     601                100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block lsc_ml_ice40_himax_signdet_top:	601 (39.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    25                                      
+LUT4                   555                                     
+CCU2_B                 227                                     
+                                                               
+Total LUTS             580                100 %                
+Total CARRY CHAINS     227                100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block lsc_ml_ice40_himax_signdet_top:	807 (52.37 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              9                                       
+                                                           
+Total BLOCKRAM     9                  100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block lsc_ml_ice40_himax_signdet_top:	9 (0.58 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+IB           8                                       
+BB_B         1                                       
+OB           16                                      
+OBZ_B        5                                       
+                                                     
+TOTAL IO     30                 100 %                
+=====================================================
+Total IO PADS in the block lsc_ml_ice40_himax_signdet_top:	30 (1.95 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+RGB                 1                                       
+HSOSC               1                                       
+IOL_B               5                                       
+VLO                 39                                      
+VHI                 39                                      
+FD1P3XZ             9                                       
+                                                            
+Total BLACK BOX     94                 100 %                
+============================================================
+Total BLACKBOX in the block lsc_ml_ice40_himax_signdet_top:	94 (6.10 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   himax_led_strobe   ########
+Instance path:   u_himax_led_strobe                                   
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         30                                      
+FD1P3IZ         48                                      
+                                                        
+Total FLOPS     78                 13 %                 
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_himax_led_strobe:	78 (5.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    11                                      
+LUT4                   58                                      
+CCU2_B                 49                                      
+                                                               
+Total LUTS             69                 11.9 %               
+Total CARRY CHAINS     49                 21.6 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_himax_led_strobe:	118 (7.66 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_himax_led_strobe:	2 (0.13 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_himax_signdet_clkgen_0_0_0_1_2_3_7_6   ########
+Instance path:   u_ice40_sigdet_clkgen                                                          
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         1                                       
+                                                        
+Total FLOPS     1                  0.1660 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_ice40_sigdet_clkgen:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_ice40_sigdet_clkgen:	2 (0.13 % Utilization)
+
+---------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_himax_video_process_128_32_wide_br_Z25_layer0   ########
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide                                    
+Parent Instance:   lsc_ml_ice40_himax_signdet_top                                                        
+=========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         192                                     
+FD1P3IZ         19                                      
+                                                        
+Total FLOPS     211                35.1 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide:	211 (13.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    8                                       
+LUT4                   180                                     
+CCU2_B                 98                                      
+                                                               
+Total LUTS             188                32.4 %               
+Total CARRY CHAINS     98                 43.2 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide:	286 (18.56 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              5                                       
+                                                           
+Total BLOCKRAM     5                  55.6 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide:	5 (0.32 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 15                                      
+VHI                 15                                      
+                                                            
+Total BLACK BOX     30                 31.9 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide:	30 (1.95 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_1   ########              
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide          
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            7                                       
+                                                       
+Total LUTS     7                  1.21 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8:	7 (0.45 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 5                                       
+VHI                 5                                       
+                                                            
+Total BLACK BOX     10                 10.6 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8:	10 (0.65 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_1   ########  
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8               
+==================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            7                                       
+                                                       
+Total LUTS     7                  1.21 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst:	7 (0.45 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst:	8 (0.52 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_1   ########       
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst       
+===========================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            7                                       
+                                                       
+Total LUTS     7                  1.21 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main:	7 (0.45 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main:	6 (0.39 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_1   ########                                                         
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main                                                 
+==============================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            3                                       
+                                                       
+Total LUTS     3                  0.5170 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	3 (0.19 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	2 (0.13 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_1   ########                                                          
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main                                                 
+==============================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            4                                       
+                                                       
+Total LUTS     4                  0.690 %              
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	4 (0.26 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram1024x8.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	2 (0.13 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x16   ########                     
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide               
+======================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu:	8 (0.52 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x16_ipgen_lscc_ram_dp_Z14_layer0   ########         
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu               
+=======================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst:	6 (0.39 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x16_ipgen_lscc_ram_dp_main_Z12_layer0   ########             
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst       
+================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  4.26 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main:	4 (0.26 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x16_ipgen_lscc_ram_dp_core_Z13_layer0   ########                                                                
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main                                                 
+===================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x16_accu.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	2 (0.13 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x32   ########                          
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide                    
+===========================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 5                                       
+VHI                 5                                       
+                                                            
+Total BLACK BOX     10                 10.6 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd:	10 (0.65 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x32_ipgen_lscc_ram_dp_Z18_layer0   ########              
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd               
+============================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst:	8 (0.52 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x32_ipgen_lscc_ram_dp_main_Z15_layer0   ########                  
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst       
+=====================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main:	6 (0.39 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x32_ipgen_lscc_ram_dp_core_Z16_layer0   ########                                                                     
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main                                                 
+========================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	2 (0.13 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram256x32_ipgen_lscc_ram_dp_core_Z17_layer0   ########                                                                     
+Instance path:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+Parent Instance:   g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main                                                 
+========================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_wide_br.u_ice40_himax_video_process_128_32_wide.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	2 (0.13 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   ice40_resetn   ########
+Instance path:   u_resetn                                         
+==================================================================
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   6                                       
+CCU2_B                 4                                       
+                                                               
+Total LUTS             6                  1.03 %               
+Total CARRY CHAINS     4                  1.76 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_resetn:	10 (0.65 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+FD1P3XZ             9                                       
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     11                 11.7 %               
+============================================================
+Total BLACKBOX in the block u_resetn:	11 (0.71 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lsc_i2cm_himax_80_0s_324x324_20fps_ir_0_1_2_3_7   ########
+Instance path:   u_lsc_i2cm_himax                                                                    
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         69                                      
+FD1P3BZ         3                                       
+                                                        
+Total FLOPS     72                 12 %                 
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_lsc_i2cm_himax:	72 (4.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   59                                      
+CCU2_B                 13                                      
+                                                               
+Total LUTS             59                 10.2 %               
+Total CARRY CHAINS     13                 5.73 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_lsc_i2cm_himax:	72 (4.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_lsc_i2cm_himax:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 6                                       
+VHI                 6                                       
+                                                            
+Total BLACK BOX     12                 12.8 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax:	12 (0.78 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   lsc_i2cm_16   ########
+Instance path:   u_lsc_i2cm_himax.u_lsc_i2cm                     
+Parent Instance:   u_lsc_i2cm_himax                              
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BZ         2                                       
+FD1P3DZ         40                                      
+                                                        
+Total FLOPS     42                 6.99 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_lsc_i2cm_himax.u_lsc_i2cm:	42 (2.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   40                                      
+CCU2_B                 9                                       
+                                                               
+Total LUTS             40                 6.9 %                
+Total CARRY CHAINS     9                  3.96 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_lsc_i2cm_himax.u_lsc_i2cm:	49 (3.18 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax.u_lsc_i2cm:	2 (0.13 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   rom_himax_cfg_20fps_ir   ########
+Instance path:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg                   
+Parent Instance:   u_lsc_i2cm_himax                                         
+============================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg:	8 (0.52 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   rom_himax_cfg_20fps_ir_ipgen_lscc_rom_Z3_layer0   ########
+Instance path:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst                              
+Parent Instance:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg                                          
+=====================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst:	6 (0.39 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_Z1_layer0   ########
+Instance path:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom                             
+Parent Instance:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst                                 
+==========================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  4.26 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom:	4 (0.26 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   rom_himax_cfg_20fps_ir_ipgen_lscc_rom_inst_core_Z2_layer0   ########        
+Instance path:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0
+Parent Instance:   u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom                                        
+=======================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_rom_inst.u_rom.PRIM_MODE.xADDR[0].xDATA[0].mem_file.mem0:	2 (0.13 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   lsc_uart_103_1K_0   ########
+Instance path:   g_on_en_uart.u_lsc_uart                               
+Parent Instance:   lsc_ml_ice40_himax_signdet_top                      
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IZ         38                                      
+FD1P3DZ         61                                      
+FD1P3BZ         2                                       
+                                                        
+Total FLOPS     101                16.8 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block g_on_en_uart.u_lsc_uart:	101 (6.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   91                                      
+CCU2_B                 35                                      
+                                                               
+Total LUTS             91                 15.7 %               
+Total CARRY CHAINS     35                 15.4 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block g_on_en_uart.u_lsc_uart:	126 (8.18 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 6                                       
+VHI                 6                                       
+                                                            
+Total BLACK BOX     12                 12.8 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart:	12 (0.78 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_0   ########
+Instance path:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0     
+Parent Instance:   g_on_en_uart.u_lsc_uart                         
+===================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 5                                       
+VHI                 5                                       
+                                                            
+Total BLACK BOX     10                 10.6 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0:	10 (0.65 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_Z11_layer0_0   ########
+Instance path:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst                 
+Parent Instance:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0                                
+================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst:	8 (0.52 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_main_Z8_layer0_0   ########
+Instance path:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main            
+Parent Instance:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst                   
+====================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              2                                       
+                                                           
+Total BLOCKRAM     2                  22.2 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main:	2 (0.13 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main:	6 (0.39 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_core_Z10_layer0_0   ########                                      
+Instance path:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0
+Parent Instance:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main                                                 
+===========================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[1].no_init.u_mem0:	2 (0.13 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram1024x8_ipgen_lscc_ram_dp_core_Z9_layer0_0   ########                                       
+Instance path:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0
+Parent Instance:   g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main                                                 
+===========================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_en_uart.u_lsc_uart.genblk1.u_ram1024x8_0.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].no_init.u_mem0:	2 (0.13 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   spi_lcd_tx_0_OLED   ########
+Instance path:   u_spi_lcd_tx                                          
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         62                                      
+FD1P3BZ         4                                       
+                                                        
+Total FLOPS     66                 11 %                 
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_spi_lcd_tx:	66 (4.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   62                                      
+CCU2_B                 11                                      
+                                                               
+Total LUTS             62                 10.7 %               
+Total CARRY CHAINS     11                 4.85 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_spi_lcd_tx:	73 (4.74 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_spi_lcd_tx:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 5                                       
+VHI                 5                                       
+                                                            
+Total BLACK BOX     10                 10.6 %               
+============================================================
+Total BLACKBOX in the block u_spi_lcd_tx:	10 (0.65 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   dpram_oled_fifo   ########
+Instance path:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo              
+Parent Instance:   u_spi_lcd_tx                                      
+=====================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 4                                       
+VHI                 4                                       
+                                                            
+Total BLACK BOX     8                  8.51 %               
+============================================================
+Total BLACKBOX in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo:	8 (0.52 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram_oled_fifo_ipgen_lscc_ram_dp_Z7_layer0   ########
+Instance path:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst                         
+Parent Instance:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo                                        
+=================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  6.38 %               
+============================================================
+Total BLACKBOX in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst:	6 (0.39 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram_oled_fifo_ipgen_lscc_ram_dp_main_Z5_layer0   ########
+Instance path:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main                     
+Parent Instance:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst                            
+======================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  4.26 %               
+============================================================
+Total BLACKBOX in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main:	4 (0.26 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dpram_oled_fifo_ipgen_lscc_ram_dp_core_Z6_layer0   ########                               
+Instance path:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0
+Parent Instance:   u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main                                                  
+=====================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+PDP4K              1                                       
+                                                           
+Total BLOCKRAM     1                  11.1 %               
+===========================================================
+Total MEMORY ELEMENTS in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0:	1 (0.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_spi_lcd_tx.genblk1.u_dpram_oled_fifo.lscc_ram_dp_inst.mem_main.NON_MIX.ADDR_ROUTE[0].DATA_ROUTE[0].mem_init.u_mem0:	2 (0.13 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_loader_wrap_TRI_SPRAM_131072   ########
+Instance path:   u_spi_loader                                                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         38                                      
+FD1P3BZ         8                                       
+                                                        
+Total FLOPS     46                 7.65 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_spi_loader:	46 (2.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   61                                      
+CCU2_B                 17                                      
+                                                               
+Total LUTS             61                 10.5 %               
+Total CARRY CHAINS     17                 7.49 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_spi_loader:	78 (5.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  4.26 %               
+============================================================
+Total BLACKBOX in the block u_spi_loader:	4 (0.26 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   spi_loader_tri_spram_Z4_layer0   ########
+Instance path:   u_spi_loader.g_on_code_tri_spram.u_spi_loader                      
+Parent Instance:   u_spi_loader                                                     
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         38                                      
+FD1P3BZ         8                                       
+                                                        
+Total FLOPS     46                 7.65 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_spi_loader.g_on_code_tri_spram.u_spi_loader:	46 (2.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   61                                      
+CCU2_B                 17                                      
+                                                               
+Total LUTS             61                 10.5 %               
+Total CARRY CHAINS     17                 7.49 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_spi_loader.g_on_code_tri_spram.u_spi_loader:	78 (5.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block u_spi_loader.g_on_code_tri_spram.u_spi_loader:	2 (0.13 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   strobe_ctl_0   ########
+Instance path:   g_on_en_strobe_ctl.u_strobe_ctl                  
+Parent Instance:   lsc_ml_ice40_himax_signdet_top                 
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         14                                      
+FD1P3BZ         1                                       
+                                                        
+Total FLOPS     15                 2.5 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block g_on_en_strobe_ctl.u_strobe_ctl:	15 (0.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           22                                      
+                                                       
+Total LUTS     22                 3.79 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block g_on_en_strobe_ctl.u_strobe_ctl:	22 (1.43 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  2.13 %               
+============================================================
+Total BLACKBOX in the block g_on_en_strobe_ctl.u_strobe_ctl:	2 (0.13 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,1 @@
+run_tcl -fg ice40_himax_upduino2_signdet_clone_impl1_synplify.tcl

@@ -1,0 +1,53 @@
+work.syn_hyper_connect work.syn_hyper_connect 
+: 1 work.lscc_add_sub "C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" 108 0 work.lscc_adder work.lscc_subtractor 
+: 1 work.lscc_adder "C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" 441 0 
+: 1 work.lscc_subtractor "C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" 794 0 
+: 1 work.pmi_addsub "C:\lscc\radiant\3.1\ip\pmi\pmi_addsub.v" 71 0 work.lscc_add_sub 
+: 1 work.pmi_add "C:\lscc\radiant\3.1\ip\pmi\pmi_add.v" 81 0 work.lscc_adder 
+: 1 work.lscc_complex_mult "C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" 97 0 work.lscc_mult_add_sub work.lscc_mult_add_sub 
+: 1 work.lscc_mult_add_sub "C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" 241 0 work.lscc_multiplier 
+: 1 work.lscc_multiplier "C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" 422 0 
+: 1 work.lscc_multiplier_lut "C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" 535 0 
+: 1 work.lscc_multiplier_dsp "C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" 771 0 
+: 1 work.pmi_complex_mult "C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v" 106 0 work.lscc_complex_mult 
+: 1 work.lscc_cntr "C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" 77 0 
+: 1 work.pmi_counter "C:\lscc\radiant\3.1\ip\pmi\pmi_counter.v" 65 0 work.lscc_cntr 
+: 1 work.lscc_fifo "C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" 109 0 work.lscc_fifo_main 
+: 1 work.lscc_fifo_main "C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" 283 0 
+: 1 work.lscc_hard_fifo_dc "C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" 517 0 
+: 1 work.lscc_fifo_hw_core "C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" 1926 0 
+: 1 work.lscc_soft_fifo "C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" 2232 0 
+: 1 work.pmi_fifo "C:\lscc\radiant\3.1\ip\pmi\pmi_fifo.v" 84 0 work.lscc_fifo 
+: 1 work.lscc_fifo_dc "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 118 0 work.lscc_fifo_dc_main 
+: 1 work.lscc_fifo_dc_main "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 309 0 
+: 1 work.lscc_soft_fifo_dc "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 2339 0 
+: 1 work.lscc_fifo_mem "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 3172 0 work.lscc_fifo_mem_main 
+: 1 work.lscc_fifo_mem_main "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 3764 0 
+: 1 work.lscc_fifo_mem_core "C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" 6300 0 
+: 1 work.pmi_fifo_dc "C:\lscc\radiant\3.1\ip\pmi\pmi_fifo_dc.v" 93 0 work.lscc_fifo_dc 
+: 1 work.lscc_mult_accumulate "C:\lscc\radiant\3.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" 92 0 work.lscc_multiplier 
+: 1 work.pmi_mac "C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v" 89 0 work.lscc_mult_accumulate 
+: 1 work.lscc_mult_add_sub_sum "C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" 100 0 work.lscc_mult_add_sub work.lscc_mult_add_sub 
+: 1 work.pmi_multaddsubsum "C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v" 97 0 work.lscc_mult_add_sub_sum 
+: 1 work.pmi_multaddsub "C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v" 105 0 work.lscc_mult_add_sub 
+: 1 work.pmi_mult "C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v" 101 0 work.lscc_multiplier 
+: 1 work.lscc_ram_dp "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" 170 0 work.lscc_ram_dp_main 
+: 1 work.lscc_ram_dp_main "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" 470 0 
+: 1 work.lscc_ram_dp_core "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" 3018 0 
+: 1 work.pmi_ram_dp "C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp.v" 93 0 work.lscc_ram_dp 
+: 1 work.lscc_ram_dq "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" 166 0 work.lscc_ram_dq_main 
+: 1 work.lscc_ram_dq_main "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" 455 0 work.lscc_write_through work.lscc_ram_dq_inst 
+: 1 work.lscc_write_through "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" 626 0 
+: 1 work.lscc_ram_dq_inst "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" 837 0 
+: 1 work.lscc_ram_dq_core "C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" 1611 0 
+: 1 work.pmi_ram_dq "C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq.v" 82 0 work.lscc_ram_dq 
+: 1 work.lscc_rom "C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v" 158 0 work.lscc_rom_inst 
+: 1 work.lscc_rom_inst "C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v" 458 0 
+: 1 work.lscc_rom_inst_core "C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl\lscc_rom.v" 1160 0 
+: 1 work.pmi_rom "C:\lscc\radiant\3.1\ip\pmi\pmi_rom.v" 74 0 work.lscc_rom 
+: 1 work.pmi_sub "C:\lscc\radiant\3.1\ip\pmi\pmi_sub.v" 81 0 work.lscc_subtractor 
+: 1 work.pmi_ram_dp_be "C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v" 95 0 work.lscc_ram_dp 
+: 1 work.pmi_ram_dq_be "C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v" 82 0 work.lscc_ram_dq 
+: 1 work.pmi_dsp "C:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v" 124 0 work.MAC16 
+: 1 work.neuron "C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v" 14 0 
+: 1 work.spike_network "C:\Users\lunar\Desktop\Snn_single_neuron\source\impl_1\neuron.v" 51 0 work.neuron work.neuron work.neuron work.neuron work.neuron 

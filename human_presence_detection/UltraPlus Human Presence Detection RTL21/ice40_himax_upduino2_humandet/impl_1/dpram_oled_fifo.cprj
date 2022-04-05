@@ -1,0 +1,6 @@
+-ver "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/3.1/ip/pmi/pmi_iCE40UP.vhd"
+-ver "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v"
+-path "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/dpram_oled_fifo"
+-top dpram_oled_fifo
+-a "iCE40UP"

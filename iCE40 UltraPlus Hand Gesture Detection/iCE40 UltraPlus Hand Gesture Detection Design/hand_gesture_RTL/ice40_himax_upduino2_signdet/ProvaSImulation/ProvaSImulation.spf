@@ -1,0 +1,39 @@
+<RadiantSimulationProject name="ProvaSImulation" language="1" simType="ModelSim" version="2.0" path="." stage="0">
+    <Source type="VERILOG" path="../src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/common/spi_lcd_tx.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/signdet_post.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram1024x8/rtl/dpram1024x8.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram2048x8/rtl/dpram2048x8.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram256x32/rtl/dpram256x32.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram256x16/rtl/dpram256x16.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/ice40_himax_video_process_128_32_wide_br.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/spi_loader_spram.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/spi_loader_tri_spram.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/spi_loader_ebram.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/spi_loader_wrap.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/radiant_mem/dpram4096x8/rtl/dpram4096x8.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/common/lsc_uart.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/lsc_i2cs_fsm.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/lsc_i2cs.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/lsc_i2cs_signdet.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/himax_led_strobe.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/radiant_mem/rom_himax_cfg_20fps_ir/rtl/rom_himax_cfg_20fps_ir.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/common/lsc_i2cm_16.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/lsc_i2cm_himax.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/ice40_resetn.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/ice40_himax_signdet_clkgen.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/lsc_ml_ice40_himax_signdet_top.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/lsc_i2cm.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="i2c/rtl/i2c.v" worklib="work" include="none" langstandard=""/>
+    <Source type="VERILOG" path="../src/signdet_decision_filter.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/strobe_ctl.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/common/lsc_led_con.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="../src/ice40_himax_video_process_128_32_seq_wide_br.v" worklib="work" include="none" langstandard="Verilog 2001"/>
+    <Source type="VERILOG" path="cnn_accel/rtl/cnn_accel.v" worklib="work" include="none" langstandard=""/>
+    <SimLib value="pmi_work ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule name="lsc_ml_ice40_himax_signdet_top" instance="" language="VERILOG"/>
+</RadiantSimulationProject>

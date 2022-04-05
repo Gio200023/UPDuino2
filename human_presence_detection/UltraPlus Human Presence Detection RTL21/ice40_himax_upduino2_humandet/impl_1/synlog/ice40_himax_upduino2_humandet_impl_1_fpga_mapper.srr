@@ -1,0 +1,913 @@
+# Tue Mar 22 11:09:39 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202103lat, Build 074R, Built Oct 12 2021 09:24:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v":909:11:909:23|Tristate driver two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v":908:11:908:23|Tristate driver one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver one_err_det_o_t (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main_Z3_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver two_err_det_o_t (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main_Z3_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main_Z3_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver one_err_det_o_t (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_Z4_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_Z4_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver two_err_det_o_t (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_Z4_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_Z4_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) on net two_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) on net one_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) on net two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) on net one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":459:0:459:5|Removing sequential instance ro_waddr[7:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":410:0:410:5|Removing sequential instance g_accu[10:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":410:0:410:5|Removing sequential instance b_accu[9:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":292:0:292:5|Removing sequential instance rbcnt[7:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":410:0:410:5|Removing sequential instance r_accu[9:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":751:0:751:5|Removing sequential instance r_waddr01[11:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":741:0:741:5|Removing sequential instance r_waddr00[11:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":154:0:154:5|Removing sequential instance sb_l[8:7] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":154:0:154:5|Removing sequential instance sb_r[9:8] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":222:0:222:5|Removing sequential instance hmask (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":282:0:282:5|Removing sequential instance bpcnt[1:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":4177:22:4177:27|Removing instance u_ram256x32_accu0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of black box view:sb_ice.PDP4K(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":4177:22:4177:27|Removing instance u_ram256x32_accu0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of black box view:sb_ice.PDP4K(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing sequential instance u_speedsignal_post.cnt_val[8:0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing sequential instance u_speedsignal_post.cnt_384[11:0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_humandet_clkgen.v":240:0:240:5|Removing sequential instance u_ice40_humandet_clkgen.o_init because it is equivalent to instance r_frame_sel[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":202:4:202:9|Removing sequential instance rom_data[15:0] (in view: work.spi_loader_tri_spram(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@A: BN291 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":202:4:202:9|Boundary register rom_data[15:0] (in view: work.spi_loader_tri_spram(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[15] because it is equivalent to instance u_speedsignal_post.val[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[14] because it is equivalent to instance u_speedsignal_post.val[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[13] because it is equivalent to instance u_speedsignal_post.val[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[12] because it is equivalent to instance u_speedsignal_post.val[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[11] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[9] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[8] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[7] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[6] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[5] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[4] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[3] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[2] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[1] because it is equivalent to instance u_speedsignal_post.val[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing instance u_speedsignal_post.val[10] because it is equivalent to instance u_speedsignal_post.val[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[9] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[11] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[13] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[14] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[12] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[10] because it is equivalent to instance u_speedsignal_post.max_val[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[2] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[3] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[4] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[5] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[6] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[7] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[15] because it is equivalent to instance u_speedsignal_post.max_val[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing instance u_speedsignal_post.max_val[1] because it is equivalent to instance u_speedsignal_post.max_val[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing sequential instance u_speedsignal_post.max_val[8] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":448:4:448:9|Removing sequential instance g_on_en_uart\.result_reading (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":745:0:745:5|Removing sequential instance r_det_vec[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":51:4:51:9|Removing sequential instance u_speedsignal_post.max_val[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\humandet_post.v":42:4:42:9|Removing sequential instance u_speedsignal_post.val[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_himax.v":88:0:88:5|Found counter in view:work.lsc_i2cm_himax_80_0_324x324_seq_fps_0_1_2_3_7(verilog) instance i2c_cnt[6:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":63:0:63:5|Found counter in view:work.lsc_i2cm_16(verilog) instance main_cnt[7:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":46:0:46:5|Found counter in view:work.lsc_i2cm_16(verilog) instance interval_cnt[5:0] 
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[3] (in view: work.lsc_uart_103_512_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[4] (in view: work.lsc_uart_103_512_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[5] (in view: work.lsc_uart_103_512_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[6] (in view: work.lsc_uart_103_512_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance o_dout[7] (in view: work.lsc_uart_103_512_0(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":87:0:87:5|Found counter in view:work.lsc_uart_103_512_0(verilog) instance fifo_raddr[11:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') fifo_full (in view: work.lsc_uart_103_512_0(verilog))
+@N: MF179 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":132:12:132:44|Found 12 by 12 bit equality operator ('==') un1_fifo_raddr_clk (in view: work.lsc_uart_103_512_0(verilog))
+@N: MF179 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":141:19:141:74|Found 9 by 9 bit equality operator ('==') r_fifo_empty_2 (in view: work.lsc_uart_103_512_0(verilog))
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":215:4:215:9|Found counter in view:work.spi_loader_tri_spram(verilog) instance wd_cnt[15:0] 
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":548:0:548:5|Removing sequential instance quad_pix[15:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":491:0:491:5|Found counter in view:work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog) instance pix_idx[13:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Found counter in view:work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog) instance r_waddr10[12:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":316:0:316:5|Found counter in view:work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog) instance rbcnt_lcd[7:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Found counter in view:work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog) instance ro_raddr[7:0] 
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":154:0:154:5|Removing instance genblk5.u_ice40_himax_video_process_128.vb_b[8] because it is equivalent to instance genblk5.u_ice40_himax_video_process_128.block_size. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_lcd_tx.v":73:0:73:5|Found counter in view:work.spi_lcd_tx_0_LCD(verilog) instance waddr[9:0] 
+@N: MO231 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_lcd_tx.v":103:0:103:5|Found counter in view:work.spi_lcd_tx_0_LCD(verilog) instance raddr[9:0] 
+@N: MF179 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_lcd_tx.v":99:16:99:40|Found 10 by 10 bit equality operator ('==') un1_empty (in view: work.spi_lcd_tx_0_LCD(verilog))
+@N: MF179 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_lcd_tx.v":99:46:99:66|Found 10 by 10 bit equality operator ('==') un2_empty (in view: work.spi_lcd_tx_0_LCD(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 169MB peak: 169MB)
+
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[8] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[7] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[6] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[5] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[4] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[3] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[2] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing instance g_on_en_uart.u_lsc_uart.fifo_waddr[1] because it is equivalent to instance g_on_en_uart.u_lsc_uart.fifo_waddr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_himax.v":42:0:42:5|Removing instance u_lsc_i2cm_himax.init_d[0] because it is equivalent to instance genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.r_init. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":771:0:771:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.o_rd_done (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.o_dout[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.o_dout[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":284:0:284:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.o_dout[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":344:0:344:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.o_valid (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":336:0:336:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rx_valid_tg_clk[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":336:0:336:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rx_valid_tg_clk[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[3] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.running_d (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[5] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[6] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":268:0:268:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.rxd_shift[7] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_uart.v":148:0:148:5|Removing sequential instance g_on_en_uart\.u_lsc_uart.fifo_waddr[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":242:0:242:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_valid (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[3] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[5] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[6] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[7] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[8] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[9] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[10] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[11] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[12] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[13] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[14] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":234:0:234:5|Removing sequential instance genblk4\.u_spi_loader.g_on_code_tri_spram\.u_spi_loader.fifo_raddr[15] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 173MB peak: 173MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":579:4:579:9|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.genblk1\.r_on_d[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":579:4:579:9|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.genblk1\.r_on_d[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":579:4:579:9|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.genblk1\.r_on (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":881:4:881:9|Removing sequential instance genblk6\.r_det (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":491:0:491:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.pix_idx[13:0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.counter(prim) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 174MB peak: 174MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 174MB peak: 174MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 174MB peak: 174MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 174MB peak: 174MB)
+
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[7] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[6] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[5] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[3] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":700:0:700:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_raddr[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[12] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[11] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[10] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[9] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[8] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[7] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[6] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[5] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[3] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":761:0:761:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.r_waddr10[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":154:0:154:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.block_size (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":664:0:664:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.end_line_toggle_d_clk (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":664:0:664:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.end_line_toggle_clk (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":712:0:712:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.color_sel[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":154:0:154:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.vb_b[7] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":712:0:712:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.color_sel[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.vsync_clk[2] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.vsync_clk[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.vsync_clk[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.color_sel_d[1] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":657:0:657:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.color_sel_d[0] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":678:0:678:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.running (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":136:0:136:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.end_line_toggle (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":724:0:724:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.ro_re (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":232:0:232:5|Removing sequential instance genblk5\.u_ice40_himax_video_process_128.vmask (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\synlog\ice40_himax_upduino2_humandet_impl_1_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 175MB peak: 175MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 180MB peak: 180MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		    -5.43ns		 538 /       375
+   2		0h:00m:05s		    -5.43ns		 531 /       375
+   3		0h:00m:05s		    -2.66ns		 531 /       375
+@N: FX271 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":63:0:63:5|Replicating instance u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[4] (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) with 18 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   4		0h:00m:06s		    -2.66ns		 536 /       376
+   5		0h:00m:06s		    -2.66ns		 538 /       376
+
+
+   6		0h:00m:06s		    -2.66ns		 540 /       376
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 185MB peak: 187MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 185MB peak: 187MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 157MB peak: 187MB)
+
+Writing Analyst data base C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\synwork\ice40_himax_upduino2_humandet_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 185MB peak: 187MB)
+
+Writing Verilog Simulation files
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 187MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 187MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 183MB peak: 187MB)
+
+@W: MT246 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":1035:4:1035:13|Blackbox RGB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":317:33:317:39|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":247:2:247:12|Blackbox IOL_B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\ice40_resetn.v":56:8:56:18|Blackbox FD1P3XZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lsc_ml_ice40_himax_humandet_top|clk_inferred_clock with period 10.80ns. Please declare a user-defined clock on net clk.
+@W: MT420 |Found inferred clock lsc_ml_ice40_himax_humandet_top|cam_pclk with period 10.80ns. Please declare a user-defined clock on port cam_pclk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Mar 22 11:09:48 2022
+#
+
+
+Top view:               lsc_ml_ice40_himax_humandet_top
+Requested Frequency:    92.6 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.906
+
+                                                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                                         Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+lsc_ml_ice40_himax_humandet_top|cam_pclk               92.6 MHz      NA            10.798        NA            NA         inferred     Autoconstr_clkgroup_1
+lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     92.6 MHz      78.7 MHz      10.798        12.704        -1.906     inferred     Autoconstr_clkgroup_0
+System                                                 100.6 MHz     85.5 MHz      9.938         11.692        -1.754     system       system_clkgroup      
+============================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                            Ending                                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                              System                                              |  9.938       -1.754  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                              lsc_ml_ice40_himax_humandet_top|clk_inferred_clock  |  10.798      0.191   |  No paths    -      |  No paths    -      |  No paths    -    
+lsc_ml_ice40_himax_humandet_top|clk_inferred_clock  System                                              |  10.798      3.027   |  No paths    -      |  No paths    -      |  No paths    -    
+lsc_ml_ice40_himax_humandet_top|clk_inferred_clock  lsc_ml_ice40_himax_humandet_top|clk_inferred_clock  |  10.798      -1.906  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lsc_ml_ice40_himax_humandet_top|clk_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                            Starting                                                                                      Arrival           
+Instance                                    Reference                                              Type        Pin     Net                Time        Slack 
+                                            Clock                                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.raddr[2]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[2]           0.796       -1.906
+u_spi_lcd_tx.raddr[3]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[3]           0.796       -1.833
+u_spi_lcd_tx.raddr[4]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[4]           0.796       -1.833
+u_spi_lcd_tx.raddr[6]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[6]           0.796       -1.802
+u_spi_lcd_tx.waddr_clk_d[2]                 lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       waddr_clk_d[2]     0.796       -1.802
+u_spi_lcd_tx.raddr[5]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[5]           0.796       -1.761
+u_lsc_i2cm_himax.u_lsc_i2cm.main_cnt[1]     lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       main_cnt[1]        0.796       -1.761
+u_spi_lcd_tx.raddr[7]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[7]           0.796       -1.730
+u_spi_lcd_tx.waddr_clk_d[4]                 lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       waddr_clk_d[4]     0.796       -1.730
+u_spi_lcd_tx.raddr[0]                       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     Q       raddr[0]           0.796       -1.709
+============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                                                          Required           
+Instance                                  Reference                                              Type        Pin     Net                    Time         Slack 
+                                          Clock                                                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.SPI_MOSI                     lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3BZ     D       SPI_MOSI               10.643       -1.906
+u_lsc_i2cm_himax.u_lsc_i2cm.r_sda_out     lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3BZ     D       r_sda_out_71           10.643       -1.761
+u_spi_lcd_tx.o_init_done                  lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     SP      un3_empty_0_i          10.643       -0.018
+u_spi_lcd_tx.rdata_shift[1]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[1]     10.643       -0.018
+u_spi_lcd_tx.rdata_shift[2]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       N_65                   10.643       -0.018
+u_spi_lcd_tx.rdata_shift[3]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[3]     10.643       -0.018
+u_spi_lcd_tx.rdata_shift[4]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[4]     10.643       -0.018
+u_spi_lcd_tx.rdata_shift[5]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[5]     10.643       -0.018
+u_spi_lcd_tx.rdata_shift[6]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[6]     10.643       -0.018
+u_spi_lcd_tx.rdata_shift[7]               lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     FD1P3DZ     D       rdata_shift_RNO[7]     10.643       -0.018
+===============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.798
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.643
+
+    - Propagation time:                      12.549
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.906
+
+    Number of logic level(s):                5
+    Starting point:                          u_spi_lcd_tx.raddr[2] / Q
+    Ending point:                            u_spi_lcd_tx.SPI_MOSI / D
+    The start point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival      No. of    
+Name                                   Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.raddr[2]                  FD1P3DZ     Q        Out     0.796     0.796 r      -         
+raddr[2]                               Net         -        -       1.599     -            3         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        A        In      -         2.395 r      -         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        Z        Out     0.661     3.056 r      -         
+empty_17_0                             Net         -        -       1.371     -            1         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        A        In      -         4.427 r      -         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        Z        Out     0.661     5.089 r      -         
+empty_17_9                             Net         -        -       1.371     -            2         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        A        In      -         6.460 r      -         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        Z        Out     0.661     7.121 r      -         
+empty                                  Net         -        -       1.371     -            21        
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        B        In      -         8.492 r      -         
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        Z        Out     0.589     9.082 f      -         
+SPI_MOSI_4_0                           Net         -        -       1.371     -            1         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        B        In      -         10.453 f     -         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        Z        Out     0.589     11.042 r     -         
+SPI_MOSI                               Net         -        -       1.507     -            1         
+u_spi_lcd_tx.SPI_MOSI                  FD1P3BZ     D        In      -         12.549 r     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 12.704 is 4.114(32.4%) logic and 8.590(67.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.798
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.643
+
+    - Propagation time:                      12.476
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.833
+
+    Number of logic level(s):                5
+    Starting point:                          u_spi_lcd_tx.raddr[3] / Q
+    Ending point:                            u_spi_lcd_tx.SPI_MOSI / D
+    The start point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival      No. of    
+Name                                   Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.raddr[3]                  FD1P3DZ     Q        Out     0.796     0.796 r      -         
+raddr[3]                               Net         -        -       1.599     -            3         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        B        In      -         2.395 r      -         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        Z        Out     0.589     2.984 r      -         
+empty_17_0                             Net         -        -       1.371     -            1         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        A        In      -         4.355 r      -         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        Z        Out     0.661     5.017 r      -         
+empty_17_9                             Net         -        -       1.371     -            2         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        A        In      -         6.388 r      -         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        Z        Out     0.661     7.049 r      -         
+empty                                  Net         -        -       1.371     -            21        
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        B        In      -         8.420 r      -         
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        Z        Out     0.589     9.009 f      -         
+SPI_MOSI_4_0                           Net         -        -       1.371     -            1         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        B        In      -         10.380 f     -         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        Z        Out     0.589     10.970 r     -         
+SPI_MOSI                               Net         -        -       1.507     -            1         
+u_spi_lcd_tx.SPI_MOSI                  FD1P3BZ     D        In      -         12.476 r     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 12.631 is 4.041(32.0%) logic and 8.590(68.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.798
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.643
+
+    - Propagation time:                      12.476
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.833
+
+    Number of logic level(s):                5
+    Starting point:                          u_spi_lcd_tx.raddr[4] / Q
+    Ending point:                            u_spi_lcd_tx.SPI_MOSI / D
+    The start point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival      No. of    
+Name                                     Type        Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.raddr[4]                    FD1P3DZ     Q        Out     0.796     0.796 r      -         
+raddr[4]                                 Net         -        -       1.599     -            3         
+u_spi_lcd_tx.waddr_clk_d_RNIK6081[4]     LUT4        A        In      -         2.395 r      -         
+u_spi_lcd_tx.waddr_clk_d_RNIK6081[4]     LUT4        Z        Out     0.661     3.056 r      -         
+empty_17_1                               Net         -        -       1.371     -            1         
+u_spi_lcd_tx.raddr_RNI0B105[2]           LUT4        B        In      -         4.427 r      -         
+u_spi_lcd_tx.raddr_RNI0B105[2]           LUT4        Z        Out     0.589     5.017 r      -         
+empty_17_9                               Net         -        -       1.371     -            2         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]       LUT4        A        In      -         6.388 r      -         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]       LUT4        Z        Out     0.661     7.049 r      -         
+empty                                    Net         -        -       1.371     -            21        
+u_spi_lcd_tx.SPI_MOSI_RNO_0              LUT4        B        In      -         8.420 r      -         
+u_spi_lcd_tx.SPI_MOSI_RNO_0              LUT4        Z        Out     0.589     9.009 f      -         
+SPI_MOSI_4_0                             Net         -        -       1.371     -            1         
+u_spi_lcd_tx.SPI_MOSI_RNO                LUT4        B        In      -         10.380 f     -         
+u_spi_lcd_tx.SPI_MOSI_RNO                LUT4        Z        Out     0.589     10.970 r     -         
+SPI_MOSI                                 Net         -        -       1.507     -            1         
+u_spi_lcd_tx.SPI_MOSI                    FD1P3BZ     D        In      -         12.476 r     -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.631 is 4.041(32.0%) logic and 8.590(68.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.798
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.643
+
+    - Propagation time:                      12.445
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.802
+
+    Number of logic level(s):                5
+    Starting point:                          u_spi_lcd_tx.raddr[6] / Q
+    Ending point:                            u_spi_lcd_tx.SPI_MOSI / D
+    The start point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival      No. of    
+Name                                     Type        Name     Dir     Delay     Time         Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.raddr[6]                    FD1P3DZ     Q        Out     0.796     0.796 r      -         
+raddr[6]                                 Net         -        -       1.599     -            3         
+u_spi_lcd_tx.waddr_clk_d_RNISE081[6]     LUT4        A        In      -         2.395 r      -         
+u_spi_lcd_tx.waddr_clk_d_RNISE081[6]     LUT4        Z        Out     0.661     3.056 r      -         
+empty_17_2                               Net         -        -       1.371     -            1         
+u_spi_lcd_tx.raddr_RNI0B105[2]           LUT4        C        In      -         4.427 r      -         
+u_spi_lcd_tx.raddr_RNI0B105[2]           LUT4        Z        Out     0.558     4.986 r      -         
+empty_17_9                               Net         -        -       1.371     -            2         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]       LUT4        A        In      -         6.356 r      -         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]       LUT4        Z        Out     0.661     7.018 r      -         
+empty                                    Net         -        -       1.371     -            21        
+u_spi_lcd_tx.SPI_MOSI_RNO_0              LUT4        B        In      -         8.389 r      -         
+u_spi_lcd_tx.SPI_MOSI_RNO_0              LUT4        Z        Out     0.589     8.978 f      -         
+SPI_MOSI_4_0                             Net         -        -       1.371     -            1         
+u_spi_lcd_tx.SPI_MOSI_RNO                LUT4        B        In      -         10.349 f     -         
+u_spi_lcd_tx.SPI_MOSI_RNO                LUT4        Z        Out     0.589     10.938 r     -         
+SPI_MOSI                                 Net         -        -       1.507     -            1         
+u_spi_lcd_tx.SPI_MOSI                    FD1P3BZ     D        In      -         12.445 r     -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.600 is 4.010(31.8%) logic and 8.590(68.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.798
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.643
+
+    - Propagation time:                      12.445
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.802
+
+    Number of logic level(s):                5
+    Starting point:                          u_spi_lcd_tx.waddr_clk_d[2] / Q
+    Ending point:                            u_spi_lcd_tx.SPI_MOSI / D
+    The start point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+    The end   point is clocked by            lsc_ml_ice40_himax_humandet_top|clk_inferred_clock [rising] (rise=0.000 fall=5.399 period=10.798) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival      No. of    
+Name                                   Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+u_spi_lcd_tx.waddr_clk_d[2]            FD1P3DZ     Q        Out     0.796     0.796 r      -         
+waddr_clk_d[2]                         Net         -        -       1.599     -            3         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        C        In      -         2.395 r      -         
+u_spi_lcd_tx.raddr_RNICUV71[2]         LUT4        Z        Out     0.558     2.953 r      -         
+empty_17_0                             Net         -        -       1.371     -            1         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        A        In      -         4.324 r      -         
+u_spi_lcd_tx.raddr_RNI0B105[2]         LUT4        Z        Out     0.661     4.986 r      -         
+empty_17_9                             Net         -        -       1.371     -            2         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        A        In      -         6.356 r      -         
+u_spi_lcd_tx.waddr_clk_RNIKDJVA[0]     LUT4        Z        Out     0.661     7.018 r      -         
+empty                                  Net         -        -       1.371     -            21        
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        B        In      -         8.389 r      -         
+u_spi_lcd_tx.SPI_MOSI_RNO_0            LUT4        Z        Out     0.589     8.978 f      -         
+SPI_MOSI_4_0                           Net         -        -       1.371     -            1         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        B        In      -         10.349 f     -         
+u_spi_lcd_tx.SPI_MOSI_RNO              LUT4        Z        Out     0.589     10.938 r     -         
+SPI_MOSI                               Net         -        -       1.507     -            1         
+u_spi_lcd_tx.SPI_MOSI                  FD1P3BZ     D        In      -         12.445 r     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 12.600 is 4.010(31.8%) logic and 8.590(68.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                        Starting                                              Arrival           
+Instance                                                                                                                                                Reference     Type        Pin        Net              Time        Slack 
+                                                                                                                                                        Clock                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0]                                                                                                   System        FD1P3DZ     Q          rbcnt_lcd[0]     0.796       -1.754
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[2]                                                                                                   System        FD1P3DZ     Q          rbcnt_lcd[2]     0.796       -1.681
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[3]                                                                                                   System        FD1P3DZ     Q          rbcnt_lcd[3]     0.796       -1.650
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[4]                                                                                                   System        FD1P3DZ     Q          rbcnt_lcd[4]     0.796       -1.557
+genblk5\.u_ice40_himax_video_process_128.lcnt[0]                                                                                                        System        FD1P3IZ     Q          lcnt[0]          0.796       -0.586
+genblk5\.u_ice40_himax_video_process_128.pcnt[1]                                                                                                        System        FD1P3IZ     Q          pcnt[1]          0.796       -0.514
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram512x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K       DO[6]      fifo_dout[3]     0.000       0.191 
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram512x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K       DO[6]      fifo_dout[3]     0.000       0.191 
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[1]                                                                                                   System        FD1P3DZ     Q          rbcnt_lcd[1]     0.796       0.206 
+g_on_en_uart\.u_lsc_uart.genblk1\.u_ram512x8_0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K       DO[10]     fifo_dout[5]     0.000       0.263 
+================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                                        Starting                                              Required           
+Instance                                                                                                                                                                Reference     Type      Pin        Net                Time         Slack 
+                                                                                                                                                                        Clock                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[5]     wbcnt_lcd_1[5]     9.938        -1.754
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[5]     wbcnt_lcd_1[5]     9.938        -1.754
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[5]     wbcnt_lcd_1[5]     9.938        -1.754
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[5]     wbcnt_lcd_1[5]     9.938        -1.754
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[6]     wbcnt_lcd_1[6]     9.938        -1.723
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[6]     wbcnt_lcd_1[6]     9.938        -1.723
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[6]     wbcnt_lcd_1[6]     9.938        -1.723
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[6]     wbcnt_lcd_1[6]     9.938        -1.723
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[7]     wbcnt_lcd_1[7]     9.938        -1.630
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     System        PDP4K     ADW[7]     wbcnt_lcd_1[7]     9.938        -1.630
+=================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      9.938
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.938
+
+    - Propagation time:                      11.692
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.754
+
+    Number of logic level(s):                3
+    Starting point:                          genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0] / Q
+    Ending point:                            genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / ADW[5]
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                      Pin        Pin               Arrival      No. of    
+Name                                                                                                                                                                    Type        Name       Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0]                                                                                                                   FD1P3DZ     Q          Out     0.796     0.796 f      -         
+rbcnt_lcd[0]                                                                                                                                                            Net         -          -       1.599     -            11        
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        A          In      -         2.395 f      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        Z          Out     0.661     3.056 r      -         
+rbcnt_lcd_RNIPHJT1[4]                                                                                                                                                   Net         -          -       1.371     -            1         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        B          In      -         4.427 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        Z          Out     0.589     5.017 r      -         
+wbcnt_lcd_1_c5_i                                                                                                                                                        Net         -          -       1.371     -            3         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        B          In      -         6.388 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        Z          Out     0.589     6.977 r      -         
+wbcnt_lcd_1[5]                                                                                                                                                          Net         -          -       4.715     -            2         
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       ADW[5]     In      -         11.692 r     -         
+========================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.692 is 2.636(22.5%) logic and 9.056(77.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      9.938
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.938
+
+    - Propagation time:                      11.692
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.754
+
+    Number of logic level(s):                3
+    Starting point:                          genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0] / Q
+    Ending point:                            genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / ADW[5]
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                      Pin        Pin               Arrival      No. of    
+Name                                                                                                                                                                    Type        Name       Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0]                                                                                                                   FD1P3DZ     Q          Out     0.796     0.796 f      -         
+rbcnt_lcd[0]                                                                                                                                                            Net         -          -       1.599     -            11        
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        A          In      -         2.395 f      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        Z          Out     0.661     3.056 r      -         
+rbcnt_lcd_RNIPHJT1[4]                                                                                                                                                   Net         -          -       1.371     -            1         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        B          In      -         4.427 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        Z          Out     0.589     5.017 r      -         
+wbcnt_lcd_1_c5_i                                                                                                                                                        Net         -          -       1.371     -            3         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        B          In      -         6.388 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        Z          Out     0.589     6.977 r      -         
+wbcnt_lcd_1[5]                                                                                                                                                          Net         -          -       4.715     -            2         
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       ADW[5]     In      -         11.692 r     -         
+========================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.692 is 2.636(22.5%) logic and 9.056(77.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      9.938
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.938
+
+    - Propagation time:                      11.661
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.723
+
+    Number of logic level(s):                3
+    Starting point:                          genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0] / Q
+    Ending point:                            genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / ADW[6]
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                      Pin        Pin               Arrival      No. of    
+Name                                                                                                                                                                    Type        Name       Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0]                                                                                                                   FD1P3DZ     Q          Out     0.796     0.796 f      -         
+rbcnt_lcd[0]                                                                                                                                                            Net         -          -       1.599     -            11        
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        A          In      -         2.395 f      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        Z          Out     0.661     3.056 r      -         
+rbcnt_lcd_RNIPHJT1[4]                                                                                                                                                   Net         -          -       1.371     -            1         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        B          In      -         4.427 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        Z          Out     0.589     5.017 r      -         
+wbcnt_lcd_1_c5_i                                                                                                                                                        Net         -          -       1.371     -            3         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIHCQB3[6]                                                                                                          LUT4        C          In      -         6.388 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIHCQB3[6]                                                                                                          LUT4        Z          Out     0.558     6.946 r      -         
+wbcnt_lcd_1[6]                                                                                                                                                          Net         -          -       4.715     -            2         
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       ADW[6]     In      -         11.661 r     -         
+========================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.661 is 2.605(22.3%) logic and 9.056(77.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      9.938
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.938
+
+    - Propagation time:                      11.661
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.723
+
+    Number of logic level(s):                3
+    Starting point:                          genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0] / Q
+    Ending point:                            genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / ADW[6]
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                      Pin        Pin               Arrival      No. of    
+Name                                                                                                                                                                    Type        Name       Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[0]                                                                                                                   FD1P3DZ     Q          Out     0.796     0.796 f      -         
+rbcnt_lcd[0]                                                                                                                                                            Net         -          -       1.599     -            11        
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        A          In      -         2.395 f      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        Z          Out     0.661     3.056 r      -         
+rbcnt_lcd_RNIPHJT1[4]                                                                                                                                                   Net         -          -       1.371     -            1         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        B          In      -         4.427 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        Z          Out     0.589     5.017 r      -         
+wbcnt_lcd_1_c5_i                                                                                                                                                        Net         -          -       1.371     -            3         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIHCQB3[6]                                                                                                          LUT4        C          In      -         6.388 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIHCQB3[6]                                                                                                          LUT4        Z          Out     0.558     6.946 r      -         
+wbcnt_lcd_1[6]                                                                                                                                                          Net         -          -       4.715     -            2         
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       ADW[6]     In      -         11.661 r     -         
+========================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.661 is 2.605(22.3%) logic and 9.056(77.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      9.938
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.938
+
+    - Propagation time:                      11.620
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.681
+
+    Number of logic level(s):                3
+    Starting point:                          genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[2] / Q
+    Ending point:                            genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0 / ADW[5]
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                                                                                                                      Pin        Pin               Arrival      No. of    
+Name                                                                                                                                                                    Type        Name       Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd[2]                                                                                                                   FD1P3DZ     Q          Out     0.796     0.796 f      -         
+rbcnt_lcd[2]                                                                                                                                                            Net         -          -       1.599     -            9         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        B          In      -         2.395 f      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIPHJT1[4]                                                                                                          LUT4        Z          Out     0.589     2.984 r      -         
+rbcnt_lcd_RNIPHJT1[4]                                                                                                                                                   Net         -          -       1.371     -            1         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        B          In      -         4.355 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNIUC0D2[1]                                                                                                          LUT4        Z          Out     0.589     4.944 r      -         
+wbcnt_lcd_1_c5_i                                                                                                                                                        Net         -          -       1.371     -            3         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        B          In      -         6.315 r      -         
+genblk5\.u_ice40_himax_video_process_128.rbcnt_lcd_RNI7CDS2[5]                                                                                                          LUT4        Z          Out     0.589     6.904 r      -         
+wbcnt_lcd_1[5]                                                                                                                                                          Net         -          -       4.715     -            2         
+genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0_lcd.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0.ICE_MEM\.u_mem0     PDP4K       ADW[5]     In      -         11.620 r     -         
+========================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.620 is 2.563(22.1%) logic and 9.056(77.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 184MB peak: 187MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 184MB peak: 187MB)
+
+---------------------------------------
+Resource Usage Report for lsc_ml_ice40_himax_humandet_top 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          83 uses
+FD1P3BZ         16 uses
+FD1P3DZ         341 uses
+FD1P3IZ         19 uses
+FD1P3XZ         9 uses
+HSOSC           1 use
+INV             3 uses
+IOL_B           6 uses
+PDP4K           5 uses
+RGB             1 use
+VHI             27 uses
+VLO             27 uses
+LUT4            387 uses
+
+I/O ports: 37
+I/O primitives: 27
+BB_B           1 use
+IB             7 uses
+OB             17 uses
+OBZ_B          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   376 of 5280 (7%)
+
+RAM/ROM usage summary
+Block Rams : 5 of 30 (16%)
+
+Total load per clock:
+   lsc_ml_ice40_himax_humandet_top|clk_inferred_clock: 241
+   lsc_ml_ice40_himax_humandet_top|cam_pclk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 387 (7%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 387 = 387 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 66MB peak: 187MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:07s cputime
+# Tue Mar 22 11:09:48 2022
+
+###########################################################]

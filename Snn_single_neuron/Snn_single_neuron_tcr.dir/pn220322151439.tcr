@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/22/2022 14:31:41
+#Project Location: C:/Users/lunar/Desktop/Snn_single_neuron; Project name: Snn_single_neuron
+prj_open "C:/Users/lunar/Desktop/Snn_single_neuron/Snn_single_neuron.rdf"
+prj_add_source "C:/Users/lunar/Desktop/Snn_single_neuron/source/impl_1/neuron_top.v"
+prj_remove_source "C:/Users/lunar/Desktop/Snn_single_neuron/source/impl_1/neuron_top.v"
+#Stop recording: 3/22/2022 15:14:39

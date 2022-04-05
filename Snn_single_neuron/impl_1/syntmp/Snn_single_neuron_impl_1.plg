@@ -1,0 +1,12 @@
+@P:  Worst Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : NA
+@P: spike_network Part : ice40up5kuwg30i-6
+@P: spike_network I/O primitives : 2
+@P: spike_network I/O Register bits : 0
+@P: spike_network Register bits (Non I/O) : 0 (0%)
+@P: spike_network Total Luts : 0 of 5280 (0%)
+@P:  CPU Time : 0h:00m:01s

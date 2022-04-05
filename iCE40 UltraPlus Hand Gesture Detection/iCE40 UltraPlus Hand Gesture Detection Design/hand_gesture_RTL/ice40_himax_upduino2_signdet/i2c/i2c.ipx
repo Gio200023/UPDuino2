@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="iCE40UP" date="2022 03 25 09:21:53" device="iCE40UP5K" generator="ipgen" library="module" module="spi_i2c" name="i2c" package="SG48" source_format="Verilog" speed="High-Performance_1.2V" vendor="latticesemi.com" version="1.0.0">
+ <Package>
+  <File modified="2022 03 25 09:21:53" name="rtl/i2c_bb.v" type="black_box_verilog"/>
+  <File modified="2022 03 25 09:21:53" name="i2c.cfg" type="cfg"/>
+  <File modified="2022 03 25 09:21:53" name="misc/i2c_tmpl.v" type="template_verilog"/>
+  <File modified="2022 03 25 09:21:53" name="misc/i2c_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2022 03 25 09:21:53" name="rtl/i2c.v" type="top_level_verilog"/>
+  <File modified="2022 03 25 09:21:53" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2022 03 25 09:21:53" name="design.xml" type="IP-XACT_design"/>
+ </Package>
+</RadiantModule>

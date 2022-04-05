@@ -1,0 +1,2 @@
+ckid0_1:@|S:u_hfosc.CLKHF@|E:g_on_en_uart\.r_uart_din[4:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_2:@|S:cam_pclk@|E:u_spi_lcd_tx.waddr[9:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

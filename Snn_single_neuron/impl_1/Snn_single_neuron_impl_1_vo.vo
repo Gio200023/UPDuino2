@@ -1,0 +1,74 @@
+
+// Verilog netlist produced by program backanno, Version Radiant Software (64-bit) 3.1.0.43.2
+
+// backanno -o Snn_single_neuron_impl_1_vo.vo -sp High-Performance_1.2V -w -neg -gui Snn_single_neuron_impl_1.udb 
+// Netlist created on Tue Mar 22 17:33:03 2022
+// Netlist written on Tue Mar 22 17:33:06 2022
+// Design is for device iCE40UP5K
+// Design is for package UWG30
+// Design is for performance grade High-Performance_1.2V
+
+`timescale 1 ns / 1 ps
+
+module spike_network ( neuron_out7, neuron_out8, clk, resetn, neuron_in1, 
+                       neuron_in2, neuron_in3 );
+  input  clk, resetn, neuron_in1, neuron_in2, neuron_in3;
+  output neuron_out7, neuron_out8;
+  wire   GND;
+
+  SLICE_0 SLICE_0( .F0(GND));
+  neuron_out7 neuron_out7_I( .PADDO(GND), .neuron_out7(neuron_out7));
+  neuron_out8 neuron_out8_I( .PADDO(GND), .neuron_out8(neuron_out8));
+endmodule
+
+module SLICE_0 ( output F0 );
+  wire   GNDI;
+
+  lut4 GND_cZ( .A(GNDI), .B(GNDI), .C(GNDI), .D(GNDI), .Z(F0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+  endspecify
+
+endmodule
+
+module lut4 ( input A, B, C, D, output Z );
+
+  LUT4 #("0x0000") INST10( .A(A), .B(B), .C(C), .D(D), .Z(Z));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module neuron_out7 ( input PADDO, output neuron_out7 );
+  wire   GNDI;
+
+  BB_B_B \neuron_out7_obuft.bb_inst ( .T_N(GNDI), .I(PADDO), .O(), 
+    .B(neuron_out7));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => neuron_out7) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module BB_B_B ( input T_N, I, output O, inout B );
+
+  BB_B INST10( .T_N(T_N), .I(I), .O(O), .B(B));
+endmodule
+
+module neuron_out8 ( input PADDO, output neuron_out8 );
+  wire   GNDI;
+
+  BB_B_B \neuron_out8_obuft.bb_inst ( .T_N(GNDI), .I(PADDO), .O(), 
+    .B(neuron_out8));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (PADDO => neuron_out8) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule

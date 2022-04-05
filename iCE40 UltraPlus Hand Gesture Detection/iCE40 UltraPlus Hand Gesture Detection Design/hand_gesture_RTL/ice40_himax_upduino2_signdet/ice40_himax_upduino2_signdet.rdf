@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" title="ice40_himax_upduino2_signdet" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="clone_impl1" dir="clone_impl1" description="clone_impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options top="lsc_ml_ice40_himax_signdet_top"/>
+        <Source name="source/clone_impl1/ice40_himax_signdet_clkgen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_ml_ice40_himax_signdet_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="lsc_ml_ice40_himax_signdet_top"/>
+        </Source>
+        <Source name="source/clone_impl1/signdet_post.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/signdet_decision_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/himax_led_strobe.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/strobe_ctl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cs_signdet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/ice40_resetn.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cm_16.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cm_himax.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cs.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_i2cs_fsm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_led_con.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/lsc_uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/spi_loader_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/spi_loader_tri_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/spi_loader_wrap.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/spi_lcd_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/ice40_himax_video_process_128_32_wide_br.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/ice40_himax_video_process_128_32_seq_wide_br.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram1024x8/dpram1024x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram256x16/dpram256x16.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram_oled_fifo/dpram_oled_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram256x32/dpram256x32.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram2048x8/dpram2048x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram4096x8/dpram4096x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/dpram_lcd_fifo/dpram_lcd_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/rom_himax_cfg_20fps_ir/rom_himax_cfg_20fps_ir.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/himax_upduino2.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/clone_impl1/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options top="lsc_ml_ice40_himax_signdet_top"/>
+        <Source name="../src/ice40_himax_signdet_clkgen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/lsc_ml_ice40_himax_signdet_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="lsc_ml_ice40_himax_signdet_top"/>
+        </Source>
+        <Source name="../src/signdet_post.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/signdet_decision_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/himax_led_strobe.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/strobe_ctl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/lsc_i2cs_signdet.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/ice40_resetn.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm_16.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm_himax.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cs.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cs_fsm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_led_con.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_tri_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_wrap.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_lcd_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_video_process_128_32_wide_br.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_video_process_128_32_seq_wide_br.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram1024x8/dpram1024x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram256x16/dpram256x16.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram_oled_fifo/dpram_oled_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram256x32/dpram256x32.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram2048x8/dpram2048x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram4096x8/dpram4096x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram_lcd_fifo/dpram_lcd_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_20fps_ir/rom_himax_cfg_20fps_ir.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="cnn_accel/cnn_accel.ipx" type="IPX_Module" type_short="IPX" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="i2c/i2c.ipx" type="IPX_Module" type_short="IPX" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_ebram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="himax_upduino2.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="ProvaSImulation/ProvaSImulation.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="ice40_himax_upduino2_signdet1.sty"/>
+</RadiantProject>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="1647967283">
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1647967283"/>
+            <Task name="IBIS" build_result="0" update_result="2" update_time="1647967283"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="2" update_time="1647967283"/>
+        </Milestone>
+        <Milestone name="Map" build_result="0" build_time="1647967283">
+            <Task name="Map" build_result="0" update_result="2" update_time="1647967283"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1647967283"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="0" build_time="1647967283">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1647967283"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1647967283"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1647966778">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1647966778"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1647966682"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1647966682"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1647966682"/>
+        </Milestone>
+        <Report name="IBIS/Snn_single_neuron_impl_1.ibs" last_build_time="1647966785" last_build_size="15244"/>
+        <Report name="Snn_single_neuron_impl_1.bgn" last_build_time="1647966785" last_build_size="1007"/>
+        <Report name="Snn_single_neuron_impl_1.bin" last_build_time="1647966785" last_build_size="104157"/>
+        <Report name="Snn_single_neuron_impl_1.twr.html" last_build_time="1647966784" last_build_size="11437"/>
+        <Report name="Snn_single_neuron_impl_1.udb" last_build_time="1647966783" last_build_size="2089"/>
+        <Report name="Snn_single_neuron_impl_1_map.udb" last_build_time="1647966779" last_build_size="1973"/>
+        <Report name="Snn_single_neuron_impl_1_syn.udb" last_build_time="1647966778" last_build_size="1396"/>
+        <Report name="Snn_single_neuron_impl_1_vo.sdf" last_build_time="1647966786" last_build_size="972"/>
+        <Report name="Snn_single_neuron_impl_1_vo.vo" last_build_time="1647966786" last_build_size="1952"/>
+    </Strategy>
+</BuildStatus>

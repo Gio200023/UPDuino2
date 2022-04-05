@@ -1,0 +1,3 @@
+@E: CG243 :"C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\source\clone_impl1\lsc_ml_ice40_himax_signdet_top.v":41:0:41:5|Expecting ) or comma delimiter
+@E::Verilog compiler failed
+

@@ -1,0 +1,12 @@
+#Start recording tcl command: 3/22/2022 11:05:03
+#Project Location: C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/ice40_himax_upduino2_humandet; Project name: ice40_himax_upduino2_humandet
+prj_open "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/ice40_himax_upduino2_humandet/ice40_himax_upduino2_humandet.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_disable_source "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/ice40_himax_upduino2_humandet/compact_cnn/compact_cnn.ipx"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_disable_source "C:/Users/lunar/Desktop/human_presence_detection/UltraPlus Human Presence Detection RTL21/src/radiant_mem/dpram_oled_fifo/dpram_oled_fifo.ipx"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 3/22/2022 11:13:24

@@ -1,0 +1,184 @@
+# Tue Mar 22 11:09:37 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 074R, Built Oct 12 2021 09:24:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 130MB)
+
+Reading constraint file: C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_cpe.ldc
+@L: C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_scck.rpt 
+See clock summary report "C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":34:16:34:22|Tristate driver w_result (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) on net w_result (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":34:16:34:22|Tristate driver w_config_00 (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) on net w_config_00 (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":458:4:458:9|Removing sequential instance g_on_en_uart\.frame_reading (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\lsc_ml_ice40_himax_humandet_top.v":438:4:438:9|Removing sequential instance g_on_en_uart\.frame_req_lat (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v":908:11:908:23|Tristate driver one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) on net one_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v":909:11:909:23|Tristate driver two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) on net two_err_det_o (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst_Z1_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) on net one_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) on net two_err_det_o (in view: work.dpram512x8_ipgen_lscc_ram_dp_core_Z9_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_0(verilog)) on net one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_0(verilog)) on net two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3675:11:3675:23|Tristate driver one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_0(verilog)) on net one_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":3676:11:3676:23|Tristate driver two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_0(verilog)) on net two_err_det_o (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_0(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":36:0:36:5|Sequential instance u_lsc_i2cm_himax.u_lsc_i2cm.dev_addr_lat[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":36:0:36:5|Sequential instance u_lsc_i2cm_himax.u_lsc_i2cm.dev_addr_lat[5] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\lsc_i2cm_16.v":279:0:279:5|Removing sequential instance rd_data[7:0] (in view: work.lsc_i2cm_16(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v":550:37:550:44|Removing instance inst_wr0 (in view: work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main_Z3_layer0(verilog)) of type view:work.rom_himax_cfg_seq_ipgen_lscc_write_through_iCE40UP_16s_noreg_normal(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":262:0:262:5|Removing sequential instance o_width[7:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":276:0:276:5|Removing sequential instance o_height[7:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":736:0:736:5|Removing sequential instance o_we (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":688:0:688:5|Removing sequential instance o_waddr_1[13:0] (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":250:0:250:5|Removing sequential instance fifo_rdata_h[15:0] (in view: work.spi_loader_tri_spram(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_video_process_128.v":803:12:803:25|Removing instance u_ram256x32_ro (in view: work.ice40_himax_video_process_128_NONE_0s_UNSIGNED_LCD_71_583_32_288(verilog)) of type view:work.dpram256x32_0(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":116:98:116:113|Removing instance lscc_ram_dp_inst (in view: work.dpram256x32_0(verilog)) of type view:work.dpram256x32_ipgen_lscc_ram_dp_Z14_layer0_2(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":345:7:345:21|Removing instance u_spram16k_16_0 (in view: work.spi_loader_tri_spram(verilog)) of black box view:work.SP256K(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":358:7:358:21|Removing instance u_spram16k_16_1 (in view: work.spi_loader_tri_spram(verilog)) of black box view:work.SP256K(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":371:7:371:21|Removing instance u_spram16k_16_2 (in view: work.spi_loader_tri_spram(verilog)) of black box view:work.SP256K(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":381:43:381:50|Removing instance mem_main (in view: work.dpram256x32_ipgen_lscc_ram_dp_Z14_layer0_2(verilog)) of type view:work.dpram256x32_ipgen_lscc_ram_dp_main_Z11_layer0_2(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":936:79:936:84|Removing instance NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[0\]\.no_init\.u_mem0 (in view: work.dpram256x32_ipgen_lscc_ram_dp_main_Z11_layer0_2(verilog)) of type view:work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_2(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":936:79:936:84|Removing instance NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0 (in view: work.dpram256x32_ipgen_lscc_ram_dp_main_Z11_layer0_2(verilog)) of type view:work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_2(verilog) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":4177:22:4177:27|Removing instance ICE_MEM\.u_mem0 (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z12_layer0_2(verilog)) of black box view:sb_ice.PDP4K(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":4177:22:4177:27|Removing instance ICE_MEM\.u_mem0 (in view: work.dpram256x32_ipgen_lscc_ram_dp_core_Z13_layer0_2(verilog)) of black box view:sb_ice.PDP4K(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\common\spi_loader_tri_spram.v":284:0:284:5|Removing sequential instance fifo_raddr_hi[1:0] (in view: work.spi_loader_tri_spram(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+Encoding state machine state[4:0] (in view: work.lsc_i2cm_himax_80_0_324x324_seq_fps_0_1_2_3_7(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   111 -> 100
+Encoding state machine cst[7:0] (in view: work.spi_loader_tri_spram(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist lsc_ml_ice40_himax_humandet_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 171MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                  Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                  Frequency     Period        Type         Group                     Load 
+-----------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                 362.3 MHz     2.760         system       system_clkgroup           0    
+                                                                                                                                         
+0 -       lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     102.5 MHz     9.760         inferred     Autoconstr_clkgroup_0     439  
+                                                                                                                                         
+0 -       lsc_ml_ice40_himax_humandet_top|cam_pclk               102.5 MHz     9.760         inferred     Autoconstr_clkgroup_1     246  
+=========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                       Clock     Source                            Clock Pin                     Non-clock Pin     Non-clock Pin
+Clock                                                  Load      Pin                               Seq Example                   Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                 0         -                                 -                             -                 -            
+                                                                                                                                                                
+lsc_ml_ice40_himax_humandet_top|clk_inferred_clock     439       genblk1\.u_hfosc.CLKHF(HSOSC)     r_det_vec[4].C                -                 -            
+                                                                                                                                                                
+lsc_ml_ice40_himax_humandet_top|cam_pclk               246       cam_pclk(port)                    u_spi_lcd_tx.waddr[9:0].C     -                 -            
+================================================================================================================================================================
+
+@W: MT530 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\ice40_himax_humandet_clkgen.v":240:0:240:5|Found inferred clock lsc_ml_ice40_himax_humandet_top|clk_inferred_clock which controls 439 sequential elements including u_ice40_humandet_clkgen.o_init. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\lunar\desktop\human_presence_detection\ultraplus human presence detection rtl21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v":4177:22:4177:27|Found inferred clock lsc_ml_ice40_himax_humandet_top|cam_pclk which controls 246 sequential elements including genblk5\.u_ice40_himax_video_process_128.u_ram256x32_accu0.lscc_ram_dp_inst.mem_main.NON_MIX\.ADDR_ROUTE\[0\]\.DATA_ROUTE\[1\]\.no_init\.u_mem0.ICE_MEM\.u_mem0. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 246 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 439 clock pin(s) of sequential element(s)
+0 instances converted, 439 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@KP:ckid0_2       cam_pclk            port                   246        u_spi_lcd_tx.waddr[9:0]
+===============================================================================================
+========================================================== Gated/Generated Clocks ===========================================================
+Clock Tree ID     Driving Element            Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                   
+---------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       genblk1\.u_hfosc.CLKHF     HSOSC                  439                    pwm_cnt[3:0]        Clock Optimization not enabled
+=============================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 87MB peak: 173MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 22 11:09:39 2022
+
+###########################################################]

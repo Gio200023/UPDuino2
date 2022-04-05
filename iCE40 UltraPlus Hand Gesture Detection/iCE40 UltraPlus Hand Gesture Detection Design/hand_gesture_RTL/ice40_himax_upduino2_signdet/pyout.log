@@ -1,0 +1,102 @@
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\dpram1024x8.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\misc\dpram1024x8_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\misc\dpram1024x8_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\rtl\dpram1024x8.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\constraints\dpram1024x8.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram1024x8\dpram1024x8.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\dpram2048x8.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\misc\dpram2048x8_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\misc\dpram2048x8_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\rtl\dpram2048x8.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\constraints\dpram2048x8.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram2048x8\dpram2048x8.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\dpram256x16.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\misc\dpram256x16_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\misc\dpram256x16_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\rtl\dpram256x16.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\constraints\dpram256x16.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x16\dpram256x16.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\dpram256x32.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\misc\dpram256x32_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\misc\dpram256x32_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\rtl\dpram256x32.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\constraints\dpram256x32.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram256x32\dpram256x32.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\rtl\dpram4096x8_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\dpram4096x8.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\misc\dpram4096x8_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\misc\dpram4096x8_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\rtl\dpram4096x8.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\constraints\dpram4096x8.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram4096x8\dpram4096x8.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\dpram_lcd_fifo.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\misc\dpram_lcd_fifo_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\misc\dpram_lcd_fifo_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\constraints\dpram_lcd_fifo.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_lcd_fifo\dpram_lcd_fifo.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\dpram_oled_fifo.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\misc\dpram_oled_fifo_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\misc\dpram_oled_fifo_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/common/ram_dp)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\constraints\dpram_oled_fifo.ldc 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\testbench\dut_params.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\testbench\dut_inst.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\component.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\src\radiant_mem\dpram_oled_fifo\dpram_oled_fifo.ipx 
+WARNING: missing testbench HDL files.
+WARNING: missing driver HDL files.
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\rtl\i2c_bb.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\i2c.cfg 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\misc\i2c_tmpl.v 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\misc\i2c_tmpl.vhd 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\rtl\i2c.v 
+Warning: No directory "fdc" in IP module(C:/lscc/radiant/3.1/ip/iCE40UP/spi_i2c)
+Warning: No directory "ldc" in IP module(C:/lscc/radiant/3.1/ip/iCE40UP/spi_i2c)
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\design.xml 
+Writing C:\Users\lunar\Desktop\iCE40 UltraPlus Hand Gesture Detection\iCE40 UltraPlus Hand Gesture Detection Design\hand_gesture_RTL\ice40_himax_upduino2_signdet\i2c\component.xml 

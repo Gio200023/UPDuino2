@@ -1,0 +1,18 @@
+Copyright 2015 Lattice Semiconductor Corporation, All Rights Reserved
+Thu Mar 17 16:19:46 2022
+
+Command Line: par -w -n 1 -t 1 -s 1 -cores 1 -exp parPathBased=ON \
+	ice40_himax_upduino2_signdet_clone_impl1_map.udb \
+	ice40_himax_upduino2_signdet_clone_impl1.udb 
+
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          Run
+Cost [udb]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            17.953       0            1.411        0            10           Completed
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 10 secs 
+
+par done!

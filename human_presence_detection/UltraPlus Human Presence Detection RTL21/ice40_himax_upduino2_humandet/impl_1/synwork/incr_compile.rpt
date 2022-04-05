@@ -1,0 +1,213 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03LR-SP1
+Install: C:\lscc\radiant\3.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EQ342IA
+
+Implementation : impl_1
+Synopsys HDL compiler and linker, Version comp202103synp2, Build 168R, Built Oct 12 2021 09:17:10, @
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+23       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_oled_fifo\rtl\core/lscc_ram_dp.v (2022-03-05 10:12:28, N/A)
+24       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v (2022-03-05 10:12:28, N/A)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 63
+FID:  path (timestamp)
+1        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\ice40_resetn.v (2022-03-05 10:12:26)
+2        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\lsc_i2cm.v (2022-03-05 10:12:26)
+3        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\lsc_i2cm_16.v (2022-03-05 10:12:26)
+4        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\lsc_i2cm_himax.v (2022-03-05 10:12:26)
+5        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\lsc_uart.v (2022-03-05 10:12:26)
+6        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\spi_fifo.v (2022-03-05 10:12:27)
+7        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\spi_lcd_tx.v (2022-03-05 10:12:27)
+8        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\spi_loader_spram.v (2022-03-05 10:12:27)
+9        C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\spi_loader_tri_spram.v (2022-03-05 10:12:27)
+10       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\common\spi_loader_wrap.v (2022-03-05 10:12:27)
+11       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\humandet_post.v (2022-03-05 10:12:26)
+12       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\ice40_himax_humandet_clkgen.v (2022-03-05 10:12:26)
+13       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\ice40_himax_video_process_128.v (2022-03-05 10:12:26)
+14       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\ice40_himax_video_process_128_seq.v (2022-03-05 10:12:26)
+15       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\ice40_himax_video_process_64.v (2022-03-05 10:12:26)
+16       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\lsc_ml_ice40_himax_humandet_top.v (2022-03-22 11:07:11)
+18       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram256x32\rtl\dpram256x32.v (2022-03-22 11:06:13)
+20       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram512x8\rtl\dpram512x8.v (2022-03-22 11:06:14)
+22       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v (2022-03-22 11:06:14)
+25       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_1fps\rtl\rom_himax_cfg_1fps.v (2022-03-22 11:06:14)
+27       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324\rtl\rom_himax_cfg_324.v (2022-03-22 11:06:14)
+29       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim\rtl\rom_himax_cfg_324_dim.v (2022-03-22 11:06:15)
+31       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\rom_himax_cfg_324_dim_maxfps.v (2022-03-22 11:06:15)
+33       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\rom_himax_cfg_324_faceid.v (2022-03-22 11:06:15)
+35       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_lcd\rtl\rom_himax_cfg_lcd.v (2022-03-22 11:06:16)
+37       C:\Users\lunar\Desktop\human_presence_detection\UltraPlus Human Presence Detection RTL21\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v (2022-03-22 11:06:16)
+38       C:\lscc\radiant\3.1\ip\pmi\../common/adder/rtl/lscc_adder.v (2019-08-05 09:40:57)
+39       C:\lscc\radiant\3.1\ip\pmi\../common/adder_subtractor/rtl/lscc_add_sub.v (2019-10-18 13:58:02)
+40       C:\lscc\radiant\3.1\ip\pmi\../common/complex_mult/rtl/lscc_complex_mult.v (2021-09-10 03:26:39)
+41       C:\lscc\radiant\3.1\ip\pmi\../common/counter/rtl/lscc_cntr.v (2019-08-05 09:41:47)
+42       C:\lscc\radiant\3.1\ip\pmi\../common/fifo/rtl/lscc_fifo.v (2021-07-13 10:17:25)
+43       C:\lscc\radiant\3.1\ip\pmi\../common/fifo_dc/rtl/lscc_fifo_dc.v (2021-09-22 10:53:27)
+44       C:\lscc\radiant\3.1\ip\pmi\../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2020-03-18 10:18:16)
+45       C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2020-03-18 10:17:43)
+46       C:\lscc\radiant\3.1\ip\pmi\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2020-03-18 10:15:40)
+47       C:\lscc\radiant\3.1\ip\pmi\../common/multiplier/rtl/lscc_multiplier.v (2019-08-05 09:42:13)
+48       C:\lscc\radiant\3.1\ip\pmi\../common/ram_dp/rtl/lscc_ram_dp.v (2021-07-13 10:17:26)
+49       C:\lscc\radiant\3.1\ip\pmi\../common/ram_dq/rtl/lscc_ram_dq.v (2021-07-13 10:17:26)
+50       C:\lscc\radiant\3.1\ip\pmi\../common/rom/rtl/lscc_rom.v (2021-07-13 10:17:26)
+51       C:\lscc\radiant\3.1\ip\pmi\../common/subtractor/rtl/lscc_subtractor.v (2019-08-05 09:43:15)
+52       C:\lscc\radiant\3.1\ip\pmi\pmi_add.v (2019-07-11 01:12:46)
+53       C:\lscc\radiant\3.1\ip\pmi\pmi_addsub.v (2019-07-11 01:13:20)
+54       C:\lscc\radiant\3.1\ip\pmi\pmi_complex_mult.v (2019-07-11 01:14:03)
+55       C:\lscc\radiant\3.1\ip\pmi\pmi_counter.v (2019-07-11 01:14:35)
+56       C:\lscc\radiant\3.1\ip\pmi\pmi_dsp.v (2018-09-07 06:04:55)
+57       C:\lscc\radiant\3.1\ip\pmi\pmi_fifo.v (2020-11-06 07:30:47)
+58       C:\lscc\radiant\3.1\ip\pmi\pmi_fifo_dc.v (2020-11-06 07:29:39)
+59       C:\lscc\radiant\3.1\ip\pmi\pmi_iCE40UP.v (2018-09-25 02:25:35)
+60       C:\lscc\radiant\3.1\ip\pmi\pmi_mac.v (2019-07-11 01:15:11)
+61       C:\lscc\radiant\3.1\ip\pmi\pmi_mult.v (2019-07-11 01:15:37)
+62       C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsub.v (2019-07-11 01:16:06)
+63       C:\lscc\radiant\3.1\ip\pmi\pmi_multaddsubsum.v (2019-07-11 01:16:55)
+64       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp.v (2020-11-06 07:33:54)
+65       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dp_be.v (2020-11-06 07:35:16)
+66       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq.v (2020-11-06 07:36:42)
+67       C:\lscc\radiant\3.1\ip\pmi\pmi_ram_dq_be.v (2020-11-06 07:56:52)
+68       C:\lscc\radiant\3.1\ip\pmi\pmi_rom.v (2020-03-11 06:32:38)
+69       C:\lscc\radiant\3.1\ip\pmi\pmi_sub.v (2019-07-11 01:17:30)
+70       C:\lscc\radiant\3.1\synpbase\lib\generic\ice40up.v (2021-10-12 18:10:10)
+71       C:\lscc\radiant\3.1\synpbase\lib\vlog\hypermods.v (2021-10-12 18:06:50)
+72       C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_objects.v (2021-10-12 18:06:50)
+73       C:\lscc\radiant\3.1\synpbase\lib\vlog\scemi_pipes.svh (2021-10-12 18:06:50)
+74       C:\lscc\radiant\3.1\synpbase\lib\vlog\umr_capim.v (2021-10-12 18:06:50)
+
+*******************************************************************
+Unchanged modules: 118
+MID:  lib.cell.view
+38       work.dpram256x32.verilog
+116      work.dpram256x32_ipgen_lscc_ram_dp.verilog
+117      work.dpram256x32_ipgen_lscc_ram_dp_core.verilog
+118      work.dpram256x32_ipgen_lscc_ram_dp_main.verilog
+39       work.dpram512x8.verilog
+119      work.dpram512x8_ipgen_lscc_ram_dp.verilog
+120      work.dpram512x8_ipgen_lscc_ram_dp_core.verilog
+121      work.dpram512x8_ipgen_lscc_ram_dp_main.verilog
+40       work.dpram_lcd_fifo.verilog
+122      work.dpram_lcd_fifo_ipgen_lscc_ram_dp.verilog
+123      work.dpram_lcd_fifo_ipgen_lscc_ram_dp_core.verilog
+124      work.dpram_lcd_fifo_ipgen_lscc_ram_dp_main.verilog
+42       work.humandet_post.verilog
+43       work.ice40_himax_humandet_clkgen.verilog
+44       work.ice40_himax_video_process_128.verilog
+45       work.ice40_himax_video_process_128_seq.verilog
+46       work.ice40_himax_video_process_64.verilog
+47       work.ice40_resetn.verilog
+48       work.lsc_i2cm.verilog
+49       work.lsc_i2cm_16.verilog
+50       work.lsc_i2cm_himax.verilog
+51       work.lsc_ml_ice40_himax_humandet_top.verilog
+52       work.lsc_uart.verilog
+53       work.lscc_add_sub.verilog
+54       work.lscc_adder.verilog
+55       work.lscc_cntr.verilog
+56       work.lscc_complex_mult.verilog
+57       work.lscc_fifo.verilog
+58       work.lscc_fifo_dc.verilog
+59       work.lscc_fifo_dc_main.verilog
+60       work.lscc_fifo_hw_core.verilog
+61       work.lscc_fifo_main.verilog
+62       work.lscc_fifo_mem.verilog
+63       work.lscc_fifo_mem_core.verilog
+64       work.lscc_fifo_mem_main.verilog
+65       work.lscc_hard_fifo_dc.verilog
+66       work.lscc_mult_accumulate.verilog
+67       work.lscc_mult_add_sub.verilog
+68       work.lscc_mult_add_sub_sum.verilog
+69       work.lscc_multiplier.verilog
+70       work.lscc_multiplier_dsp.verilog
+71       work.lscc_multiplier_lut.verilog
+72       work.lscc_ram_dp.verilog
+73       work.lscc_ram_dp_core.verilog
+74       work.lscc_ram_dp_main.verilog
+75       work.lscc_ram_dq.verilog
+76       work.lscc_ram_dq_core.verilog
+77       work.lscc_ram_dq_inst.verilog
+78       work.lscc_ram_dq_main.verilog
+79       work.lscc_rom.verilog
+80       work.lscc_rom_inst.verilog
+81       work.lscc_rom_inst_core.verilog
+82       work.lscc_soft_fifo.verilog
+83       work.lscc_soft_fifo_dc.verilog
+84       work.lscc_subtractor.verilog
+85       work.lscc_write_through.verilog
+86       work.pmi_add.verilog
+87       work.pmi_addsub.verilog
+88       work.pmi_complex_mult.verilog
+89       work.pmi_counter.verilog
+90       work.pmi_dsp.verilog
+91       work.pmi_fifo.verilog
+92       work.pmi_fifo_dc.verilog
+93       work.pmi_mac.verilog
+94       work.pmi_mult.verilog
+95       work.pmi_multaddsub.verilog
+96       work.pmi_multaddsubsum.verilog
+97       work.pmi_ram_dp.verilog
+98       work.pmi_ram_dp_be.verilog
+99       work.pmi_ram_dq.verilog
+100      work.pmi_ram_dq_be.verilog
+101      work.pmi_rom.verilog
+102      work.pmi_sub.verilog
+103      work.rom_himax_cfg_1fps.verilog
+104      work.rom_himax_cfg_1fps_ipgen_lscc_rom.verilog
+125      work.rom_himax_cfg_1fps_ipgen_lscc_rom_inst.verilog
+126      work.rom_himax_cfg_1fps_ipgen_lscc_rom_inst_core.verilog
+105      work.rom_himax_cfg_324.verilog
+106      work.rom_himax_cfg_324_dim.verilog
+127      work.rom_himax_cfg_324_dim_ipgen_lscc_ram_dq.verilog
+128      work.rom_himax_cfg_324_dim_ipgen_lscc_ram_dq_core.verilog
+129      work.rom_himax_cfg_324_dim_ipgen_lscc_ram_dq_inst.verilog
+130      work.rom_himax_cfg_324_dim_ipgen_lscc_ram_dq_main.verilog
+131      work.rom_himax_cfg_324_dim_ipgen_lscc_write_through.verilog
+107      work.rom_himax_cfg_324_dim_maxfps.verilog
+132      work.rom_himax_cfg_324_dim_maxfps_ipgen_lscc_ram_dq.verilog
+133      work.rom_himax_cfg_324_dim_maxfps_ipgen_lscc_ram_dq_core.verilog
+134      work.rom_himax_cfg_324_dim_maxfps_ipgen_lscc_ram_dq_inst.verilog
+135      work.rom_himax_cfg_324_dim_maxfps_ipgen_lscc_ram_dq_main.verilog
+136      work.rom_himax_cfg_324_dim_maxfps_ipgen_lscc_write_through.verilog
+108      work.rom_himax_cfg_324_faceid.verilog
+137      work.rom_himax_cfg_324_faceid_ipgen_lscc_ram_dq.verilog
+138      work.rom_himax_cfg_324_faceid_ipgen_lscc_ram_dq_core.verilog
+139      work.rom_himax_cfg_324_faceid_ipgen_lscc_ram_dq_inst.verilog
+140      work.rom_himax_cfg_324_faceid_ipgen_lscc_ram_dq_main.verilog
+141      work.rom_himax_cfg_324_faceid_ipgen_lscc_write_through.verilog
+142      work.rom_himax_cfg_324_ipgen_lscc_ram_dq.verilog
+143      work.rom_himax_cfg_324_ipgen_lscc_ram_dq_core.verilog
+144      work.rom_himax_cfg_324_ipgen_lscc_ram_dq_inst.verilog
+145      work.rom_himax_cfg_324_ipgen_lscc_ram_dq_main.verilog
+146      work.rom_himax_cfg_324_ipgen_lscc_write_through.verilog
+109      work.rom_himax_cfg_lcd.verilog
+147      work.rom_himax_cfg_lcd_ipgen_lscc_ram_dq.verilog
+148      work.rom_himax_cfg_lcd_ipgen_lscc_ram_dq_core.verilog
+149      work.rom_himax_cfg_lcd_ipgen_lscc_ram_dq_inst.verilog
+150      work.rom_himax_cfg_lcd_ipgen_lscc_ram_dq_main.verilog
+151      work.rom_himax_cfg_lcd_ipgen_lscc_write_through.verilog
+110      work.rom_himax_cfg_seq.verilog
+152      work.rom_himax_cfg_seq_ipgen_lscc_ram_dq.verilog
+153      work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_core.verilog
+154      work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_inst.verilog
+155      work.rom_himax_cfg_seq_ipgen_lscc_ram_dq_main.verilog
+156      work.rom_himax_cfg_seq_ipgen_lscc_write_through.verilog
+111      work.spi_fifo.verilog
+112      work.spi_lcd_tx.verilog
+113      work.spi_loader_spram.verilog
+114      work.spi_loader_tri_spram.verilog
+115      work.spi_loader_wrap.verilog
