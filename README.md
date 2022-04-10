@@ -2,7 +2,7 @@
 
 ## Overview
 
-UPDuino is a made of Himax HM01B0 camera module and iCE40 ultraplus family FPGA.
+UPDuino is a microcontroller made of Himax HM01B0 camera module and iCE40 ultraplus family FPGA.
 ![168838047](https://user-images.githubusercontent.com/75630696/161726892-f62a8bcd-0d60-4915-b50a-c620269e3d4e.png)
 
 UPDuino integrated circuit was designed by LatticeSemi company, now it has passed under TinyVision.ai. 
